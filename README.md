@@ -52,8 +52,12 @@ After the dataset is in place you can run **batch inference** over all three tes
 Shell wrapper (recommended)
 ```bash
 bash eval/eval_crohme.sh  -i <input-dir> -o <output-dir> -m <model>
-
 ```
+Example
+```bash
+bash eval/eval_crohme.sh -i data -o outputs -m ./models
+```
+
 Direct Python call
 ```bash
 python scripts/vllm_infer.py --input-dir <input-dir> --output-dir <output-dir> --model <model>
