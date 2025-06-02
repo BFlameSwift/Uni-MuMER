@@ -22,9 +22,44 @@ Experiments on the CROHME and HME100K datasets show that Uni-MuMER achieves new 
 
 ![intro](./asserts/fig/CROHME_00.png)
 
+## 📢 Updates
+
+
+- **2025-06-02**: Release of model weights and inference scripts.
+
+## 📦 Dataset Preparation
+
+1. **Download** `data.zip` from github or huggingface.
+2. **Unzip** it at the project root. After extraction you should have:
+
+```
+data/
+├─ CROHME/   # CROHME dataset
+  ├─ 2014/   # 986 expressions
+  ├─ 2016/   # 1 147 expressions
+  └─ 2019/   # 1 199 expressions
+```
+<!--  -->
 
 
 
+
+
+
+## 🏃 Inference
+After the dataset is in place you can run **batch inference** over all three test sets with one of the two commands below.
+
+Shell wrapper (recommended)
+```bash
+bash eval/eval_crohme.sh  -i <input-dir> -o <output-dir> -m <model>
+
+```
+Direct Python call
+```bash
+python scripts/vllm_infer.py --input-dir <input-dir> --output-dir <output-dir> --model <model>
+```
+
+ **Tip:** To select GPUs on multi‑GPU machines just export `CUDA_VISIBLE_DEVICES` before running the script, e.g. `export CUDA_VISIBLE_DEVICES=1,2`.
 
 <!-- $$ -->
 
@@ -45,18 +80,18 @@ Experiments on the CROHME and HME100K datasets show that Uni-MuMER achieves new 
 ## 🏋️ Training
 
 
-## 🏃 Inference
+
 
 
 ## 🗃 Dataset -->
 
 
 ## ✅ TODO
-
-- [ ] Inference code and pretrained models.
+- [x] Inference code and pretrained models.
 - [ ] Evaluation code.
 - [ ] Training code.
 - [ ] Training data.
+- [ ] Preprocess code.
 
 
 ## 🙏 Acknowledgements

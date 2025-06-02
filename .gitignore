@@ -174,3 +174,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+data/
+notebook/
+outputs/
+output/
