@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="https://arxiv.org/abs/2505.23566"><img src="https://img.shields.io/badge/📄-Paper-red"></a>
-    <!-- <a href="https://huggingface.co/collections/xxxx"><img src="https://img.shields.io/badge/🤗 HuggingFace-Data & Models-green"></a> -->
+    <a href="https://huggingface.co/phxember/Uni-MuMER-Qwen2.5-VL-3B"><img src="https://img.shields.io/badge/🤗 HuggingFace-Data & Models-green"></a>
 </p>
 
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-2408.08578-b31b1b.svg)](https://arxiv.org/abs/24xxxx) -->
