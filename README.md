@@ -49,7 +49,7 @@ data/
 ## 🏃 Inference
 After the dataset is in place you can run **batch inference** over all three test sets with one of the two commands below.
 
-Shell wrapper (recommended)
+### Shell wrapper (recommended)
 ```bash
 bash eval/eval_crohme.sh  -i <input-dir> -o <output-dir> -m <model>
 ```
@@ -58,7 +58,7 @@ Example
 bash eval/eval_crohme.sh -i data -o outputs -m ./models
 ```
 
-Direct Python call
+### Direct Python call
 ```bash
 python scripts/vllm_infer.py --input-dir <input-dir> --output-dir <output-dir> --model <model>
 ```
