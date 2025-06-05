@@ -12,6 +12,7 @@ import logging
 from typing import Dict, List, Tuple, Optional, Any
 import editdistance
 from nltk.translate.bleu_score import corpus_bleu, SmoothingFunction
+import os
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -89,7 +90,7 @@ class TextEvaluator:
             pred = sample[pred_key]
             gt = sample[gt_key]
             
-            distance = editdistance.eval(pred, gt)
+            distance = editdistance.eval(pred.split(), gt.split())
             total_distance += distance
             total_length += len(gt)
         
@@ -311,23 +312,57 @@ def evaluate_text_generation(json_path: str, output_path: Optional[str] = None,
 
 
 # Example usage
-if __name__ == "__main__":
-    # Example usage with custom configuration
+def evaluate_all_results(root_folder: str, output_dir: Optional[str] = None):
+    """
+    Traverse all subdirectories and evaluate JSON files in 'results' folders.
+    
+    Args:
+        root_folder (str): Root directory to start traversal
+        output_dir (str, optional): Directory to save evaluation results
+    """
     evaluator = TextEvaluator()
     
-    # Evaluate the model
-    metrics = evaluator.evaluate(
-        json_path="",
-        output_path="",
-        gt_key="gt",
-        pred_key="pred"
-    )
+    for root, dirs, files in os.walk(root_folder):
+        # Check if current directory is named 'results'
+        if os.path.basename(root) == 'results':
+            for file in files:
+                if file.endswith('.json'):
+                    json_path = os.path.join(root, file)
+                    print(f"\nProcessing: {json_path}")
+                    
+                    try:
+                        # Generate output path if output_dir is specified
+                        output_path = None
+                        if output_dir:
+                            # Create relative path structure in output directory
+                            rel_path = os.path.relpath(json_path, root_folder)
+                            output_path = os.path.join(output_dir, rel_path.replace('.json', '_results.txt'))
+                            os.makedirs(os.path.dirname(output_path), exist_ok=True)
+                        
+                        # Evaluate the JSON file
+                        metrics = evaluator.evaluate(
+                            json_path=json_path,
+                            output_path=output_path,
+                            gt_key="gt",
+                            pred_key="pred"
+                        )
+                        
+                        # Print summary
+                        print(f"Evaluation completed for: {json_path}")
+                        print(f"Exact Match Rate: {metrics['exact_match_rate']:.2f}%")
+                        print(f"BLEU-4 Score: {metrics['bleu4_score']:.2f}%")
+                        print(f"Character Error Rate: {metrics['character_error_rate']:.4f}")
+                        
+                    except Exception as e:
+                        print(f"Error processing {json_path}: {e}")
+
+if __name__ == "__main__":
+    # Example usage: traverse all results folders and evaluate JSON files
+    # root_directory = "./data"  # Replace with your root folder path
+    # output_directory = "./data"   # Optional: where to save evaluation results
     
-    # Access specific metrics
-    print(f"\nKey Metrics Summary:")
-    print(f"Exact Match Rate: {metrics['exact_match_rate']:.2f}%")
-    print(f"BLEU-4 Score: {metrics['bleu4_score']:.2f}%")
-    print(f"Character Error Rate: {metrics['character_error_rate']:.4f}")
+    root_directory = "./example_data"  # Replace with your root folder path
+    output_directory = "./example_data"   # Optional: where to save evaluation results
     
-    # Or use the convenience function
-    # metrics = evaluate_text_generation("data/predictions.json", "results/output.txt")
+    evaluate_all_results(root_directory, output_directory)
+    
