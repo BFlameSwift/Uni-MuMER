@@ -55,7 +55,7 @@ example_data
 
 ### Dataset Directories
 
-The following directories provide detailed dataset structures and related evaluation resources. For full datasets, please refer to the respective official links provided in the paper or documentation.
+The following directories provide detailed dataset structures and related evaluation resources. For full datasets, please refer to the [Google Drive link](https://drive.google.com/drive/folders/1T8a3WxICZVl1NJ99hu9tuuqqNZoxGhXq?usp=sharing).
 
 * **CROHME/**
 * **CROHME2023/**
