@@ -2,7 +2,7 @@
 
 # Example Data Folder
 
-This folder provides supplementary materials supporting reproducibility and transparent evaluation of the results presented in the paper.
+This folder provides supplementary materials supporting reproducibility, transparent evaluation, and verification of results presented in our paper.
 
 ## Folder Structure
 
@@ -18,28 +18,58 @@ example_data
 │   ├── N1.json
 │   ├── N2.json
 │   └── N3.json
-└── final_paper_results/
-    ├── crohme_2014_results.txt
-    ├── crohme_2016_results.txt
-    ├── crohme_2019_results.txt
-    ├── hme100k_test_results.txt
-    ├── im2latexv2_test_results.txt
-    ├── mathwriting_test_results.txt
-    ├── N1_results.txt
-    ├── N2_results.txt
-    └── N3_results.txt
+├── final_paper_results/
+│   ├── crohme_2014_results.txt
+│   ├── crohme_2016_results.txt
+│   ├── crohme_2019_results.txt
+│   ├── hme100k_test_results.txt
+│   ├── im2latexv2_test_results.txt
+│   ├── mathwriting_test_results.txt
+│   ├── N1_results.txt
+│   ├── N2_results.txt
+│   └── N3_results.txt
+├── CROHME/
+├── CROHME2023/
+├── HME100K/
+├── Im2LaTeXv2/
+├── MathWriting/
+├── MNE/
+└── reproduction_results/
+    ├── CROHME/
+    ├── CROHME2023/
+    ├── HME100K/
+    ├── Im2LaTeXv2/
+    ├── MathWriting/
+    └── MNE/
 ```
 
 ## Folder Descriptions
 
-* **backup/**:
-  Contains exact copies of the dataset files used for generating the results reported in the paper. These backups ensure reproducibility of experiments by providing consistent reference data.
+### Core Data Directories
 
-* **final\_paper\_results/**:
-  Contains the final prediction and evaluation results as presented in the published paper. These files are provided separately due to minor variability caused by the inference environment (e.g., top-k sampling in vLLM and hardware/environment differences).
+* **backup/**
+  Contains exact copies of dataset files used for generating the results reported in the paper. These backups ensure the reproducibility of experiments by providing consistent and stable reference data.
+
+* **final\_paper\_results/**
+  Contains the official evaluation results as presented in the published paper. These results may differ slightly from reproduced runs due to environmental variations, including inference methods (e.g., top-k sampling in vLLM) and computational hardware differences.
+
+### Dataset Directories
+
+The following directories provide detailed dataset structures and related evaluation resources. For full datasets, please refer to the respective official links provided in the paper or documentation.
+
+* **CROHME/**
+* **CROHME2023/**
+* **HME100K/**
+* **Im2LaTeXv2/**
+* **MathWriting/**
+* **MNE/**
+
+Each dataset directory contains specific prompts, images, and result files structured similarly for ease of use.
+
+
 
 ## Important Note on Reproducibility
 
-Due to the stochastic nature of inference (especially when using sampling methods such as top-k sampling in vLLM), minor differences in prediction outcomes are expected. The results in this directory are the official outcomes reported in the paper for transparent and verifiable research.
+Due to the inherent stochastic nature of inference processes—particularly when employing sampling-based methods such as vLLM's top-k sampling—minor discrepancies in reproduced prediction results are expected. The `final_paper_results/` directory provides authoritative results officially reported in the publication, ensuring transparent and verifiable research practices.
 
----
+
