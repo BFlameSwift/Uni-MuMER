@@ -33,14 +33,7 @@ example_data
 ├── HME100K/
 ├── Im2LaTeXv2/
 ├── MathWriting/
-├── MNE/
-└── reproduction_results/
-    ├── CROHME/
-    ├── CROHME2023/
-    ├── HME100K/
-    ├── Im2LaTeXv2/
-    ├── MathWriting/
-    └── MNE/
+└── MNE/
 ```
 
 ## Folder Descriptions
