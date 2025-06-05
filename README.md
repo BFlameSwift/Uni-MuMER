@@ -53,7 +53,7 @@ After the dataset is in place you can run **batch inference** over all three tes
 ```bash
 bash eval/eval_crohme.sh  -i <input-dir> -o <output-dir> -m <model>
 ```
-Example
+**Example**
 ```bash
 bash eval/eval_crohme.sh -i data -o outputs -m ./models
 ```

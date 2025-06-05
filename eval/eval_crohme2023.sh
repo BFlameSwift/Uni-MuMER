@@ -12,8 +12,8 @@
 # --------------------------------------------------------------
 set -euo pipefail
 
-INPUT_DIR="data/CROHME/prompts"
-OUTPUT_DIR="data/CROHME/results"
+INPUT_DIR="data/CROHME2023/prompts"
+OUTPUT_DIR="data/CROHME2023/results"
 MODEL=""
 
 usage() {
