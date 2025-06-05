@@ -12,8 +12,8 @@
 # --------------------------------------------------------------
 set -euo pipefail
 
-INPUT_DIR="data/HME100K/prompts"
-OUTPUT_DIR="data/HME100K/results"
+INPUT_DIR="data/Im2LaTeXv2/prompts"
+OUTPUT_DIR="data/Im2LaTeXv2/results"
 MODEL=""
 
 usage() {
