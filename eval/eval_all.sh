@@ -28,8 +28,9 @@ scripts=(
   eval/eval_crohme.sh
   eval/eval_crohme2023.sh
   eval/eval_hme100k.sh
-  eval_mathwriting.sh
+  eval/eval_mathwriting.sh
   eval/eval_im2latexv2.sh
+  eval/eval_MNE.sh
 )
 
 dirs=(
@@ -38,6 +39,7 @@ dirs=(
   data/HME100K
   data/MathWriting
   data/Im2LaTeXv2
+  data/MNE
 )
 
 # ---------- verify that every dataset folder exists ----------
