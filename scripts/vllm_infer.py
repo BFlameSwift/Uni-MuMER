@@ -3,21 +3,28 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import logging
 from pathlib import Path
 from typing import Dict, List
 import editdistance
-
+from tqdm import tqdm
 import torch
 from PIL import Image
 from transformers import AutoTokenizer
+from transformers import AutoProcessor
+
 from vllm import LLM, SamplingParams
 
 # Optional: official Qwen visual pre-processing (resize, patching …)
 try:
     from qwen_vl_utils import vision_process  # noqa: F401 (side-effect import)
+    from qwen_vl_utils.vision_process import fetch_image
+    from qwen_vl_utils import process_vision_info
 except ModuleNotFoundError:
     vision_process = None  # type: ignore
+    
+from eval_metrics_calculator import evaluate_text_generation
 
 # -----------------------------------------------------------------------------#
 # Logging
@@ -113,9 +120,10 @@ def run_inference(
     output_dir: str | Path,
     *,
     suffix: str = "_pred",
-    max_tokens: int = 128,
-    temperature: float = 0.2,
+    max_tokens: int = 2048,
+    temperature: float = 0.95,
     top_p: float = 0.8,
+    top_k: int = 50,
 ) -> None:
     """
     Iterate over every ``*.json`` in ``input_dir`` and write predictions
@@ -141,8 +149,9 @@ def run_inference(
     tokenizer = AutoTokenizer.from_pretrained(
         model_name, trust_remote_code=True, use_fast=False
     )
+    processor = AutoProcessor.from_pretrained( model_name, trust_remote_code=True, use_fast=False)
     sampling_params = SamplingParams(
-        max_tokens=max_tokens, temperature=temperature, top_p=top_p
+        max_tokens=max_tokens, temperature=temperature, top_p=top_p, top_k=top_k,stop=["<|im_end|>", "<|endoftext|>"]
     )
 
     # 3) File loop ----------------------------------------------------------#
@@ -154,7 +163,10 @@ def run_inference(
         requests: List[Dict] = []
         metas: List[Dict] = []
 
-        for record in dataset:
+        # tqdm use
+        
+        for record in tqdm(dataset, desc="Processing records", unit="record"):
+            
             if not record.get("images"):
                 continue
             image_path = record["images"][0]
@@ -168,19 +180,58 @@ def run_inference(
             if not prompt_text or gt_text is None:
                 continue
 
-            chatml = format_chatml(tokenizer, prompt_text)
-            try:
-                req = {
-                    "prompt": chatml,
-                    "multi_modal_data": {
-                        "image": Image.open(image_path).convert("RGB")
-                    },
-                }
-            except Exception as exc:  # pylint: disable=broad-except
-                LOGGER.warning("Failed to load %s – %s", image_path, exc)
-                continue
+            image_messages = [
+                {"role": "system", "content": "You are a helpful assistant."},
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "image",
+                            "image": image_path,
+                            # "min_pixels": 224 * 224,
+                            # "max_pixels": 1280 * 28 * 28,
+                        },
+                        {"type": "text", "text": prompt_text},
+                    ],
+                },
+            ]
+            final_prompt = processor.apply_chat_template(
+                image_messages,
+                tokenize=False,
+                add_generation_prompt=True,
+            )
+            
+            image_inputs, _, _ = process_vision_info(image_messages, return_video_kwargs=True)
+            mm_data = {}
+            if image_inputs is not None:
+                mm_data["image"] = image_inputs
+                
+            
+            llm_inputs = {
+                "prompt": final_prompt,
+                "multi_modal_data": mm_data,
 
-            requests.append(req)
+                # FPS will be returned in video_kwargs
+                # "mm_processor_kwargs": video_kwargs,
+            }
+            # breakpoint()
+                        
+            # chatml = format_chatml(tokenizer, prompt_text)
+            
+            # try:
+            #     img = fetch_image({"image": image_path})  
+            #     req = {
+            #         "prompt": chatml,
+            #         "multi_modal_data": {
+            #             # "image": Image.open(image_path).convert("RGB")
+            #             'image': img,  # Use the processed image
+            #         },
+            #     }
+            # except Exception as exc:  # pylint: disable=broad-except
+            #     LOGGER.warning("Failed to load %s – %s", image_path, exc)
+            #     continue
+
+            requests.append(llm_inputs)
             metas.append({"gt": gt_text, "image_path": image_path})
 
         if not requests:
@@ -188,7 +239,7 @@ def run_inference(
             continue
 
         outputs = llm.generate(requests, sampling_params)
-
+        # breakpoint()
         results: List[Dict] = []
         for meta, out in zip(metas, outputs, strict=True):
             results.append(
@@ -200,14 +251,21 @@ def run_inference(
                 }
             )
         LOGGER.info("↳ Generated %d records", len(results))
-        quick_report(results)
+        # quick_report(results)
         # 4) Save results -----------------------------------------------------#
         out_file = output_dir / f"{json_path.stem}{suffix}.json"
         out_file.write_text(
             json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8"
         )
         LOGGER.info("↳ Saved %d records → %s", len(results), out_file)
+        
+        # 5) Evaluate results -------------------------------------------------#
+        metrics = evaluate_text_generation(out_file, os.path.join(output_dir, f"{json_path.stem}_results.txt"))
 
+    # exit the context manager to close the vLLM engine
+
+    # import ray
+    # ray.shutdown() 
 
 # -----------------------------------------------------------------------------#
 # CLI
@@ -219,7 +277,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--model",
-        default="/home/liyu/workspaces/llama-factory/saves/qwen2.5_vl-3b/full/sft/standred/05x-all-methods/0504_crohme+2023+rewise_hme100k+rewise_mathwriting+im2latex_bs512_+3methods_1epoch_1/checkpoint-3151",
+        default="",
         help="Model path or Hugging Face repo (default: the large local checkpoint).",
     )
     parser.add_argument(
@@ -229,7 +287,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--output-dir",
-        default="vl_outputs",
+        default="outputs",
         help="Directory to write prediction JSON files. (default: vl_outputs_32b)",
     )
     parser.add_argument(
@@ -240,8 +298,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--max-tokens",
         type=int,
-        default=128,
-        help="Maximum number of tokens to generate (default: 128).",
+        default=2048,
+        help="Maximum number of tokens to generate (default: 2048).",
     )
     parser.add_argument(
         "--temperature",
@@ -252,7 +310,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--top-p",
         type=float,
-        default=0.7,
+        default=0.8,
         help="Nucleus sampling top-p (default: 0.8).",
     )
     return parser.parse_args()
