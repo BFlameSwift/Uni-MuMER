@@ -79,7 +79,7 @@ Core Metrics:
 
     Mean Edit Score:        96.5522%
     BLEU-4 Score:           89.1164%
-    Character Error Rate:    0.0781
+    Character Error Rate:    0.0396
 
 Error Threshold Analysis:
     Exact Match Rate:       82.6572% (0 errors)
