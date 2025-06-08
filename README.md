@@ -29,7 +29,7 @@ Experiments on the CROHME and HME100K datasets show that Uni-MuMER achieves new 
 
 ## 📦 Dataset Preparation
 
-1. **Download** `data.zip` from github or huggingface.
+1. **Download** `data.zip` from github , huggingface, or [Google Drive link](https://drive.google.com/drive/folders/1T8a3WxICZVl1NJ99hu9tuuqqNZoxGhXq?usp=sharing).
 2. **Unzip** it at the project root. After extraction you should have:
 
 ```
