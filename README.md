@@ -33,11 +33,13 @@ Experiments on the CROHME and HME100K datasets show that Uni-MuMER achieves new 
 2. **Unzip** it at the project root. After extraction you should have:
 
 ```
-data/
-├─ CROHME/   # CROHME dataset
-  ├─ 2014/   # 986 expressions
-  ├─ 2016/   # 1 147 expressions
-  └─ 2019/   # 1 199 expressions
+data
+├── CROHME/
+├── CROHME2023/
+├── HME100K/
+├── Im2LaTeXv2/
+├── MathWriting/
+└── MNE/
 ```
 <!--  -->
 
@@ -106,6 +108,7 @@ Thanks to the following projects:
 - [PosFormer](https://github.com/SJTU-DeepVisionLab/PosFormer)
 - [TAMER](https://github.com/qingzhenduyu/TAMER)
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
+- [MathNet](https://github.com/felix-schmitt/MathNet)
 
 
 

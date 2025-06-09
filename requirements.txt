@@ -6,3 +6,5 @@ peft==0.15.1
 datasets==3.2.0
 vllm==0.8.5
 editdistance==0.8.1
+# nltk-3.9.1
+nltk==3.9.1
