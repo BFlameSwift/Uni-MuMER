@@ -94,7 +94,7 @@ python scripts/vllm_infer.py --input-dir <input-dir> --output-dir <output-dir> -
 
 ## ✅ TODO
 - [x] Inference code and pretrained models.
-- [ ] Evaluation code.
+- [x] Evaluation code.
 - [ ] Training code.
 - [ ] Training data.
 - [ ] Preprocess code.
