@@ -7,6 +7,9 @@ export CUDA_VISIBLE_DEVICES=1      # Change GPU ID here if needed
 
 usage() {
   echo "Usage: $0 -m MODEL" >&2
+  echo "  -m, --model    Path to the model to evaluate (required)" >&2
+  echo "  -h, --help     Show this help message" >&2
+  echo " -s --suffix    Suffix for the output directory (optional, default: 'results')" >&2
   exit 1
 }
 
@@ -17,6 +20,7 @@ while [[ $# -gt 0 ]]; do
   case "$1" in
     -m|--model) MODEL="$2"; shift 2 ;;
     -h|--help)  usage ;;
+    -s|--suffix) SUFFIX="$2"; shift 2 ;;
     *)          echo "[ERROR] Unknown option: $1" >&2; usage ;;
   esac
 done
@@ -54,8 +58,10 @@ done
 echo "Starting evaluations with model: $MODEL"
 echo "----------------------------------------"
 for i in "${!scripts[@]}"; do
-  echo "command: bash ${scripts[i]} -m $MODEL -i ${dirs[i]}/prompts -o ${dirs[i]}/results"
-  bash "${scripts[i]}" -m "$MODEL" -i "${dirs[i]}/prompts" -o "${dirs[i]}/results"
+  out_dir="${dirs[i]}/results${SUFFIX:+_"$SUFFIX"}"   # output directory with optional suffix
+  mkdir -p "$out_dir"       # ensure output directory exists
+  echo "command: bash ${scripts[i]} -m $MODEL -i ${dirs[i]}/prompts -o ${dirs[i]}/results_unimumer_crohmeonly"
+  bash "${scripts[i]}" -m "$MODEL" -i "${dirs[i]}/prompts" -o "${out_dir}" 
 
   echo "[INFO] Finished evaluation for ${dirs[i]}"
   echo "----------------------------------------"

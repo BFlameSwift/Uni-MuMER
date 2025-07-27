@@ -3,24 +3,25 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
 import logging
+import os
 from pathlib import Path
 from typing import Dict, List
+
 import editdistance
-from tqdm import tqdm
 import torch
 from PIL import Image
-from transformers import AutoTokenizer
-from transformers import AutoProcessor
-
+from tqdm import tqdm
+from transformers import AutoProcessor, AutoTokenizer
 from vllm import LLM, SamplingParams
 
 # Optional: official Qwen visual pre-processing (resize, patching …)
 try:
-    from qwen_vl_utils import vision_process  # noqa: F401 (side-effect import)
+    from qwen_vl_utils import (
+        process_vision_info,
+        vision_process,  # noqa: F401 (side-effect import)
+    )
     from qwen_vl_utils.vision_process import fetch_image
-    from qwen_vl_utils import process_vision_info
 except ModuleNotFoundError:
     vision_process = None  # type: ignore
     
@@ -144,7 +145,7 @@ def run_inference(
         tensor_parallel_size=tp_size,
         trust_remote_code=True,  # required for Qwen
         dtype="bfloat16",
-        limit_mm_per_prompt={"image": 1},
+        # limit_mm_per_prompt={"image": 1},
     )
     tokenizer = AutoTokenizer.from_pretrained(
         model_name, trust_remote_code=True, use_fast=False
@@ -201,7 +202,7 @@ def run_inference(
                 add_generation_prompt=True,
             )
             
-            image_inputs, _, _ = process_vision_info(image_messages, return_video_kwargs=True)
+            image_inputs, _ = process_vision_info(image_messages)
             mm_data = {}
             if image_inputs is not None:
                 mm_data["image"] = image_inputs
