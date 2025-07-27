@@ -1,11 +1,11 @@
 transformers==4.52.4
-torch==2.6.0
-torchvision==0.21.0
-accelerate==1.2.1
-peft==0.15.1
-datasets==3.2.0
-vllm==0.8.5
+torch==2.7.0
+# accelerate==1.2.1
+peft==0.15.2
+# datasets==3.2.0
+# vllm==0.8.5
+vllm==0.9.0.1
 editdistance==0.8.1
 # nltk-3.9.1
 nltk==3.9.1
-qwen-vl-utils[decord]==0.0.11 
+qwen-vl-utils[decord]==0.0.11 # for qwen2.5-vl-3b
