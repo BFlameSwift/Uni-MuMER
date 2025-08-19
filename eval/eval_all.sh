@@ -10,10 +10,12 @@ usage() {
   echo "  -m, --model    Path to the model to evaluate (required)" >&2
   echo "  -h, --help     Show this help message" >&2
   echo " -s --suffix    Suffix for the output directory (optional, default: 'results')" >&2
+  echo "  -b, --batch_size    Batch size to forward to eval scripts (optional)" >&2
   exit 1
 }
 
 MODEL=""
+BATCH_SIZE=""
 
 # ---------- Parse command-line options ----------
 while [[ $# -gt 0 ]]; do
@@ -21,6 +23,7 @@ while [[ $# -gt 0 ]]; do
     -m|--model) MODEL="$2"; shift 2 ;;
     -h|--help)  usage ;;
     -s|--suffix) SUFFIX="$2"; shift 2 ;;
+    -b|--batch_size)  BATCH_SIZE="$2"; shift 2 ;;
     *)          echo "[ERROR] Unknown option: $1" >&2; usage ;;
   esac
 done
@@ -60,8 +63,19 @@ echo "----------------------------------------"
 for i in "${!scripts[@]}"; do
   out_dir="${dirs[i]}/results${SUFFIX:+_"$SUFFIX"}"   # output directory with optional suffix
   mkdir -p "$out_dir"       # ensure output directory exists
-  echo "command: bash ${scripts[i]} -m $MODEL -i ${dirs[i]}/prompts -o ${dirs[i]}/results_unimumer_crohmeonly"
-  bash "${scripts[i]}" -m "$MODEL" -i "${dirs[i]}/prompts" -o "${out_dir}" 
+
+  cmd=(python scripts/vllm_infer.py
+    --input-dir  "${dirs[i]}/prompts"
+    --output-dir "${out_dir}"
+    --model      "${MODEL}"
+  )
+
+  if [[ -n "${BATCH_SIZE}" ]]; then
+    cmd+=(--batch-size "${BATCH_SIZE}")
+  fi
+  echo "command: ${cmd[*]}"
+  "${cmd[@]}"
+  # bash "${scripts[i]}" -m "$MODEL" -i "${dirs[i]}/prompts" -o "${out_dir}" 
 
   echo "[INFO] Finished evaluation for ${dirs[i]}"
   echo "----------------------------------------"

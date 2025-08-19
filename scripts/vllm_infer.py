@@ -125,6 +125,7 @@ def run_inference(
     temperature: float = 0.95,
     top_p: float = 0.8,
     top_k: int = 50,
+    batch_size: int = 32768,  # vLLM uses dynamic batching; this is just an upper limit
 ) -> None:
     """
     Iterate over every ``*.json`` in ``input_dir`` and write predictions
@@ -161,13 +162,32 @@ def run_inference(
         with json_path.open(encoding="utf-8") as fp:
             dataset: List[Dict] = json.load(fp)
 
-        requests: List[Dict] = []
-        metas: List[Dict] = []
+        results: List[Dict] = []
+        reqs_batch: List[Dict] = []
+        metas_batch: List[Dict] = []
 
-        # tqdm use
-        
+        def flush_batch():
+            """Send current batch to vLLM, collect outputs, then free memory."""
+            if not reqs_batch:
+                return
+            outputs = llm.generate(reqs_batch, sampling_params)
+            for meta, out in zip(metas_batch, outputs, strict=True):
+                results.append(
+                    {
+                        "gt": meta["gt"],
+                        "pred": out.outputs[0].text.strip(),
+                        "image_path": meta["image_path"],
+                        "img_id": Path(meta["image_path"]).stem,
+                    }
+                )
+            reqs_batch.clear()
+            metas_batch.clear()
+            del outputs
+            # torch.cuda.empty_cache()
+            # gc.collect()
+
+        valid_cnt = 0
         for record in tqdm(dataset, desc="Processing records", unit="record"):
-            
             if not record.get("images"):
                 continue
             image_path = record["images"][0]
@@ -186,82 +206,53 @@ def run_inference(
                 {
                     "role": "user",
                     "content": [
-                        {
-                            "type": "image",
-                            "image": image_path,
-                            # "min_pixels": 224 * 224,
-                            # "max_pixels": 1280 * 28 * 28,
-                        },
+                        {"type": "image", "image": image_path},
                         {"type": "text", "text": prompt_text},
                     ],
                 },
             ]
             final_prompt = processor.apply_chat_template(
-                image_messages,
-                tokenize=False,
-                add_generation_prompt=True,
+                image_messages, tokenize=False, add_generation_prompt=True
             )
-            
-            image_inputs, _ = process_vision_info(image_messages)
+
+            # 仅为当前样本构建/加载多模态输入，避免一次性加载全部图像
+            image_inputs, _, _ = process_vision_info(image_messages, return_video_kwargs=True)
             mm_data = {}
             if image_inputs is not None:
                 mm_data["image"] = image_inputs
-                
-            
+
             llm_inputs = {
                 "prompt": final_prompt,
                 "multi_modal_data": mm_data,
-
-                # FPS will be returned in video_kwargs
-                # "mm_processor_kwargs": video_kwargs,
             }
-            # breakpoint()
-                        
-            # chatml = format_chatml(tokenizer, prompt_text)
-            
-            # try:
-            #     img = fetch_image({"image": image_path})  
-            #     req = {
-            #         "prompt": chatml,
-            #         "multi_modal_data": {
-            #             # "image": Image.open(image_path).convert("RGB")
-            #             'image': img,  # Use the processed image
-            #         },
-            #     }
-            # except Exception as exc:  # pylint: disable=broad-except
-            #     LOGGER.warning("Failed to load %s – %s", image_path, exc)
-            #     continue
 
-            requests.append(llm_inputs)
-            metas.append({"gt": gt_text, "image_path": image_path})
+            reqs_batch.append(llm_inputs)
+            metas_batch.append({"gt": gt_text, "image_path": image_path})
+            valid_cnt += 1
 
-        if not requests:
+            if len(reqs_batch) >= batch_size:
+                LOGGER.info("↳ Flushing a batch of %d (file=%s)", len(reqs_batch), json_path.name)
+                flush_batch()
+
+        # 处理剩余未满批的数据
+        flush_batch()
+
+        if not results:
             LOGGER.info("↳ No valid sample in %s – skipped.", json_path.name)
             continue
 
-        outputs = llm.generate(requests, sampling_params)
-        # breakpoint()
-        results: List[Dict] = []
-        for meta, out in zip(metas, outputs, strict=True):
-            results.append(
-                {
-                    "gt": meta["gt"],
-                    "pred": out.outputs[0].text.strip(),
-                    "image_path": meta["image_path"],
-                    "img_id": Path(meta["image_path"]).stem,
-                }
-            )
-        LOGGER.info("↳ Generated %d records", len(results))
-        # quick_report(results)
+        LOGGER.info("↳ Generated %d records from %s", len(results), json_path.name)
+
         # 4) Save results -----------------------------------------------------#
         out_file = output_dir / f"{json_path.stem}{suffix}.json"
         out_file.write_text(
             json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8"
         )
         LOGGER.info("↳ Saved %d records → %s", len(results), out_file)
-        
+
         # 5) Evaluate results -------------------------------------------------#
         metrics = evaluate_text_generation(out_file, os.path.join(output_dir, f"{json_path.stem}_results.txt"))
+
 
     # exit the context manager to close the vLLM engine
 
@@ -314,6 +305,12 @@ def parse_args() -> argparse.Namespace:
         default=0.8,
         help="Nucleus sampling top-p (default: 0.8).",
     )
+    parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=32768,
+        help="Number of samples per vLLM.generate() call (default: 32768).",
+    )
     return parser.parse_args()
 
 
@@ -330,6 +327,7 @@ def main() -> None:  # pragma: no cover
         max_tokens=args.max_tokens,
         temperature=args.temperature,
         top_p=args.top_p,
+        batch_size=args.batch_size,
     )
 
 

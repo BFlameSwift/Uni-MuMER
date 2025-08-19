@@ -180,5 +180,7 @@ data/
 notebook/
 outputs/
 output/
+test/
+
 
 **/prompts/

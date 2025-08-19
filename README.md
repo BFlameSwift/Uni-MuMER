@@ -53,20 +53,22 @@ After the dataset is in place you can run **batch inference** over all three tes
 
 ### Shell wrapper (recommended)
 ```bash
-bash eval/eval_crohme.sh  -i <input-dir> -o <output-dir> -m <model>
+bash eval/eval_crohme.sh  -i <input-dir> -o <output-dir> -m <model> -b <batch_size>
 ```
 **Example**
 ```bash
-bash eval/eval_crohme.sh -i data -o outputs -m ./models
+bash eval/eval_all.sh -m models/Uni-MuMER-3B -s test1 -b 32768
 ```
 
 ### Direct Python call
 ```bash
-python scripts/vllm_infer.py --input-dir <input-dir> --output-dir <output-dir> --model <model>
+python scripts/vllm_infer.py --input-dir <input-dir> --output-dir <output-dir> --model <model> --batch_size <batch_size>
 ```
 
- **Tip:** To select GPUs on multi‑GPU machines just export `CUDA_VISIBLE_DEVICES` before running the script, e.g. `export CUDA_VISIBLE_DEVICES=1,2`.
+ **Tip:** 
+  - To select GPUs on multi‑GPU machines just export `CUDA_VISIBLE_DEVICES` before running the script, e.g. `export CUDA_VISIBLE_DEVICES=1,2`
 
+  - For batch_size, you can use the `--batch_size` argument to control the number of samples per `vLLM.generate()` call. The default value is 32768, which is prevented from being too large to avoid OOM errors. 
 <!-- $$ -->
 
 
