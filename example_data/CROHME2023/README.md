@@ -13,17 +13,21 @@ This release includes the original CROHME2023 test set and an additional normali
 
 ```text
 CROHME2023
-├── CROHME2023_test
-│   ├── caption.txt
-│   └── images/
-├── prompts
-│   ├── crohme2023_test.json
-│   └── crohme2023_test_normalized.json
-└── results
-    ├── crohme2023_test_normalized_pred.json
-    ├── crohme2023_test_normalized_results.txt
-    ├── crohme2023_test_pred.json
-    └── crohme2023_test_results.txt
+├── crohme2023_test_normalized_pred.json
+├── crohme2023_test_normalized_results.txt
+├── crohme2023_test_pred.json
+├── crohme2023_test_results.txt
+├── crohme2023_val_normalized_pred.json
+├── crohme2023_val_normalized_results.txt
+├── crohme2023_val_pred.json
+└── crohme2023_val_results.txt├── crohme2023_test_normalized_pred.json
+├── crohme2023_test_normalized_results.txt
+├── crohme2023_test_pred.json
+├── crohme2023_test_results.txt
+├── crohme2023_val_normalized_pred.json
+├── crohme2023_val_normalized_results.txt
+├── crohme2023_val_pred.json
+└── crohme2023_val_results.txt
 ```
 
 ---
@@ -36,9 +40,10 @@ CROHME2023
 
 * **prompts**:
 
-  * `crohme2023_test.json`: Prompts associated with the original test set.
+  * `crohme2023_test.json`: Prompts associated with the original test set, we only add curly braces for clarity (`a _ i` → `a _ { i }`).
   * `crohme2023_test_normalized.json`: Prompts corresponding to the normalized dataset.
-
+  * `crohme2023_val.json`: Prompts for the original validation set, we only add curly braces for clarity (`a _ i` → `a _ { i }`).
+  * `crohme2023_val_normalized.json`: Prompts for the normalized validation set
   Example snippet:
 
   ```json

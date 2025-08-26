@@ -1,0 +1,3332 @@
+[
+  {
+    "gt": "\\frac { 1 } { 6 }",
+    "pred": "\\begin {matrix} \\frac { 1 } { 6 } \\end {matrix}",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_080_E634.jpg",
+    "img_id": "form_080_E634"
+  },
+  {
+    "gt": "z _ { 2 } = x ^ { 3 } + i x ^ { 4 }",
+    "pred": "z _ { 2 } = x ^ { 3 } + i x ^ { 4 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_182_E906.jpg",
+    "img_id": "form_5_f_182_E906"
+  },
+  {
+    "gt": "\\lambda = \\pm \\sqrt { \\frac { B \\pm \\sqrt { B ^ { 2 } - 4 C } } { 2 } }",
+    "pred": "\\lambda = \\pm \\sqrt { \\frac { B \\pm \\sqrt { B ^ { 2 } - 4 C } } { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_650_E3249.jpg",
+    "img_id": "form_5_650_E3249"
+  },
+  {
+    "gt": "x y = x _ { i } x _ { i }",
+    "pred": "x y = x _ { i } x _ { i }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_064_E511.jpg",
+    "img_id": "form_064_E511"
+  },
+  {
+    "gt": "\\sum | l _ { s } | \\geq \\frac { 5 } { 4 } | k |",
+    "pred": "\\sum | l _ { S } | \\geq \\frac { 5 } { 4 } | K |",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_053_E419.jpg",
+    "img_id": "form_053_E419"
+  },
+  {
+    "gt": "- \\frac { c } { 2 } \\frac { d x } { y }",
+    "pred": "- \\frac { c } { 2 } \\frac { d x } { y }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_652_E3260.jpg",
+    "img_id": "form_5_652_E3260"
+  },
+  {
+    "gt": "- 3 . 5 5 9 3",
+    "pred": "- 3 . 5 5 9 3",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_174_E868.jpg",
+    "img_id": "form_5_f_174_E868"
+  },
+  {
+    "gt": "\\lim _ { p \\rightarrow \\infty } u ( | p | ) = \\infty",
+    "pred": "\\lim _ { p \\rightarrow \\infty } U ( | p | ) = \\infty",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_651_E3252.jpg",
+    "img_id": "form_5_651_E3252"
+  },
+  {
+    "gt": "| y _ { b 1 } - y _ { b 2 } | = 0",
+    "pred": "| y _ { b 1 } - y _ { b 2 } | = 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_082_E655.jpg",
+    "img_id": "form_082_E655"
+  },
+  {
+    "gt": "Y ^ { 0 } = \\frac { 1 } { \\sqrt { 2 } } ( r + v )",
+    "pred": "y ^ { 0 } = \\frac { 1 } { \\sqrt { 2 } } ( r + v )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_045_E354.jpg",
+    "img_id": "form_045_E354"
+  },
+  {
+    "gt": "x ^ { 4 } - x ^ { 5 }",
+    "pred": "x ^ { 4 } - x ^ { 5 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_062_E491.jpg",
+    "img_id": "form_062_E491"
+  },
+  {
+    "gt": "T ( x ) = i u \\sin ( x )",
+    "pred": "T ( x ) = i u s i n ( x )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_193_E963.jpg",
+    "img_id": "form_5_f_193_E963"
+  },
+  {
+    "gt": "1 + 1 2 + 1 2 + 2 + 1 8 + 1 2 + 6 = 6 3",
+    "pred": "1 + 1 2 + 1 2 + 2 + 1 8 + 1 2 + 6 = 6 3",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_191_E952.jpg",
+    "img_id": "form_5_f_191_E952"
+  },
+  {
+    "gt": "\\int _ { 0 } ^ { 1 } f ^ { 2 } ( x ) d x",
+    "pred": "\\int _ { 0 } ^ { 1 } f ^ { 2 } ( x ) d x",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_071_E564.jpg",
+    "img_id": "form_071_E564"
+  },
+  {
+    "gt": "( \\sqrt { k + 2 } ) ^ { 3 }",
+    "pred": "( \\sqrt { k + 2 } ) ^ { 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_208_E1038.jpg",
+    "img_id": "form_5_f_208_E1038"
+  },
+  {
+    "gt": "3 \\times 6 4 + 2 \\times 1 4 = 2 2 0",
+    "pred": "3 \\times 6 4 + 2 \\times 1 4 = 2 2 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_656_E3276.jpg",
+    "img_id": "form_5_656_E3276"
+  },
+  {
+    "gt": "\\frac { 1 } { m _ { 1 1 } ^ { 3 } \\sqrt { V } }",
+    "pred": "\\frac { 1 } { m _ { \\parallel } ^ { 3 } \\sqrt { v } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_082_E650.jpg",
+    "img_id": "form_082_E650"
+  },
+  {
+    "gt": "x ^ { 3 } x ^ { 4 } x ^ { 5 }",
+    "pred": "x ^ { 3 } x ^ { 4 } x ^ { 5 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_073_E582.jpg",
+    "img_id": "form_073_E582"
+  },
+  {
+    "gt": "( n - \\frac { 7 } { 2 } , \\frac { 1 } { 2 } , \\frac { 1 } { 2 } , \\frac { 1 } { 2 } )",
+    "pred": "( n - \\frac { 7 } { 2 } , \\frac { 1 } { 2 } , \\frac { 1 } { 2 } , \\frac { 1 } { 2 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_660_E3298.jpg",
+    "img_id": "form_5_660_E3298"
+  },
+  {
+    "gt": "2 f ( x ) = - 4 ( \\gamma + \\log 4 ) + b - \\frac { 4 B \\pi ^ { 2 } \\sqrt { 1 - x } } { \\sqrt { 1 + 3 x } }",
+    "pred": "2 f ( x ) = - 4 ( \\gamma + \\log 4 ) + b - \\frac { 4 B \\pi ^ { 2 } \\sqrt { 1 - x } } { \\sqrt { 1 + 3 x } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_660_E3297.jpg",
+    "img_id": "form_5_660_E3297"
+  },
+  {
+    "gt": "8 + \\frac { n } { 2 }",
+    "pred": "8 + \\frac { n } { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_080_E633.jpg",
+    "img_id": "form_080_E633"
+  },
+  {
+    "gt": "x 0 , x - 1 , x - 2 , x _ { 3 } , x - 4 , x _ { 5 }",
+    "pred": "x 0 , x - 1 , x - 2 , x _ { 3 } , x - 4 , x _ { 5 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_657_E3281.jpg",
+    "img_id": "form_5_657_E3281"
+  },
+  {
+    "gt": "x _ { i } - x = y \\tan \\theta _ { i }",
+    "pred": "x _ { i } - x = y \\tan \\theta _ { i }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_198_E989.jpg",
+    "img_id": "form_5_f_198_E989"
+  },
+  {
+    "gt": "\\frac { n } { 2 } + \\frac { 7 } { 2 }",
+    "pred": "\\frac { n } { 2 } + \\frac { 7 } { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_080_E637.jpg",
+    "img_id": "form_080_E637"
+  },
+  {
+    "gt": "1 . 0 7 - 4 . 5 \\times 1 0 ^ { - 3 }",
+    "pred": "1 . 0 7 - 4 . 5 \\times 1 0 ^ { - 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_046_E362.jpg",
+    "img_id": "form_046_E362"
+  },
+  {
+    "gt": "\\cos ( Y )",
+    "pred": "\\cos ( Y )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_063_E504.jpg",
+    "img_id": "form_063_E504"
+  },
+  {
+    "gt": "d s _ { S ^ { 3 } } ^ { 2 } = \\frac { 1 } { 4 } \\sum _ { a } ( w ^ { a } ) ^ { 2 }",
+    "pred": "d s _ { S ^ { 3 } } ^ { 2 } = \\frac { 1 } { 4 } \\sum _ { a } ( w ^ { a } ) ^ { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_055_E439.jpg",
+    "img_id": "form_055_E439"
+  },
+  {
+    "gt": "a + \\frac { b } { L }",
+    "pred": "a + \\frac { b } { L }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_047_E371.jpg",
+    "img_id": "form_047_E371"
+  },
+  {
+    "gt": "+ 7 8",
+    "pred": "t 7 8",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_069_E550.jpg",
+    "img_id": "form_069_E550"
+  },
+  {
+    "gt": "- x _ { 1 } \\leq x < x _ { 1 }",
+    "pred": "- x _ { 1 } \\leq x \\leq x _ { 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_176_E879.jpg",
+    "img_id": "form_5_f_176_E879"
+  },
+  {
+    "gt": "\\sqrt { - g }",
+    "pred": "\\sqrt { - g }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_054_E429.jpg",
+    "img_id": "form_054_E429"
+  },
+  {
+    "gt": "\\forall f \\in S",
+    "pred": "\\forall f \\in S",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_163_E814.jpg",
+    "img_id": "form_5_f_163_E814"
+  },
+  {
+    "gt": "g = \\sqrt { z ^ { 2 } + 4 t }",
+    "pred": "g = \\sqrt { r ^ { 2 } + 4 t }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_068_E539.jpg",
+    "img_id": "form_068_E539"
+  },
+  {
+    "gt": "u = \\cos \\theta",
+    "pred": "u = \\cos \\theta",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_201_E1005.jpg",
+    "img_id": "form_5_f_201_E1005"
+  },
+  {
+    "gt": "- a _ { p - 1 } + 2 a _ { p } - 3 _ { p + 1 } + X = 0",
+    "pred": "- a _ { p - 1 } + 2 a _ { p } - 3 p + 1 + x = 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_163_E812.jpg",
+    "img_id": "form_5_f_163_E812"
+  },
+  {
+    "gt": "1 , ( \\frac { 1 - q ^ { 2 } \\sqrt { x } } { q ^ { 2 } - \\sqrt { x } } ) , ( \\frac { 1 + q ^ { 2 } \\sqrt { x } } { q ^ { 2 } + \\sqrt { x } } )",
+    "pred": "1 , ( \\frac { 1 - q ^ { 2 } \\sqrt { x } } { q ^ { 2 } - \\sqrt { x } } ) , ( \\frac { 1 + q ^ { 2 } \\sqrt { x } } { q ^ { 2 } + \\sqrt { x } } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_060_E478.jpg",
+    "img_id": "form_060_E478"
+  },
+  {
+    "gt": "a c = b - 1",
+    "pred": "a c = b - 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_047_E372.jpg",
+    "img_id": "form_047_E372"
+  },
+  {
+    "gt": "\\frac { c } { h }",
+    "pred": "\\frac { c } { h }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_071_E561.jpg",
+    "img_id": "form_071_E561"
+  },
+  {
+    "gt": "y = x _ { 8 } + i x _ { 9 }",
+    "pred": "y = x _ { 8 } + i x _ { 9 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_203_E1015.jpg",
+    "img_id": "form_5_f_203_E1015"
+  },
+  {
+    "gt": "\\cos x = - 3 \\sqrt { 3 } M H ^ { - 1 }",
+    "pred": "\\cos x = - 3 \\sqrt { 3 } H ^ { - 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_082_E652.jpg",
+    "img_id": "form_082_E652"
+  },
+  {
+    "gt": "( n - \\frac { 3 } { 2 } , \\frac { 1 } { 2 } , \\frac { 1 } { 2 } , \\frac { 1 } { 2 } )",
+    "pred": "( n - \\frac { 3 } { 2 } , \\frac { 1 } { 2 } , \\frac { 1 } { 2 } , \\frac { 1 } { 2 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_057_E455.jpg",
+    "img_id": "form_057_E455"
+  },
+  {
+    "gt": "( d + 1 ) \\times ( d + n + 1 )",
+    "pred": "( d + 1 ) \\times ( d + n + 1 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_052_E409.jpg",
+    "img_id": "form_052_E409"
+  },
+  {
+    "gt": "z _ { 1 } = ( x ^ { 6 } + i x ^ { 7 } )",
+    "pred": "z _ { 1 } = ( x ^ { 6 } + i x ^ { 7 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_081_E642.jpg",
+    "img_id": "form_081_E642"
+  },
+  {
+    "gt": "\\frac { 8 a ^ { 3 } } { 2 7 b ^ { 2 } }",
+    "pred": "\\frac { 8 a ^ { 3 } } { 2 7 b ^ { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_050_E398.jpg",
+    "img_id": "form_050_E398"
+  },
+  {
+    "gt": "8 + 1",
+    "pred": "8 + 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_064_E509.jpg",
+    "img_id": "form_064_E509"
+  },
+  {
+    "gt": "\\frac { 1 4 9 } { 8 4 }",
+    "pred": "\\frac { 1 4 9 } { 8 4 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_077_E614.jpg",
+    "img_id": "form_077_E614"
+  },
+  {
+    "gt": "f = \\sum _ { n } a _ { n } q ^ { n }",
+    "pred": "f = \\sum _ { n } a _ { n } q ^ { n }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_191_E951.jpg",
+    "img_id": "form_5_f_191_E951"
+  },
+  {
+    "gt": "r _ { m i n } = \\frac { \\sqrt { a } } { s n \\sqrt { a } \\frac { T } { 4 } }",
+    "pred": "r _ { m i n } = \\frac { \\sqrt { a } } { s i n \\sqrt { a } \\frac { T } { 4 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_081_E646.jpg",
+    "img_id": "form_081_E646"
+  },
+  {
+    "gt": "[ a _ { 1 } ] \\times [ b _ { 2 } ] \\times [ b _ { 3 } ]",
+    "pred": "[ a 1 ] \\times [ b 2 ] \\times [ b 3 ]",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_084_E672.jpg",
+    "img_id": "form_084_E672"
+  },
+  {
+    "gt": "w ( z ) = ( z ^ { 2 } - 1 ) ^ { \\frac { d - 1 } { 4 } } G ( z )",
+    "pred": "w ( z ) = ( z ^ { 2 } - 1 ) ^ { \\frac { d - 1 } { 4 } } G ( z )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_078_E618.jpg",
+    "img_id": "form_078_E618"
+  },
+  {
+    "gt": "\\Delta = \\frac { 1 } { 2 } + \\frac { 1 } { 4 } \\sqrt { E + 3 6 }",
+    "pred": "\\Delta = \\frac { 1 } { 2 } + \\frac { 1 } { 4 } \\sqrt { E + 3 6 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_193_E961.jpg",
+    "img_id": "form_5_f_193_E961"
+  },
+  {
+    "gt": "b = \\frac { 1 } { \\sqrt { 1 - 4 c } }",
+    "pred": "b = \\frac { 1 } { \\sqrt { 1 + 4 c } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_197_E983.jpg",
+    "img_id": "form_5_f_197_E983"
+  },
+  {
+    "gt": "\\sqrt { - k _ { 2 } + 4 n ^ { 2 } }",
+    "pred": "\\sqrt { - h _ { \\alpha } ^ { 2 } + 4 u ^ { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_072_E572.jpg",
+    "img_id": "form_072_E572"
+  },
+  {
+    "gt": "\\lim _ { N \\rightarrow \\infty } T ^ { N \\times N } = T",
+    "pred": "\\lim _ { N \\to \\infty } T ^ { N \\times N } = T",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_653_E3263.jpg",
+    "img_id": "form_5_653_E3263"
+  },
+  {
+    "gt": "z = \\sqrt { \\frac { \\sigma } { 2 } } x",
+    "pred": "z = \\sqrt { \\frac { \\sigma } { 2 } } x",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_165_E821.jpg",
+    "img_id": "form_5_f_165_E821"
+  },
+  {
+    "gt": "\\frac { x ^ { m } d x } { ( x - \\alpha _ { i } ) P _ { n } ( x ) }",
+    "pred": "\\frac { x ^ { m } d x } { ( x - \\alpha _ { i } ) P _ { n } ( x ) }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_181_E904.jpg",
+    "img_id": "form_5_f_181_E904"
+  },
+  {
+    "gt": "\\forall m , n \\geq 1",
+    "pred": "\\forall m , n \\geq 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_078_E620.jpg",
+    "img_id": "form_078_E620"
+  },
+  {
+    "gt": "\\sqrt { 1 - r ^ { 2 } }",
+    "pred": "\\sqrt { 1 - R ^ { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_082_E651.jpg",
+    "img_id": "form_082_E651"
+  },
+  {
+    "gt": "c \\geq 0",
+    "pred": "c \\geq 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_652_E3257.jpg",
+    "img_id": "form_5_652_E3257"
+  },
+  {
+    "gt": "( \\sqrt { - 1 } ( u - v ) , \\sqrt { - 1 } u , - \\sqrt { - 1 } v , 0 )",
+    "pred": "( \\sqrt { - 1 } ( u - v ) , \\sqrt { - 1 } u , - \\sqrt { - 1 } v , 0 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_203_E1014.jpg",
+    "img_id": "form_5_f_203_E1014"
+  },
+  {
+    "gt": "c = - \\frac { 3 } { 2 k + 3 }",
+    "pred": "c = - \\frac { 3 } { 2 k + 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_194_E969.jpg",
+    "img_id": "form_5_f_194_E969"
+  },
+  {
+    "gt": "a = 2 ( 4 + \\sqrt { 1 0 } ) / \\sqrt { 1 0 }",
+    "pred": "a = 2 ( 4 + \\sqrt { 1 0 } ) / \\sqrt { 1 0 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_070_E554.jpg",
+    "img_id": "form_070_E554"
+  },
+  {
+    "gt": "\\sin \\phi = 0",
+    "pred": "\\sin \\phi = 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_073_E578.jpg",
+    "img_id": "form_073_E578"
+  },
+  {
+    "gt": "\\alpha _ { 2 } = 2 \\sqrt { \\frac { d - 3 } { d - 4 } }",
+    "pred": "\\alpha _ { 2 } = 2 \\sqrt { \\frac { d - 3 } { d - 4 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_083_E658.jpg",
+    "img_id": "form_083_E658"
+  },
+  {
+    "gt": "\\sum _ { i = 1 } ^ { n + 1 } z _ { i } ^ { 2 } = a ^ { 2 }",
+    "pred": "\\sum _ { i = 1 } ^ { n + 1 } z _ { i } ^ { 2 } = a ^ { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_053_E422.jpg",
+    "img_id": "form_053_E422"
+  },
+  {
+    "gt": "\\int _ { 0 } ^ { + \\infty } y ( G ( y , B _ { m } d ^ { 2 } ) - c ) d y",
+    "pred": "\\int _ { 0 } ^ { t \\infty } y ( G ( y , B _ { m } d ^ { 2 } ) - c ) d y",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_186_E930.jpg",
+    "img_id": "form_5_f_186_E930"
+  },
+  {
+    "gt": "- \\frac { 4 4 8 3 } { 9 4 5 }",
+    "pred": "- \\frac { 4 4 8 3 } { 9 4 5 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_059_E467.jpg",
+    "img_id": "form_059_E467"
+  },
+  {
+    "gt": "T \\geq \\frac { m e } { 2 } | \\int d ^ { 2 } x \\{ M _ { a } B _ { a } \\} |",
+    "pred": "T \\geq \\frac { m _ { e } } { Z } | \\int d ^ { 2 } x \\{ n _ { a } B _ { a } \\} |",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_060_E474.jpg",
+    "img_id": "form_060_E474"
+  },
+  {
+    "gt": "a \\neq 5",
+    "pred": "a \\neq 5",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_646_E3230.jpg",
+    "img_id": "form_5_646_E3230"
+  },
+  {
+    "gt": "( a b ) = \\frac { 1 } { 2 } ( a b + b a )",
+    "pred": "( a b ) = \\frac { 1 } { 2 } ( a b + b a )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_207_E1033.jpg",
+    "img_id": "form_5_f_207_E1033"
+  },
+  {
+    "gt": "4 \\times 5",
+    "pred": "4 \\times 5",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_181_E905.jpg",
+    "img_id": "form_5_f_181_E905"
+  },
+  {
+    "gt": "f ( x + i y )",
+    "pred": "f ( x + i y )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_164_E818.jpg",
+    "img_id": "form_5_f_164_E818"
+  },
+  {
+    "gt": "o _ { i }",
+    "pred": "O i",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_643_E3212.jpg",
+    "img_id": "form_5_643_E3212"
+  },
+  {
+    "gt": "v e v",
+    "pred": "\\sigma e _ { \\sigma }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_058_E464.jpg",
+    "img_id": "form_058_E464"
+  },
+  {
+    "gt": "\\frac { 4 } { 7 }",
+    "pred": "\\frac { 4 } { 7 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_651_E3254.jpg",
+    "img_id": "form_5_651_E3254"
+  },
+  {
+    "gt": "p \\frac { a } { b }",
+    "pred": "p \\tfrac { a } { b }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_067_E536.jpg",
+    "img_id": "form_067_E536"
+  },
+  {
+    "gt": "\\sin ^ { 2 } \\theta \\leq 1",
+    "pred": "\\sin ^ { 2 } \\theta \\leq 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_068_E541.jpg",
+    "img_id": "form_068_E541"
+  },
+  {
+    "gt": "\\frac { c } { 2 4 }",
+    "pred": "\\frac { c } { 2 4 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_054_E428.jpg",
+    "img_id": "form_054_E428"
+  },
+  {
+    "gt": "s - j = - [ j - \\frac { 3 } { 2 } ] - \\frac { 1 } { 2 }",
+    "pred": "s - j = - [ j - \\frac { 3 } { 2 } ] - \\frac { 1 } { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_652_E3259.jpg",
+    "img_id": "form_5_652_E3259"
+  },
+  {
+    "gt": "\\frac { 7 } { 4 }",
+    "pred": "\\begin {matrix} \\frac { 7 } { 4 } \\end {matrix}",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_645_E3221.jpg",
+    "img_id": "form_5_645_E3221"
+  },
+  {
+    "gt": "\\Delta = \\frac { 1 } { 2 } + \\frac { 1 } { 4 } \\sqrt { E + 3 2 R + 3 6 }",
+    "pred": "\\Delta = \\frac { 1 } { 2 } + \\frac { 1 } { 4 } \\sqrt { E + 3 2 R + 3 6 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_167_E833.jpg",
+    "img_id": "form_5_f_167_E833"
+  },
+  {
+    "gt": "c _ { b } = - \\sin \\pi \\alpha",
+    "pred": "c _ { b } = - \\sin \\pi \\alpha",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_063_E499.jpg",
+    "img_id": "form_063_E499"
+  },
+  {
+    "gt": "t = \\lim _ { N \\rightarrow \\infty } \\frac { n } { N }",
+    "pred": "t = \\lim _ { N \\to \\infty } \\frac { n } { N }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_077_E613.jpg",
+    "img_id": "form_077_E613"
+  },
+  {
+    "gt": "| x | = \\sqrt { x _ { 1 } ^ { 2 } + x _ { 2 } ^ { 2 } + x _ { 3 } ^ { 2 } }",
+    "pred": "| x | = \\sqrt { x _ { 1 } ^ { 2 } + x _ { 2 } ^ { 2 } + x _ { 3 } ^ { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_057_E449.jpg",
+    "img_id": "form_057_E449"
+  },
+  {
+    "gt": "[ b _ { 1 } ] \\times [ b _ { 2 } ] \\times [ a _ { 3 } ]",
+    "pred": "[ b _ { 1 } ] \\times [ b _ { 2 } ] \\times [ a _ { 3 } ]",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_195_E972.jpg",
+    "img_id": "form_5_f_195_E972"
+  },
+  {
+    "gt": "c \\geq a",
+    "pred": "c \\geq a",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_161_E803.jpg",
+    "img_id": "form_5_f_161_E803"
+  },
+  {
+    "gt": "f ( x ) = r ( x ) = - f _ { 1 } ( x )",
+    "pred": "f ( x ) = r ( x ) = - f _ { 1 } ( x )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_206_E1026.jpg",
+    "img_id": "form_5_f_206_E1026"
+  },
+  {
+    "gt": "s ^ { 2 } \\geq r ^ { 2 } \\sin ^ { 2 } \\theta",
+    "pred": "\\delta ^ { 2 } \\geq r ^ { 2 } \\sin ^ { 2 } \\theta",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_175_E873.jpg",
+    "img_id": "form_5_f_175_E873"
+  },
+  {
+    "gt": "- \\frac { 1 } { 1 1 }",
+    "pred": "- \\frac { 1 } { 1 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_178_E887.jpg",
+    "img_id": "form_5_f_178_E887"
+  },
+  {
+    "gt": "S _ { L L } ( \\theta ) , S _ { R R } ( \\theta ) , S _ { R L } ( \\theta ) , S _ { L R } ( \\theta )",
+    "pred": "S _ { L L } ( \\theta ) , S _ { R R } ( \\theta ) , S _ { R L } ( \\theta ) , S _ { L R } ( \\theta )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_078_E617.jpg",
+    "img_id": "form_078_E617"
+  },
+  {
+    "gt": "f _ { 0 } = r ^ { 2 } + a ^ { 2 } \\cos ^ { 2 } \\theta",
+    "pred": "f _ { 0 } = r ^ { 2 } + a ^ { 2 } \\cos ^ { 2 } \\theta",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_167_E835.jpg",
+    "img_id": "form_5_f_167_E835"
+  },
+  {
+    "gt": "( \\frac { 3 } { 5 } , \\frac { 3 } { 5 } )",
+    "pred": "( \\frac { 3 } { 5 } , \\frac { 3 } { 5 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_073_E583.jpg",
+    "img_id": "form_073_E583"
+  },
+  {
+    "gt": "y \\rightarrow y + w",
+    "pred": "y \\rightarrow y + w",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_167_E831.jpg",
+    "img_id": "form_5_f_167_E831"
+  },
+  {
+    "gt": "n \\times 3",
+    "pred": "n \\times 3",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_067_E533.jpg",
+    "img_id": "form_067_E533"
+  },
+  {
+    "gt": "\\lim _ { N \\rightarrow \\infty } N P _ { N } = | \\alpha | ^ { 2 }",
+    "pred": "\\lim _ { N \\rightarrow \\infty } N P _ { N } = | \\alpha | ^ { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_193_E964.jpg",
+    "img_id": "form_5_f_193_E964"
+  },
+  {
+    "gt": "\\frac { 1 } { 3 2 } , \\frac { 1 } { 1 6 } , \\frac { 3 } { 3 2 } , \\frac { 1 } { 8 }",
+    "pred": "\\frac { 1 } { 3 2 } , \\frac { 1 } { 1 6 } , \\frac { 3 } { 3 2 } , \\frac { 1 } { 8 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_185_E922.jpg",
+    "img_id": "form_5_f_185_E922"
+  },
+  {
+    "gt": "\\sum _ { r = 1 } ^ { r _ { m a x } } 1",
+    "pred": "\\sum _ { r = 1 } ^ { r _ { m a x } } 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_070_E557.jpg",
+    "img_id": "form_070_E557"
+  },
+  {
+    "gt": "\\sqrt { 2 } m",
+    "pred": "\\sqrt { 2 } m",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_050_E396.jpg",
+    "img_id": "form_050_E396"
+  },
+  {
+    "gt": "x ^ { 5 } , x ^ { 6 } , x ^ { 7 } , x ^ { 8 } , x ^ { 9 }",
+    "pred": "x ^ { 5 } , x ^ { 6 } , x ^ { 7 } , x ^ { 8 } , x ^ { 9 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_045_E355.jpg",
+    "img_id": "form_045_E355"
+  },
+  {
+    "gt": "\\sin \\theta _ { 1 }",
+    "pred": "\\sin \\theta _ { 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_074_E589.jpg",
+    "img_id": "form_074_E589"
+  },
+  {
+    "gt": "k = \\frac { 2 \\sqrt { 2 } } { 3 } \\sqrt { g _ { R } ^ { 2 } + g _ { S } ^ { 2 } }",
+    "pred": "k = \\frac { 2 \\sqrt { 2 } } { 3 } \\sqrt { g _ { R } ^ { 2 } + g _ { S } ^ { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_186_E927.jpg",
+    "img_id": "form_5_f_186_E927"
+  },
+  {
+    "gt": "2 \\times 7 8",
+    "pred": "2 \\times 7 8",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_643_E3211.jpg",
+    "img_id": "form_5_643_E3211"
+  },
+  {
+    "gt": "b ( x ) = \\frac { 1 } { 2 \\pi } [ \\frac { 2 } { ( x + \\theta ) ^ { 2 } + 1 } + \\frac { 2 } { ( x - \\theta ) ^ { 2 } + 1 } ]",
+    "pred": "h ( x ) = \\frac { 1 } { 2 \\pi } [ \\frac { 2 } { ( x + \\theta ) ^ { 2 } + 1 } + \\frac { 2 } { ( x - \\theta ) ^ { 2 } + 1 } ]",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_175_E871.jpg",
+    "img_id": "form_5_f_175_E871"
+  },
+  {
+    "gt": "- 0 . 0 0 4 ( 3 ) + i 0 . 0 0 5 ( 3 )",
+    "pred": "- 0 . 0 0 4 ( 3 ) + i 0 . 0 0 5 ( 3 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_075_E599.jpg",
+    "img_id": "form_075_E599"
+  },
+  {
+    "gt": "x - t",
+    "pred": "x - f",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_079_E630.jpg",
+    "img_id": "form_079_E630"
+  },
+  {
+    "gt": "\\int d ^ { 3 } x",
+    "pred": "\\int d ^ { 3 } x",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_075_E594.jpg",
+    "img_id": "form_075_E594"
+  },
+  {
+    "gt": "- \\frac { 1 8 5 8 } { 9 }",
+    "pred": "- \\frac { 1 8 5 8 } { 9 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_171_E852.jpg",
+    "img_id": "form_5_f_171_E852"
+  },
+  {
+    "gt": "5 7 . 9",
+    "pred": "5 7 , 9",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_054_E427.jpg",
+    "img_id": "form_054_E427"
+  },
+  {
+    "gt": "x _ { 1 } + x _ { 2 } + x _ { 4 } = 2 x _ { 3 }",
+    "pred": "x _ { 1 } + x _ { 2 } + x _ { 4 } = 2 x _ { 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_085_E678.jpg",
+    "img_id": "form_085_E678"
+  },
+  {
+    "gt": "l = \\int d y \\sqrt { f }",
+    "pred": "l = \\int d y \\sqrt { f }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_651_E3251.jpg",
+    "img_id": "form_5_651_E3251"
+  },
+  {
+    "gt": "\\beta ^ { ( 3 ) } = - \\frac { 1 7 } { 3 } \\frac { 1 } { ( 4 \\pi ) ^ { 4 } }",
+    "pred": "\\beta ^ { ( 3 ) } = - \\frac { 1 7 } { 3 } \\frac { 1 } { ( 4 \\pi ) ^ { 4 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_172_E860.jpg",
+    "img_id": "form_5_f_172_E860"
+  },
+  {
+    "gt": "S _ { 0 } = 2 \\pi \\sqrt { \\frac { c } { 6 } ( N - \\frac { c } { 2 4 } ) }",
+    "pred": "s _ { 0 } = 2 \\pi \\sqrt { \\frac { c } { 6 } ( N - \\frac { c } { 2 4 } ) }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_180_E897.jpg",
+    "img_id": "form_5_f_180_E897"
+  },
+  {
+    "gt": "x + ( i j ) y",
+    "pred": "x + ( i j ) y",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_082_E653.jpg",
+    "img_id": "form_082_E653"
+  },
+  {
+    "gt": "I H",
+    "pred": "I H",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_054_E432.jpg",
+    "img_id": "form_054_E432"
+  },
+  {
+    "gt": "\\sqrt { n \\theta }",
+    "pred": "\\sqrt { n \\theta }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_063_E502.jpg",
+    "img_id": "form_063_E502"
+  },
+  {
+    "gt": "\\frac { ( 1 - z ^ { 2 } ) z ^ { 2 } } { 8 }",
+    "pred": "\\frac { ( 1 - z ^ { 2 } ) z ^ { 2 } } { 8 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_179_E893.jpg",
+    "img_id": "form_5_f_179_E893"
+  },
+  {
+    "gt": "X \\times X",
+    "pred": "X \\times X",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_658_E3287.jpg",
+    "img_id": "form_5_658_E3287"
+  },
+  {
+    "gt": "k + \\frac { 1 5 } { 2 }",
+    "pred": "k + \\frac { 1 5 } { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_046_E368.jpg",
+    "img_id": "form_046_E368"
+  },
+  {
+    "gt": "y ^ { 3 } + P _ { 1 } ( x ) y ^ { 2 } + P _ { 2 } ( x ) y + P _ { 3 } ( x ) = 0",
+    "pred": "y ^ { 3 } + p _ { 1 } ( x ) y ^ { 2 } + p _ { 2 } ( x ) y + p _ { 3 } ( x ) = 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_171_E854.jpg",
+    "img_id": "form_5_f_171_E854"
+  },
+  {
+    "gt": "x \\leq x _ { 0 }",
+    "pred": "x \\leq x _ { 0 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_067_E531.jpg",
+    "img_id": "form_067_E531"
+  },
+  {
+    "gt": "3 + n",
+    "pred": "3 + n",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_071_E565.jpg",
+    "img_id": "form_071_E565"
+  },
+  {
+    "gt": "N _ { n } = \\frac { \\pi } { 2 \\sqrt { k r _ { c } } } x _ { n } e ^ { - k r _ { c } \\pi }",
+    "pred": "N _ { n } = \\frac { \\pi } { 2 \\sqrt { k r _ { c } } } x _ { n } e ^ { - k r _ { c } \\pi }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_061_E486.jpg",
+    "img_id": "form_061_E486"
+  },
+  {
+    "gt": "\\cos ( n z )",
+    "pred": "\\cos ( n z )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_173_E861.jpg",
+    "img_id": "form_5_f_173_E861"
+  },
+  {
+    "gt": "4 . 7 9 9 \\times 1 0 ^ { - 4 }",
+    "pred": "4 . 7 9 9 \\times 1 0 ^ { - 4 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_208_E1037.jpg",
+    "img_id": "form_5_f_208_E1037"
+  },
+  {
+    "gt": "F ( t _ { 1 } x _ { 3 } + x _ { 1 } )",
+    "pred": "F ( t , x _ { 3 } + x _ { 1 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_170_E848.jpg",
+    "img_id": "form_5_f_170_E848"
+  },
+  {
+    "gt": "y \\rightarrow y + \\pi R",
+    "pred": "y \\rightarrow y + \\pi R",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_648_E3236.jpg",
+    "img_id": "form_5_648_E3236"
+  },
+  {
+    "gt": "[ ( j + 1 ) p - 1 ] [ ( j + 1 ) q - 1 ]",
+    "pred": "[ ( j + 1 ) p - 1 ] [ ( j + 1 ) q - 1 ]",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_644_E3216.jpg",
+    "img_id": "form_5_644_E3216"
+  },
+  {
+    "gt": "\\frac { 2 } { 5 } = \\frac { 1 } { 3 } + \\frac { 1 } { 1 5 }",
+    "pred": "\\frac { 2 } { 5 } - \\frac { 1 } { 3 } + \\frac { 1 } { 1 5 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_642_E3207.jpg",
+    "img_id": "form_5_642_E3207"
+  },
+  {
+    "gt": "f ( x ) = \\alpha _ { a b } x _ { a } x _ { b }",
+    "pred": "f ( X ) = \\alpha _ { a b } X _ { a } X _ { b }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_655_E3273.jpg",
+    "img_id": "form_5_655_E3273"
+  },
+  {
+    "gt": "\\frac { \\log L } { 2 \\pi }",
+    "pred": "\\frac { \\log L } { 2 \\pi }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_177_E884.jpg",
+    "img_id": "form_5_f_177_E884"
+  },
+  {
+    "gt": "a \\geq 4",
+    "pred": "a \\geq 4",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_072_E576.jpg",
+    "img_id": "form_072_E576"
+  },
+  {
+    "gt": "2 ( \\pi _ { 1 3 5 } + \\pi _ { 2 4 5 } + \\pi _ { 1 4 6 } + \\pi _ { 2 3 6 } )",
+    "pred": "2 ( \\pi _ { 1 3 5 } + \\pi _ { 2 4 5 } + \\pi _ { 1 4 6 } + \\pi _ { 2 3 6 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_077_E615.jpg",
+    "img_id": "form_077_E615"
+  },
+  {
+    "gt": "q = \\frac { 1 } { 3 } ( 3 a _ { 0 } - a _ { 1 } a _ { 2 } ) + \\frac { 2 } { 2 7 } a _ { 2 } ^ { 3 }",
+    "pred": "q = \\frac { 1 } { 3 } ( 3 a - a _ { 1 } a _ { 2 } ) + \\frac { 2 } { 2 7 } a _ { 2 } ^ { 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_180_E898.jpg",
+    "img_id": "form_5_f_180_E898"
+  },
+  {
+    "gt": "c = a + b + m",
+    "pred": "c = a + b + m",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_076_E606.jpg",
+    "img_id": "form_076_E606"
+  },
+  {
+    "gt": "Y = x _ { 0 } ( y - y _ { 0 } )",
+    "pred": "Y = x _ { 0 } ( y - y _ { 0 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_084_E670.jpg",
+    "img_id": "form_084_E670"
+  },
+  {
+    "gt": "g = \\frac { \\sqrt { p + 1 } } { 2 }",
+    "pred": "g = \\frac { \\sqrt { p + 1 } } { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_178_E888.jpg",
+    "img_id": "form_5_f_178_E888"
+  },
+  {
+    "gt": "R \\sin \\theta",
+    "pred": "R \\sin \\theta",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_190_E950.jpg",
+    "img_id": "form_5_f_190_E950"
+  },
+  {
+    "gt": "x \\rightarrow x + v t",
+    "pred": "x \\rightarrow x + v t",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_049_E392.jpg",
+    "img_id": "form_049_E392"
+  },
+  {
+    "gt": "\\sum _ { n = 0 } ^ { \\infty } ( - 1 ) ^ { n } = \\frac { 1 } { 1 - ( - 1 ) } = \\frac { 1 } { 2 }",
+    "pred": "\\sum _ { n = 0 } ^ { \\infty } ( - 1 ) ^ { n } = \\frac { 1 } { 1 - ( - 1 ) } = \\frac { 1 } { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_068_E543.jpg",
+    "img_id": "form_068_E543"
+  },
+  {
+    "gt": "1 . 5 9 \\times 1 0 ^ { - 3 }",
+    "pred": "1 . 5 9 \\times 1 0 ^ { - 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_065_E513.jpg",
+    "img_id": "form_065_E513"
+  },
+  {
+    "gt": "- 2 ^ { r - 1 } \\frac { 1 } { 2 r - 1 }",
+    "pred": "- 2 ^ { r - 1 } \\frac { 1 } { 2 r - 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_183_E912.jpg",
+    "img_id": "form_5_f_183_E912"
+  },
+  {
+    "gt": "a = y",
+    "pred": "a = y",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_654_E3269.jpg",
+    "img_id": "form_5_654_E3269"
+  },
+  {
+    "gt": "\\{ 9 + 5 \\}",
+    "pred": "\\{ g + s \\}",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_084_E668.jpg",
+    "img_id": "form_084_E668"
+  },
+  {
+    "gt": "\\frac { 1 } { 1 3 }",
+    "pred": "\\begin {matrix} \\frac { 1 } { 1 3 } \\end {matrix}",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_069_E549.jpg",
+    "img_id": "form_069_E549"
+  },
+  {
+    "gt": "8 \\pi ^ { 2 } \\int a ^ { 2 } b d t",
+    "pred": "8 \\pi ^ { 2 } \\int a ^ { 2 } b d t",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_651_E3253.jpg",
+    "img_id": "form_5_651_E3253"
+  },
+  {
+    "gt": "\\int [ d z ] V ( z )",
+    "pred": "\\int [ d z ] V ( z )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_184_E920.jpg",
+    "img_id": "form_5_f_184_E920"
+  },
+  {
+    "gt": "w _ { [ b - a ] } w _ { a } w _ { b } ^ { - 1 }",
+    "pred": "w _ { [ h - a ] } w _ { a } w _ { a } ^ { - 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_171_E851.jpg",
+    "img_id": "form_5_f_171_E851"
+  },
+  {
+    "gt": "c \\neq 1",
+    "pred": "c \\ne 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_062_E494.jpg",
+    "img_id": "form_062_E494"
+  },
+  {
+    "gt": "x y = z ^ { n + 1 }",
+    "pred": "x y = z ^ { n + 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_652_E3256.jpg",
+    "img_id": "form_5_652_E3256"
+  },
+  {
+    "gt": "\\cos \\theta = - 1",
+    "pred": "\\cos \\theta = - 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_081_E644.jpg",
+    "img_id": "form_081_E644"
+  },
+  {
+    "gt": "\\sum _ { n = - \\infty } ^ { \\infty } ( \\frac { k } { 2 } - n ) p _ { k - n } ^ { i } p _ { n } ^ { i } = 0",
+    "pred": "\\sum _ { n = - \\infty } ^ { \\infty } ( \\frac { k } { 2 } - n ) p _ { k - n } ^ { i } = 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_192_E958.jpg",
+    "img_id": "form_5_f_192_E958"
+  },
+  {
+    "gt": "\\sum _ { i } a _ { i } = 0 = \\sum _ { i } t _ { i }",
+    "pred": "\\sum _ { i } a _ { i } = 0 = \\sum _ { i } t _ { i }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_085_E679.jpg",
+    "img_id": "form_085_E679"
+  },
+  {
+    "gt": "a = \\sqrt { j ( j + 1 ) }",
+    "pred": "a = \\sqrt { j ( j + 1 ) }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_192_E959.jpg",
+    "img_id": "form_5_f_192_E959"
+  },
+  {
+    "gt": "( p + q ) ^ { 2 } + n _ { 1 } + n _ { 2 } - 1",
+    "pred": "( p + q ) ^ { 2 } + n _ { 1 } + n _ { 2 } - 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_048_E381.jpg",
+    "img_id": "form_048_E381"
+  },
+  {
+    "gt": "( 2 n + 1 ) \\times ( 2 n + 1 )",
+    "pred": "( 2 n + 1 ) \\times ( 2 n + 1 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_186_E929.jpg",
+    "img_id": "form_5_f_186_E929"
+  },
+  {
+    "gt": "9 c + 3",
+    "pred": "9 c + 3",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_206_E1029.jpg",
+    "img_id": "form_5_f_206_E1029"
+  },
+  {
+    "gt": "x \\in C",
+    "pred": "x \\notin C",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_045_E353.jpg",
+    "img_id": "form_045_E353"
+  },
+  {
+    "gt": "\\int d ^ { 6 } y \\sqrt { d e t g _ { m n } }",
+    "pred": "\\int d ^ { 6 } x \\sqrt { d e t g _ { m n } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_074_E590.jpg",
+    "img_id": "form_074_E590"
+  },
+  {
+    "gt": "\\int \\sqrt { h ( b ) } d b",
+    "pred": "\\int \\sqrt { h ( b ) } d b",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_654_E3266.jpg",
+    "img_id": "form_5_654_E3266"
+  },
+  {
+    "gt": "I I",
+    "pred": "I I",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_659_E3292.jpg",
+    "img_id": "form_5_659_E3292"
+  },
+  {
+    "gt": "u ^ { k } + ( A _ { 1 } + \\frac { B _ { 1 } } { x - x _ { 0 } } ) u ^ { k - 1 } + \\ldots + ( A _ { k } + \\frac { B _ { k } } { x - x _ { 0 } } ) = 0",
+    "pred": "u ^ { k + ( A _ { 1 } + \\frac { B _ { 1 } } { x - x _ { 6 } } ) u ^ { k - 1 } + \\cdot \\cdot \\cdot + ( A _ { k } + \\frac { B _ { k } } { x - x _ { 6 } } ) = 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_198_E990.jpg",
+    "img_id": "form_5_f_198_E990"
+  },
+  {
+    "gt": "\\frac { e } { \\sqrt { 2 \\pi } }",
+    "pred": "\\frac { e } { \\sqrt { 2 \\pi } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_052_E410.jpg",
+    "img_id": "form_052_E410"
+  },
+  {
+    "gt": "p \\geq 7",
+    "pred": "p \\geq 7",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_052_E412.jpg",
+    "img_id": "form_052_E412"
+  },
+  {
+    "gt": "[ \\sin ( \\pi j ) ] ^ { - 1 }",
+    "pred": "[ s i n ( \\pi j ) ] ^ { - 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_076_E603.jpg",
+    "img_id": "form_076_E603"
+  },
+  {
+    "gt": "4 x ^ { 3 } - 3 x",
+    "pred": "4 x ^ { 3 } - 3 x",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_075_E600.jpg",
+    "img_id": "form_075_E600"
+  },
+  {
+    "gt": "x ^ { p + 1 } \\ldots x ^ { 5 }",
+    "pred": "x ^ { p + 1 } \\ldots x ^ { 5 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_653_E3265.jpg",
+    "img_id": "form_5_653_E3265"
+  },
+  {
+    "gt": "( 4 . 4 . a ) - ( 4 . 4 . e )",
+    "pred": "( 4 . 4 . a ) - ( 4 . 4 . e )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_188_E940.jpg",
+    "img_id": "form_5_f_188_E940"
+  },
+  {
+    "gt": "- 1 . 9 5 5",
+    "pred": "- 1 . 9 5 5",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_205_E1022.jpg",
+    "img_id": "form_5_f_205_E1022"
+  },
+  {
+    "gt": "\\log ( 0 . 5 9 8 )",
+    "pred": "l o g ( 0 . 5 9 8 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_647_E3231.jpg",
+    "img_id": "form_5_647_E3231"
+  },
+  {
+    "gt": "\\sum _ { n = 0 } ^ { \\infty } b _ { n } t ^ { n }",
+    "pred": "\\sum _ { n = 0 } ^ { \\infty } b _ { n } t ^ { n }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_062_E493.jpg",
+    "img_id": "form_062_E493"
+  },
+  {
+    "gt": "\\int [ d A ]",
+    "pred": "\\int [ d A ]",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_063_E498.jpg",
+    "img_id": "form_063_E498"
+  },
+  {
+    "gt": "\\sigma = 2 \\sin ( z + t )",
+    "pred": "s = z \\sin ( z + t )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_063_E497.jpg",
+    "img_id": "form_063_E497"
+  },
+  {
+    "gt": "\\alpha ^ { 1 } = \\log a",
+    "pred": "\\alpha ^ { 1 } = \\log a",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_204_E1016.jpg",
+    "img_id": "form_5_f_204_E1016"
+  },
+  {
+    "gt": "2 . 5 8 \\times 1 0 ^ { - 5 }",
+    "pred": "2 . 5 8 \\times 1 0 ^ { - 5 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_061_E483.jpg",
+    "img_id": "form_061_E483"
+  },
+  {
+    "gt": "b < \\frac { 1 } { a - 1 }",
+    "pred": "b < \\frac { 1 } { a - 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_194_E968.jpg",
+    "img_id": "form_5_f_194_E968"
+  },
+  {
+    "gt": "\\frac { 1 } { 2 } j ( j + 3 ) ( 2 j + 3 )",
+    "pred": "2 ^ { \\frac { 1 } { 2 } } j ( j + 3 ) ( 2 j + 3 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_164_E819.jpg",
+    "img_id": "form_5_f_164_E819"
+  },
+  {
+    "gt": "v = \\sqrt { 3 }",
+    "pred": "v = \\sqrt { 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_057_E451.jpg",
+    "img_id": "form_057_E451"
+  },
+  {
+    "gt": "x \\rightarrow + \\infty",
+    "pred": "x \\rightarrow + \\infty",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_168_E837.jpg",
+    "img_id": "form_5_f_168_E837"
+  },
+  {
+    "gt": "F = \\frac { 1 } { 4 } F _ { a b } F ^ { a b }",
+    "pred": "F = \\frac { 1 } { 4 } F _ { a b } F ^ { a b }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_170_E850.jpg",
+    "img_id": "form_5_f_170_E850"
+  },
+  {
+    "gt": "\\sin 2 \\phi = 0",
+    "pred": "\\sin 2 \\phi = 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_059_E468.jpg",
+    "img_id": "form_059_E468"
+  },
+  {
+    "gt": "\\frac { 1 } { 2 \\pi } \\int d k _ { l o o p } \\int d l _ { l o o p }",
+    "pred": "\\frac { 1 } { 2 \\pi } \\int d k _ { l o o p } \\int d l _ { l o o p }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_203_E1012.jpg",
+    "img_id": "form_5_f_203_E1012"
+  },
+  {
+    "gt": "x \\rightarrow x + \\frac { L } { 2 }",
+    "pred": "x \\rightarrow x + \\tfrac { L } { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_190_E947.jpg",
+    "img_id": "form_5_f_190_E947"
+  },
+  {
+    "gt": "x z - z",
+    "pred": "n z - z",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_059_E469.jpg",
+    "img_id": "form_059_E469"
+  },
+  {
+    "gt": "f ^ { 2 } - f + x = 0",
+    "pred": "f ^ { 2 } - f + x = 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_659_E3291.jpg",
+    "img_id": "form_5_659_E3291"
+  },
+  {
+    "gt": "v = ( 0 , \\frac { 1 } { 3 } , \\frac { 1 } { 3 } , - \\frac { 2 } { 3 } )",
+    "pred": "v = ( 0 , \\frac { 1 } { 3 } , \\frac { 1 } { 3 } , - \\frac { 2 } { 3 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_162_E806.jpg",
+    "img_id": "form_5_f_162_E806"
+  },
+  {
+    "gt": "y < x",
+    "pred": "y < x",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_075_E593.jpg",
+    "img_id": "form_075_E593"
+  },
+  {
+    "gt": "A n \\log n",
+    "pred": "A n \\log n",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_655_E3274.jpg",
+    "img_id": "form_5_655_E3274"
+  },
+  {
+    "gt": "x = \\sum _ { i = 0 } ^ { \\infty } a _ { i } ( t - t _ { 0 } ) ^ { i }",
+    "pred": "x = \\sum _ { i = 0 } ^ { \\infty } a _ { i } ( t - t _ { 0 } ) ^ { i }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_058_E462.jpg",
+    "img_id": "form_058_E462"
+  },
+  {
+    "gt": "z = y + 2 \\pi i x",
+    "pred": "z = y + 2 \\pi i x",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_192_E960.jpg",
+    "img_id": "form_5_f_192_E960"
+  },
+  {
+    "gt": "6 + 8 + 1 6 , 6 + 6 + 8 + 1 0",
+    "pred": "6 + 8 + 1 6 , 6 + 6 + 8 + 1 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_081_E647.jpg",
+    "img_id": "form_081_E647"
+  },
+  {
+    "gt": "2 9 2 ( 1 9 9 2 ) 2 6 9",
+    "pred": "2 9 2 ( 1 9 9 2 ) 2 6 9",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_202_E1007.jpg",
+    "img_id": "form_5_f_202_E1007"
+  },
+  {
+    "gt": "\\frac { 1 } { 2 \\sqrt { 3 } } \\sigma + \\frac { 1 } { 2 } \\phi \\geq 0",
+    "pred": "\\frac { 1 } { 2 \\sqrt { 3 } } \\sigma + \\frac { 1 } { 2 } \\phi \\geq 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_184_E917.jpg",
+    "img_id": "form_5_f_184_E917"
+  },
+  {
+    "gt": "L \\sin \\theta",
+    "pred": "L \\sin \\theta",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_194_E966.jpg",
+    "img_id": "form_5_f_194_E966"
+  },
+  {
+    "gt": "a _ { \\frac { 1 } { 2 } } ^ { t o t } = \\frac { 1 } { 2 }",
+    "pred": "a _ { \\frac { 1 } { 2 } } ^ { t o t } = \\frac { 1 } { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_189_E942.jpg",
+    "img_id": "form_5_f_189_E942"
+  },
+  {
+    "gt": "f \\sin \\alpha",
+    "pred": "f \\sin \\alpha",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_057_E450.jpg",
+    "img_id": "form_057_E450"
+  },
+  {
+    "gt": "A _ { 5 } ( - y ) = - A _ { 5 } ( y )",
+    "pred": "A _ { 5 } ( - y ) = - A _ { 5 } ( y )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_054_E426.jpg",
+    "img_id": "form_054_E426"
+  },
+  {
+    "gt": "\\sin \\theta _ { 1 } \\sin \\theta _ { 2 } \\sin \\theta _ { 3 }",
+    "pred": "\\sin \\theta _ { 1 } \\sin \\theta _ { 2 } \\sin \\theta _ { 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_065_E515.jpg",
+    "img_id": "form_065_E515"
+  },
+  {
+    "gt": "3 n + 3",
+    "pred": "3 n + 3",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_647_E3232.jpg",
+    "img_id": "form_5_647_E3232"
+  },
+  {
+    "gt": "( + \\frac { 1 } { 2 } , + \\frac { 1 } { 2 } , + \\frac { 1 } { 2 } , - \\frac { 1 } { 2 } , + \\frac { 1 } { 2 } )",
+    "pred": "( + \\frac { 1 } { 2 } , + \\frac { 1 } { 2 } , + \\frac { 1 } { 2 } , - \\frac { 1 } { 2 } , + \\frac { 1 } { 2 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_190_E949.jpg",
+    "img_id": "form_5_f_190_E949"
+  },
+  {
+    "gt": "d a = \\sin ^ { 3 } \\theta d \\theta",
+    "pred": "d \\alpha = \\sin ^ { 3 } \\theta d \\theta",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_046_E363.jpg",
+    "img_id": "form_046_E363"
+  },
+  {
+    "gt": "3 6 = 1 4 _ { 0 } + 5 _ { 0 } + 1 _ { 0 } + 1 0 _ { 2 } + 5 _ { 2 } + 1 _ { 4 }",
+    "pred": "3 6 = 1 4 _ { 0 } + 5 _ { 0 } + 1 0 _ { 0 } + 1 0 _ { 2 } + 5 _ { 2 } + 1 _ { 4 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_076_E601.jpg",
+    "img_id": "form_076_E601"
+  },
+  {
+    "gt": "a = 3 ( 4 + \\sqrt { 1 0 } ) \\sqrt { 1 0 } / ( 5 + 1 4 \\sqrt { 1 0 } )",
+    "pred": "a = 3 ( 4 + \\sqrt { 1 0 } ) \\sqrt { 1 0 } / ( 5 + 1 4 \\sqrt { 1 0 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_188_E936.jpg",
+    "img_id": "form_5_f_188_E936"
+  },
+  {
+    "gt": "x _ { 1 2 } + x _ { 2 3 } + x _ { 3 1 } = 0",
+    "pred": "x _ { 1 2 } + x _ { 2 3 } + x _ { 3 1 } = 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_169_E844.jpg",
+    "img_id": "form_5_f_169_E844"
+  },
+  {
+    "gt": "\\frac { 1 } { 2 } \\cos 2 \\alpha",
+    "pred": "\\frac { 1 } { 2 } \\cos 2 \\alpha",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_073_E577.jpg",
+    "img_id": "form_073_E577"
+  },
+  {
+    "gt": "a + b + c = 1",
+    "pred": "a + b + c = 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_077_E609.jpg",
+    "img_id": "form_077_E609"
+  },
+  {
+    "gt": "\\cos z _ { 0 }",
+    "pred": "\\cos z _ { 0 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_657_E3284.jpg",
+    "img_id": "form_5_657_E3284"
+  },
+  {
+    "gt": "9 . 0 3 5 \\times 1 0 ^ { - 2 }",
+    "pred": "9 . 0 3 5 \\times 1 0 ^ { - 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_084_E669.jpg",
+    "img_id": "form_084_E669"
+  },
+  {
+    "gt": "\\sqrt { \\frac { p + 1 } { 2 } }",
+    "pred": "\\sqrt { \\frac { p + q } { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_085_E676.jpg",
+    "img_id": "form_085_E676"
+  },
+  {
+    "gt": "\\frac { \\sqrt { 7 } } { 4 }",
+    "pred": "\\frac { \\sqrt { 7 } } { 4 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_659_E3295.jpg",
+    "img_id": "form_5_659_E3295"
+  },
+  {
+    "gt": "\\cos t ^ { \\prime }",
+    "pred": "c o r t '",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_073_E580.jpg",
+    "img_id": "form_073_E580"
+  },
+  {
+    "gt": "\\int d B",
+    "pred": "\\int d B",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_164_E817.jpg",
+    "img_id": "form_5_f_164_E817"
+  },
+  {
+    "gt": "a = \\frac { 1 } { \\sqrt { 2 } } ( A + B )",
+    "pred": "a = \\frac { 1 } { \\sqrt { 2 } } ( A + B )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_177_E882.jpg",
+    "img_id": "form_5_f_177_E882"
+  },
+  {
+    "gt": "X ( t ) = \\sum _ { n } t ^ { n } X _ { n }",
+    "pred": "X ( t ) = \\sum _ { n } t ^ { n } X _ { n }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_641_E3204.jpg",
+    "img_id": "form_5_641_E3204"
+  },
+  {
+    "gt": "a \\rightarrow a - b",
+    "pred": "a \\rightarrow a - b",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_174_E866.jpg",
+    "img_id": "form_5_f_174_E866"
+  },
+  {
+    "gt": "( \\cos \\alpha z ^ { 1 } + \\sin \\alpha z ^ { 2 } ) ^ { N } = c ^ { N }",
+    "pred": "( \\cos \\alpha z ^ { 1 } + \\sin \\alpha z ^ { 2 } ) ^ { N } = C ^ { N }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_165_E822.jpg",
+    "img_id": "form_5_f_165_E822"
+  },
+  {
+    "gt": "( + \\frac { 1 } { 2 } , - \\frac { 1 } { 2 } , - \\frac { 1 } { 2 } , - \\frac { 1 } { 2 } , + \\frac { 1 } { 2 } )",
+    "pred": "( + \\frac { 1 } { 2 } , - \\frac { 1 } { 2 } , - \\frac { 1 } { 2 } , - \\frac { 1 } { 2 } , + \\frac { 1 } { 2 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_173_E862.jpg",
+    "img_id": "form_5_f_173_E862"
+  },
+  {
+    "gt": "\\sum _ { i < j } \\frac { g } { ( x _ { i } - x _ { j } ) ^ { 2 } }",
+    "pred": "\\sum _ { i < j } \\frac { 9 } { ( x _ { i } - x _ { j } ) ^ { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_183_E914.jpg",
+    "img_id": "form_5_f_183_E914"
+  },
+  {
+    "gt": "d o e s n o t a c t o n t h e",
+    "pred": "d o e s n o t a c t o n t h e",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_191_E955.jpg",
+    "img_id": "form_5_f_191_E955"
+  },
+  {
+    "gt": "d x y",
+    "pred": "d x y",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_173_E865.jpg",
+    "img_id": "form_5_f_173_E865"
+  },
+  {
+    "gt": "z ^ { 3 } = x ^ { 6 } + i x ^ { 7 }",
+    "pred": "z ^ { 3 } = x ^ { 6 } + i x ^ { 7 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_168_E836.jpg",
+    "img_id": "form_5_f_168_E836"
+  },
+  {
+    "gt": "\\int \\sqrt { - g ^ { ( 1 2 ) } } R ^ { ( 1 2 ) }",
+    "pred": "\\int \\sqrt { - g ^ { ( 1 2 ) } } R ^ { ( 1 2 ) }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_163_E813.jpg",
+    "img_id": "form_5_f_163_E813"
+  },
+  {
+    "gt": "\\beta = \\sqrt { \\beta _ { a } \\beta ^ { a } }",
+    "pred": "\\beta = \\sqrt { \\beta _ { a } \\beta ^ { a } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_083_E664.jpg",
+    "img_id": "form_083_E664"
+  },
+  {
+    "gt": "x F ( x )",
+    "pred": "x F ( x )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_061_E487.jpg",
+    "img_id": "form_061_E487"
+  },
+  {
+    "gt": "n x - m y = 1",
+    "pred": "n x - m y = 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_070_E555.jpg",
+    "img_id": "form_070_E555"
+  },
+  {
+    "gt": "2 \\times 3 5",
+    "pred": "2 \\times 3 5",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_176_E877.jpg",
+    "img_id": "form_5_f_176_E877"
+  },
+  {
+    "gt": "( \\frac { 1 } { 2 } \\frac { 1 } { 2 } 0 0 0 )",
+    "pred": "( \\frac { 1 } { 2 } \\frac { 1 } { 2 } 0 0 0 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_084_E671.jpg",
+    "img_id": "form_084_E671"
+  },
+  {
+    "gt": "x + a",
+    "pred": "x + a",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_064_E505.jpg",
+    "img_id": "form_064_E505"
+  },
+  {
+    "gt": "H = \\frac { 4 } { 3 } \\frac { a ^ { 2 } A ^ { - 1 } } { 4 a ^ { 2 } + 3 }",
+    "pred": "H = \\frac { 4 } { 3 } \\frac { u ^ { 2 } A ^ { - 1 } } { 4 u ^ { 2 } + 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_068_E542.jpg",
+    "img_id": "form_068_E542"
+  },
+  {
+    "gt": "h + h + h",
+    "pred": "h + h + h",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_202_E1010.jpg",
+    "img_id": "form_5_f_202_E1010"
+  },
+  {
+    "gt": "8 \\times 7",
+    "pred": "8 \\times 7",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_049_E386.jpg",
+    "img_id": "form_049_E386"
+  },
+  {
+    "gt": "\\{ x , y \\} = x y + y x",
+    "pred": "\\{ x , y \\} = x y + y x",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_199_E991.jpg",
+    "img_id": "form_5_f_199_E991"
+  },
+  {
+    "gt": "\\sin ( \\theta ) \\neq 0",
+    "pred": "\\sin ( \\theta ) \\ne 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_172_E858.jpg",
+    "img_id": "form_5_f_172_E858"
+  },
+  {
+    "gt": "9 . 5 5 6 \\times 1 0 ^ { - 2 }",
+    "pred": "9 . 5 5 6 \\times 1 0 ^ { - 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_059_E471.jpg",
+    "img_id": "form_059_E471"
+  },
+  {
+    "gt": "\\cos \\alpha = 0",
+    "pred": "\\cos \\alpha = 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_061_E488.jpg",
+    "img_id": "form_061_E488"
+  },
+  {
+    "gt": "\\pm v ^ { 1 } \\pm v ^ { 2 } \\pm v ^ { 3 }",
+    "pred": "\\pm v ^ { 1 } \\pm v ^ { 2 } \\pm v ^ { 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_199_E995.jpg",
+    "img_id": "form_5_f_199_E995"
+  },
+  {
+    "gt": "r _ { 0 } ^ { 2 } \\sin 2 \\theta _ { 0 }",
+    "pred": "r _ { 0 } ^ { 2 } s i n 2 \\theta _ { 0 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_162_E808.jpg",
+    "img_id": "form_5_f_162_E808"
+  },
+  {
+    "gt": "2 f - e _ { 3 } + 2 e _ { 4 } + e _ { 7 } - e _ { 8 } + 2 e _ { 9 }",
+    "pred": "f - e _ { 3 } + 2 e _ { 4 } + e _ { 7 } - e _ { 8 } + 2 e _ { 9 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_065_E516.jpg",
+    "img_id": "form_065_E516"
+  },
+  {
+    "gt": "| a | = | x ^ { 1 } | + \\ldots + | x ^ { n } |",
+    "pred": "| a | = | x ^ { 1 } | + \\ldots + | x ^ { r } |",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_648_E3240.jpg",
+    "img_id": "form_5_648_E3240"
+  },
+  {
+    "gt": "y d x = \\frac { j ^ { 2 } - q ^ { 2 } } { 1 + q ^ { 2 } } d y x - \\frac { j q } { 1 + q ^ { 2 } } d x y",
+    "pred": "y d x = \\frac { j _ { 2 } - q ^ { 2 } } { 1 + q ^ { 2 } } d y x - \\frac { j q } { 1 + q ^ { 2 } } d x y",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_191_E954.jpg",
+    "img_id": "form_5_f_191_E954"
+  },
+  {
+    "gt": "s _ { \\theta } = \\sin \\theta",
+    "pred": "s _ { \\theta } = \\sin \\theta",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_060_E476.jpg",
+    "img_id": "form_060_E476"
+  },
+  {
+    "gt": "3 + 1",
+    "pred": "3 + 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_076_E607.jpg",
+    "img_id": "form_076_E607"
+  },
+  {
+    "gt": "k = a _ { 0 } + 2 a _ { 1 } + 3 a _ { 2 }",
+    "pred": "k = a _ { 0 } + 2 a _ { 1 } + 3 a _ { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_173_E863.jpg",
+    "img_id": "form_5_f_173_E863"
+  },
+  {
+    "gt": "h _ { x y } \\neq 0",
+    "pred": "h _ { x y } \\ne 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_058_E463.jpg",
+    "img_id": "form_058_E463"
+  },
+  {
+    "gt": "b + d b",
+    "pred": "b + d b",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_187_E934.jpg",
+    "img_id": "form_5_f_187_E934"
+  },
+  {
+    "gt": "r = \\sqrt { x ^ { 2 } + y ^ { 2 } + z ^ { 2 } }",
+    "pred": "r = \\sqrt { x ^ { 2 } + y ^ { 2 } + z ^ { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_067_E529.jpg",
+    "img_id": "form_067_E529"
+  },
+  {
+    "gt": "\\sum _ { a } p _ { a } = \\sum _ { a } X _ { a } = 0",
+    "pred": "\\sum _ { a } p _ { a } = \\sum _ { a } X _ { a } = 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_206_E1027.jpg",
+    "img_id": "form_5_f_206_E1027"
+  },
+  {
+    "gt": "a = x + i y",
+    "pred": "a = x + \\bar { 2 } y",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_655_E3275.jpg",
+    "img_id": "form_5_655_E3275"
+  },
+  {
+    "gt": "\\tan \\beta = v _ { u } / v _ { d }",
+    "pred": "\\tan \\beta = v _ { u } / v _ { d }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_052_E414.jpg",
+    "img_id": "form_052_E414"
+  },
+  {
+    "gt": "( n + 2 ) \\times ( n + 2 )",
+    "pred": "( n + 2 ) \\times ( n + 2 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_188_E937.jpg",
+    "img_id": "form_5_f_188_E937"
+  },
+  {
+    "gt": "o _ { 1 6 } + v _ { 1 6 } + s _ { 1 6 } + c _ { 1 6 }",
+    "pred": "O _ { 1 6 } + Q _ { 1 6 } + S _ { 1 6 } + C _ { 1 6 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_178_E890.jpg",
+    "img_id": "form_5_f_178_E890"
+  },
+  {
+    "gt": "x ^ { p } = \\sqrt { \\alpha ^ { \\prime } } ( 2 n + 1 ) \\pi / \\sqrt { 2 }",
+    "pred": "x ^ { \\rho } = \\sqrt { \\alpha ^ { \\prime } } ( 2 N + 1 ) \\pi / \\sqrt { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_082_E654.jpg",
+    "img_id": "form_082_E654"
+  },
+  {
+    "gt": "\\frac { 2 \\pi } { n + 1 }",
+    "pred": "\\frac { 2 \\pi } { n + 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_046_E365.jpg",
+    "img_id": "form_046_E365"
+  },
+  {
+    "gt": "| M | = | ( - x ( 1 - x ) p ^ { 2 } ) | ^ { \\frac { 1 } { 2 } }",
+    "pred": "| \\mu | = | ( - x ( 1 - x ) p ^ { 2 } ) | ^ { \\frac { 1 } { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_187_E933.jpg",
+    "img_id": "form_5_f_187_E933"
+  },
+  {
+    "gt": "x = \\frac { e ^ { c r } } { a c }",
+    "pred": "x = \\frac { e ^ { c r } } { a c }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_163_E811.jpg",
+    "img_id": "form_5_f_163_E811"
+  },
+  {
+    "gt": "f ( x ) = f ( x + 2 \\pi )",
+    "pred": "f ( x ) = f ( x + 2 \\pi )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_170_E846.jpg",
+    "img_id": "form_5_f_170_E846"
+  },
+  {
+    "gt": "1 0 3 6 6 9",
+    "pred": "1 0 3 6 6 9",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_169_E842.jpg",
+    "img_id": "form_5_f_169_E842"
+  },
+  {
+    "gt": "f ( - 1 ) ^ { f } + ( f - 1 ) ( - 1 ) ^ { f - 1 } = ( - 1 ) ^ { f }",
+    "pred": "f ( - 1 ) ^ { f } + ( f - 1 ) ( - 1 ) ^ { f - 1 } = ( - 1 ) ^ { f }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_653_E3261.jpg",
+    "img_id": "form_5_653_E3261"
+  },
+  {
+    "gt": "n ( t ) = n _ { 0 } ( t ) + n _ { 1 } ( t ) + n _ { 2 } ( t ) + \\ldots",
+    "pred": "n ( t ) = n _ { 0 } ( t ) + n _ { 1 } ( t ) + n _ { 2 } ( t ) + \\cdots",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_069_E552.jpg",
+    "img_id": "form_069_E552"
+  },
+  {
+    "gt": "\\sqrt { m n }",
+    "pred": "\\sqrt { m n }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_166_E827.jpg",
+    "img_id": "form_5_f_166_E827"
+  },
+  {
+    "gt": "y _ { - 1 } ^ { 2 } + y _ { 0 } ^ { 2 } = 1 + y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } + y _ { 3 } ^ { 2 } + y _ { 4 } ^ { 2 }",
+    "pred": "y _ { - 1 } ^ { 2 } + y _ { 0 } ^ { 2 } = 1 + y _ { 1 } ^ { 2 } + y _ { 2 } ^ { 2 } + y _ { 3 } ^ { 2 } + y _ { 4 } ^ { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_053_E420.jpg",
+    "img_id": "form_053_E420"
+  },
+  {
+    "gt": "6 x \\neq y",
+    "pred": "6 x \\neq y",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_651_E3255.jpg",
+    "img_id": "form_5_651_E3255"
+  },
+  {
+    "gt": "\\frac { ( 1 - z ^ { 2 } ) ( 1 + z ) ^ { 2 } } { 1 6 }",
+    "pred": "\\frac { ( 1 - z ^ { 2 } ) ( 1 + z ) ^ { 2 } } { 1 6 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_206_E1030.jpg",
+    "img_id": "form_5_f_206_E1030"
+  },
+  {
+    "gt": "n _ { 1 } + n _ { 2 } = n _ { 3 } + n _ { 4 }",
+    "pred": "n _ { 1 } + n _ { 2 } = n _ { 3 } + n _ { 4 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_168_E840.jpg",
+    "img_id": "form_5_f_168_E840"
+  },
+  {
+    "gt": "c = - ( b + 2 a )",
+    "pred": "c = - ( b + 2 a )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_190_E948.jpg",
+    "img_id": "form_5_f_190_E948"
+  },
+  {
+    "gt": "c ^ { a } ( x )",
+    "pred": "c ^ { \\alpha } ( x )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_075_E595.jpg",
+    "img_id": "form_075_E595"
+  },
+  {
+    "gt": "- b j _ { 2 1 } = - b j _ { 1 } + \\frac { 1 } { 2 b }",
+    "pred": "- b j _ { 2 1 } = - b j _ { 1 } + \\frac { 1 } { 2 b }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_208_E1040.jpg",
+    "img_id": "form_5_f_208_E1040"
+  },
+  {
+    "gt": "\\sum _ { n = 0 } ^ { \\infty } b _ { n } F ^ { 2 n }",
+    "pred": "\\sum _ { n = 0 } ^ { \\infty } b _ { n } F ^ { 2 n }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_166_E829.jpg",
+    "img_id": "form_5_f_166_E829"
+  },
+  {
+    "gt": "n \\neq 1",
+    "pred": "n \\neq 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_077_E611.jpg",
+    "img_id": "form_077_E611"
+  },
+  {
+    "gt": "3 \\times 3 + r - 3",
+    "pred": "3 \\times 3 + R - 3",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_065_E518.jpg",
+    "img_id": "form_065_E518"
+  },
+  {
+    "gt": "x = \\sin ( \\theta / 2 )",
+    "pred": "x = \\sin ( \\theta / 2 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_068_E540.jpg",
+    "img_id": "form_068_E540"
+  },
+  {
+    "gt": "2 \\pi b ( a + c ) / \\sqrt { a c }",
+    "pred": "2 \\pi b ( a + c ) / \\sqrt { a c }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_195_E971.jpg",
+    "img_id": "form_5_f_195_E971"
+  },
+  {
+    "gt": "7 + 7 = 1 4",
+    "pred": "7 + 7 = 1 4",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_647_E3235.jpg",
+    "img_id": "form_5_647_E3235"
+  },
+  {
+    "gt": "| x - y |",
+    "pred": "| x - y |",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_170_E847.jpg",
+    "img_id": "form_5_f_170_E847"
+  },
+  {
+    "gt": "0 \\leq y \\leq a",
+    "pred": "0 \\leq y \\leq a",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_186_E928.jpg",
+    "img_id": "form_5_f_186_E928"
+  },
+  {
+    "gt": "\\frac { 1 } { C ! }",
+    "pred": "\\frac { 1 } { C ! }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_066_E523.jpg",
+    "img_id": "form_066_E523"
+  },
+  {
+    "gt": "F ( x ) = x ( 1 + \\frac { x } { a } )",
+    "pred": "F ( x ) = x ( 1 + \\frac { x } { a } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_075_E596.jpg",
+    "img_id": "form_075_E596"
+  },
+  {
+    "gt": "x ^ { 1 ^ { 2 } } + y ^ { 1 ^ { 2 } } = r ^ { 2 } + a ^ { 1 ^ { 2 } }",
+    "pred": "x ^ { \\prime 2 } + y ^ { \\prime 2 } = r ^ { 2 } + d ^ { \\prime 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_198_E986.jpg",
+    "img_id": "form_5_f_198_E986"
+  },
+  {
+    "gt": "y \\rightarrow + \\infty",
+    "pred": "y > + \\infty",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_074_E587.jpg",
+    "img_id": "form_074_E587"
+  },
+  {
+    "gt": "\\int d z V",
+    "pred": "\\int d z \\tilde { V }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_166_E828.jpg",
+    "img_id": "form_5_f_166_E828"
+  },
+  {
+    "gt": "c = \\frac { 3 } { 2 } \\sum x _ { i }",
+    "pred": "c = \\frac { 3 } { 2 } \\sum x _ { i }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_058_E459.jpg",
+    "img_id": "form_058_E459"
+  },
+  {
+    "gt": "\\frac { \\sqrt { A } } { \\alpha } - \\frac { 1 } { 2 }",
+    "pred": "\\frac { \\sqrt { A } } { \\alpha } - \\frac { 1 } { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_070_E559.jpg",
+    "img_id": "form_070_E559"
+  },
+  {
+    "gt": "\\sqrt { F _ { a b } F ^ { a b } }",
+    "pred": "\\sqrt { F _ { a b } F ^ { a b } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_058_E461.jpg",
+    "img_id": "form_058_E461"
+  },
+  {
+    "gt": "o ( E _ { 6 } ) = 4 ( 3 + \\sqrt { 3 } )",
+    "pred": "r ( E _ { 6 } ) = 4 ( 3 + \\sqrt { 3 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_654_E3267.jpg",
+    "img_id": "form_5_654_E3267"
+  },
+  {
+    "gt": "j = \\frac { n } { 2 } - \\frac { 1 } { 2 }",
+    "pred": "j = \\frac { n } { 2 } - \\frac { 1 } { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_065_E520.jpg",
+    "img_id": "form_065_E520"
+  },
+  {
+    "gt": "R = ( \\sqrt { 3 } i z ^ { 2 } - 1 ) / ( z ^ { 3 } - \\sqrt { 3 } i z )",
+    "pred": "R = ( \\sqrt { 3 } i z ^ { 2 } - 1 ) ( z ^ { 3 } - \\sqrt { 3 } i z )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_207_E1032.jpg",
+    "img_id": "form_5_f_207_E1032"
+  },
+  {
+    "gt": "\\sqrt { \\frac { 1 } { n + 1 } }",
+    "pred": "\\sqrt { \\frac { 1 } { n + 1 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_079_E632.jpg",
+    "img_id": "form_079_E632"
+  },
+  {
+    "gt": "\\frac { 2 7 } { 7 }",
+    "pred": "\\frac { 2 7 } { 7 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_183_E915.jpg",
+    "img_id": "form_5_f_183_E915"
+  },
+  {
+    "gt": "( \\frac { 5 } { 7 } , \\frac { 5 } { 7 } )",
+    "pred": "( \\frac { 5 } { 7 } , \\frac { 5 } { 7 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_062_E495.jpg",
+    "img_id": "form_062_E495"
+  },
+  {
+    "gt": "\\lim _ { k \\rightarrow 0 } k ^ { 2 } G ( k ) = \\infty",
+    "pred": "\\lim _ { k \\rightarrow 0 } k ^ { 2 } G ( k ) = \\infty",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_172_E859.jpg",
+    "img_id": "form_5_f_172_E859"
+  },
+  {
+    "gt": "r _ { c } = \\sqrt { x _ { 1 } ^ { 2 } + x _ { 2 } ^ { 2 } + x _ { 3 } ^ { 2 } }",
+    "pred": "r _ { c } = \\sqrt { x _ { 1 } ^ { 2 } + x _ { 2 } ^ { 2 } + x _ { 3 } ^ { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_172_E857.jpg",
+    "img_id": "form_5_f_172_E857"
+  },
+  {
+    "gt": "( 2 n - 1 ) + ( 2 n - 2 )",
+    "pred": "( 2 n - 1 ) + ( 2 n - 2 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_199_E993.jpg",
+    "img_id": "form_5_f_199_E993"
+  },
+  {
+    "gt": "\\frac { 1 } { 1 1 }",
+    "pred": "\\frac { 1 } { 1 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_077_E612.jpg",
+    "img_id": "form_077_E612"
+  },
+  {
+    "gt": "\\sqrt { 2 4 + E }",
+    "pred": "\\sqrt { 2 4 + E }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_204_E1017.jpg",
+    "img_id": "form_5_f_204_E1017"
+  },
+  {
+    "gt": "a ^ { - 2 } \\sqrt { g ( x ) }",
+    "pred": "a ^ { - 2 } \\sqrt { g ( x ) }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_079_E627.jpg",
+    "img_id": "form_079_E627"
+  },
+  {
+    "gt": "- \\frac { 1 } { 8 } \\ldots",
+    "pred": "- \\frac { 1 } { 8 } , 1 , 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_063_E501.jpg",
+    "img_id": "form_063_E501"
+  },
+  {
+    "gt": "\\sqrt { L ^ { 3 } }",
+    "pred": "\\sqrt { L ^ { 3 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_080_E638.jpg",
+    "img_id": "form_080_E638"
+  },
+  {
+    "gt": "\\{ x ^ { 5 } , x ^ { 6 } , x ^ { 7 } , x ^ { 8 } \\}",
+    "pred": "\\{ x ^ { 5 } , x ^ { 6 } , x ^ { 7 } , x ^ { 8 } \\}",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_083_E661.jpg",
+    "img_id": "form_083_E661"
+  },
+  {
+    "gt": "x y z",
+    "pred": "\\begin {matrix} x & y & z \\end {matrix}",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_165_E824.jpg",
+    "img_id": "form_5_f_165_E824"
+  },
+  {
+    "gt": "| x + y | \\leq | x | + | y |",
+    "pred": "| x + y | \\leq | x | + | y |",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_069_E546.jpg",
+    "img_id": "form_069_E546"
+  },
+  {
+    "gt": "4 Y = 2 h + 5 f + \\log ( 1 6 / 3 )",
+    "pred": "4 Y = 2 h + 5 f + l o g ( 1 6 / 3 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_170_E849.jpg",
+    "img_id": "form_5_f_170_E849"
+  },
+  {
+    "gt": "\\sin ^ { 2 } [ \\frac { \\pi ( \\alpha - \\beta ) } { 2 } \\alpha ^ { \\prime } E ]",
+    "pred": "\\sin ^ { 2 } [ \\frac { \\pi ( \\alpha - \\beta ) } { 2 } \\alpha ^ { \\prime } E ]",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_649_E3242.jpg",
+    "img_id": "form_5_649_E3242"
+  },
+  {
+    "gt": "\\beta = \\sqrt { 1 + b }",
+    "pred": "\\beta = \\sqrt { 1 + b }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_196_E980.jpg",
+    "img_id": "form_5_f_196_E980"
+  },
+  {
+    "gt": "F ( A ) = | | A | | ^ { 2 } = \\int d ^ { 4 } x | A | ^ { 2 }",
+    "pred": "F ( A ) = \\parallel A \\parallel ^ { 2 } = \\int d ^ { 4 x | A | ^ { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_176_E878.jpg",
+    "img_id": "form_5_f_176_E878"
+  },
+  {
+    "gt": "- \\frac { 1 } { 2 } ( 2 a + 1 )",
+    "pred": "- \\frac { 1 } { 2 } ( 2 a + 1 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_182_E909.jpg",
+    "img_id": "form_5_f_182_E909"
+  },
+  {
+    "gt": "f - l + e _ { 1 } + e _ { 6 } + e _ { 7 } + e _ { 9 }",
+    "pred": "f - l - 1 e _ { 1 } + e _ { 6 } + e _ { 7 } + e _ { 9 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_655_E3271.jpg",
+    "img_id": "form_5_655_E3271"
+  },
+  {
+    "gt": "\\frac { 1 } { 3 2 } [ 7 ( k + 4 ) ( k + 2 ) + 2 n m ( 3 k + 1 4 ) - 1 6 ]",
+    "pred": "\\frac { 1 } { 3 2 } [ 7 ( k + 4 ) ( k + 2 ) + 2 n m ( 3 k + 1 4 ) - 1 6 ]",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_051_E406.jpg",
+    "img_id": "form_051_E406"
+  },
+  {
+    "gt": "\\frac { ( 9 - z ^ { 2 } ) ( 1 + z ^ { 2 } ) } { 1 6 }",
+    "pred": "\\frac { ( 9 - z ^ { 2 } ) ( 1 + z ^ { 2 } ) } { 1 6 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_071_E562.jpg",
+    "img_id": "form_071_E562"
+  },
+  {
+    "gt": "t ( x ) d x",
+    "pred": "L ( x ) d x",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_053_E418.jpg",
+    "img_id": "form_053_E418"
+  },
+  {
+    "gt": "\\frac { 1 } { 2 } - \\sin ^ { 2 } \\alpha",
+    "pred": "\\frac { 1 } { 2 } - s i n ^ { 2 \\alpha }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_167_E832.jpg",
+    "img_id": "form_5_f_167_E832"
+  },
+  {
+    "gt": "y _ { 0 } \\ldots y _ { k + 1 }",
+    "pred": "y _ { 0 } \\ldots y _ { h + 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_077_E610.jpg",
+    "img_id": "form_077_E610"
+  },
+  {
+    "gt": "\\frac { 1 } { 1 6 } ( k + 2 ) ( 3 k + 3 n m + 1 0 )",
+    "pred": "\\frac { 1 } { 1 6 } ( k + 2 ) ( 3 k + 3 m + 1 0 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_187_E932.jpg",
+    "img_id": "form_5_f_187_E932"
+  },
+  {
+    "gt": "\\int d ^ { 2 } x \\sqrt { g } R ^ { 2 }",
+    "pred": "\\int d ^ { 2 } x \\sqrt { g } R ^ { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_069_E545.jpg",
+    "img_id": "form_069_E545"
+  },
+  {
+    "gt": "w = \\frac { a z + b } { c z + d }",
+    "pred": "w = \\frac { a z + b } { c z + d }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_048_E377.jpg",
+    "img_id": "form_048_E377"
+  },
+  {
+    "gt": "f ( X ) = \\sum a _ { i } ( 1 - q ^ { i } ) ^ { - 1 } X ^ { i }",
+    "pred": "f ( x ) = \\sum a _ { i } ( 1 - q ^ { i } ) ^ { - 1 } x ^ { i }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_200_E1000.jpg",
+    "img_id": "form_5_f_200_E1000"
+  },
+  {
+    "gt": "G = f _ { 1 } ( t - x ) + f _ { 2 } ( t + x )",
+    "pred": "G = f _ { 1 } ( 1 - x ) + f _ { 2 } ( 1 + x )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_053_E417.jpg",
+    "img_id": "form_053_E417"
+  },
+  {
+    "gt": "A _ { 0 } + A _ { \\alpha } - A _ { \\beta }",
+    "pred": "A _ { 0 } + A _ { \\alpha } - A _ { \\beta }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_051_E401.jpg",
+    "img_id": "form_051_E401"
+  },
+  {
+    "gt": "I [ x ( 1 - x ) ]",
+    "pred": "I [ x ( 1 - x ) ]",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_081_E648.jpg",
+    "img_id": "form_081_E648"
+  },
+  {
+    "gt": "\\sum _ { n } n ^ { - 1 }",
+    "pred": "\\sum _ { n } n ^ { - 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_049_E391.jpg",
+    "img_id": "form_049_E391"
+  },
+  {
+    "gt": "3 ^ { 5 } c ^ { 3 } + 8 1 c ^ { 2 } - 1 3 5 c - 2 1",
+    "pred": "3 ^ { 5 } c ^ { 3 } + 8 1 c ^ { 2 } - 1 3 5 c - 2 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_075_E598.jpg",
+    "img_id": "form_075_E598"
+  },
+  {
+    "gt": "S _ { B I } = - \\int d ^ { 3 } \\sigma \\sqrt { - d e t ( g _ { a b } + F _ { a b } ) }",
+    "pred": "S _ { B I } = - \\int d ^ { 3 } \\sigma \\sqrt { - d } e ^ { t } ( g _ { a b } + F _ { a b } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_206_E1028.jpg",
+    "img_id": "form_5_f_206_E1028"
+  },
+  {
+    "gt": "b = \\frac { a ^ { 3 } } { 1 8 }",
+    "pred": "b = \\frac { a ^ { 3 } } { 1 8 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_057_E452.jpg",
+    "img_id": "form_057_E452"
+  },
+  {
+    "gt": "u + v + t + \\frac { t ^ { n + 2 } } { u v } = 0",
+    "pred": "u + v + t + \\frac { t ^ { n + 2 } } { u v } = 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_049_E390.jpg",
+    "img_id": "form_049_E390"
+  },
+  {
+    "gt": "\\cos ^ { 2 } ( k _ { 0 } x _ { 0 } )",
+    "pred": "c o s ^ { 2 } ( k _ { 0 } x _ { 0 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_085_E677.jpg",
+    "img_id": "form_085_E677"
+  },
+  {
+    "gt": "1 . 7 8 3 \\times 1 0 ^ { - 2 7 }",
+    "pred": "1 . 7 8 3 \\times 1 0 ^ { - 2 7 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_164_E816.jpg",
+    "img_id": "form_5_f_164_E816"
+  },
+  {
+    "gt": "( 4 - n ) \\times ( 4 - n )",
+    "pred": "( 4 - n ) \\times ( 4 - n )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_072_E575.jpg",
+    "img_id": "form_072_E575"
+  },
+  {
+    "gt": "\\sqrt { 2 \\pi }",
+    "pred": "\\sqrt { 2 \\pi }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_642_E3208.jpg",
+    "img_id": "form_5_642_E3208"
+  },
+  {
+    "gt": "y + 2 \\pi n",
+    "pred": "y + 2 \\pi n",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_061_E481.jpg",
+    "img_id": "form_061_E481"
+  },
+  {
+    "gt": "b \\geq a r",
+    "pred": "b \\geq a r",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_051_E402.jpg",
+    "img_id": "form_051_E402"
+  },
+  {
+    "gt": "( \\frac { 1 } { 3 } , \\frac { 1 } { 3 } )",
+    "pred": "( \\frac { 1 } { 3 } , \\frac { 1 } { 3 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_063_E503.jpg",
+    "img_id": "form_063_E503"
+  },
+  {
+    "gt": "( 1 - \\frac { a } { 2 } , 1 - \\frac { b } { 2 } )",
+    "pred": "( 1 - \\frac { a } { 2 } , 1 - \\frac { b } { 2 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_649_E3244.jpg",
+    "img_id": "form_5_649_E3244"
+  },
+  {
+    "gt": "f ( x , y ) = a x ^ { 2 } + b x y + c y ^ { 2 }",
+    "pred": "f ( x , y ) = a x ^ { 2 } + b x y + c y ^ { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_048_E383.jpg",
+    "img_id": "form_048_E383"
+  },
+  {
+    "gt": "c o n n",
+    "pred": "c o n n",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_189_E945.jpg",
+    "img_id": "form_5_f_189_E945"
+  },
+  {
+    "gt": "2 4 + 8 + 6",
+    "pred": "2 4 + 8 + 6",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_171_E855.jpg",
+    "img_id": "form_5_f_171_E855"
+  },
+  {
+    "gt": "f = \\sum _ { n } f _ { n } y ^ { n } ( x ) = \\sum _ { n } f _ { n } e ^ { i n x / R }",
+    "pred": "f = \\sum _ { n } f _ { n } Y ^ { n } ( x ) = \\sum f _ { n } e ^ { i n x / R }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_054_E431.jpg",
+    "img_id": "form_054_E431"
+  },
+  {
+    "gt": "f = ( 1 + B ^ { 2 } \\Delta \\sin ^ { 2 } \\theta )",
+    "pred": "f = ( 1 + B ^ { 2 } \\Delta \\sin ^ { 2 } \\theta )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_202_E1006.jpg",
+    "img_id": "form_5_f_202_E1006"
+  },
+  {
+    "gt": "\\frac { 7 } { 1 2 }",
+    "pred": "\\frac { 7 } { 1 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_188_E938.jpg",
+    "img_id": "form_5_f_188_E938"
+  },
+  {
+    "gt": "\\int d ^ { d } x e ( x )",
+    "pred": "\\int d ^ { d } x e ( x )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_049_E387.jpg",
+    "img_id": "form_049_E387"
+  },
+  {
+    "gt": "L _ { a b } = x _ { a } p _ { b } - x _ { b } p _ { a }",
+    "pred": "L _ { a b } = x _ { a } p _ { b } - x _ { b } p _ { a }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_179_E894.jpg",
+    "img_id": "form_5_f_179_E894"
+  },
+  {
+    "gt": "8 \\times 8",
+    "pred": "8 \\times 8",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_185_E924.jpg",
+    "img_id": "form_5_f_185_E924"
+  },
+  {
+    "gt": "I _ { 2 } = \\frac { 1 } { 4 } \\sum _ { a b } M _ { a b } M ^ { a b }",
+    "pred": "I _ { 2 } = \\frac { 1 } { 4 } \\sum _ { a b } M _ { a b } M ^ { a b }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_078_E623.jpg",
+    "img_id": "form_078_E623"
+  },
+  {
+    "gt": "\\frac { 3 } { 5 }",
+    "pred": "\\begin {matrix} \\frac { 3 } { 5 } \\end {matrix}",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_051_E404.jpg",
+    "img_id": "form_051_E404"
+  },
+  {
+    "gt": "- ( \\sin ^ { 2 } a E ) / a ^ { 2 } = p ^ { 2 } + m ^ { 2 }",
+    "pred": "- ( \\sin ^ { 2 } a E ) / a ^ { 2 } = p ^ { 2 } + m ^ { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_207_E1031.jpg",
+    "img_id": "form_5_f_207_E1031"
+  },
+  {
+    "gt": "\\int d ^ { 2 } x f",
+    "pred": "\\int d ^ { 2 } x f",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_046_E367.jpg",
+    "img_id": "form_046_E367"
+  },
+  {
+    "gt": "\\frac { 1 9 } { 2 8 }",
+    "pred": "\\frac { 1 9 } { 2 8 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_080_E635.jpg",
+    "img_id": "form_080_E635"
+  },
+  {
+    "gt": "( - x ) ^ { - b }",
+    "pred": "( - x ) ^ { - b }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_049_E389.jpg",
+    "img_id": "form_049_E389"
+  },
+  {
+    "gt": "\\log ( z \\log z )",
+    "pred": "l o g ( z l o g z )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_080_E640.jpg",
+    "img_id": "form_080_E640"
+  },
+  {
+    "gt": "f = \\sin \\sigma",
+    "pred": "f = \\sin \\sigma",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_189_E944.jpg",
+    "img_id": "form_5_f_189_E944"
+  },
+  {
+    "gt": "G ( x , y ) = \\frac { 1 } { 4 \\pi ^ { 2 } ( x - y ) ^ { 2 } }",
+    "pred": "G ( x , y ) = \\frac { 1 } { 4 \\pi ^ { 2 } ( x - y ) ^ { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_648_E3237.jpg",
+    "img_id": "form_5_648_E3237"
+  },
+  {
+    "gt": "L ^ { - 1 } \\int _ { - \\infty } ^ { + \\infty } | \\phi _ { n } ( x , t ) | ^ { 2 } d x = 1",
+    "pred": "L _ { - \\infty } ^ { - 1 } \\int _ { - \\infty } ^ { + \\infty } | \\phi _ { n } ( x , t ) | ^ { 2 } d x = 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_056_E445.jpg",
+    "img_id": "form_056_E445"
+  },
+  {
+    "gt": "z \\geq \\frac { 9 } { 8 }",
+    "pred": "z \\geq \\frac { 9 } { 8 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_202_E1008.jpg",
+    "img_id": "form_5_f_202_E1008"
+  },
+  {
+    "gt": "x = x _ { 1 } - x _ { 2 }",
+    "pred": "\\chi = \\chi _ { 1 } - \\chi _ { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_644_E3218.jpg",
+    "img_id": "form_5_644_E3218"
+  },
+  {
+    "gt": "\\lim _ { x \\rightarrow - \\infty } ( d \\phi / d x ) = 0",
+    "pred": "\\lim _ { x \\rightarrow - \\infty } ( d \\phi / d x ) = 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_201_E1001.jpg",
+    "img_id": "form_5_f_201_E1001"
+  },
+  {
+    "gt": "Y = \\frac { 1 } { 4 } Y _ { ( 3 ) } - \\frac { 1 } { 3 } Y _ { ( 2 ) }",
+    "pred": "Y = \\frac { 1 } { 4 } Y _ { ( 3 ) } - \\frac { 1 } { 3 } Y _ { ( 2 ) }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_201_E1003.jpg",
+    "img_id": "form_5_f_201_E1003"
+  },
+  {
+    "gt": "( d + 1 + n ) \\times ( d + 1 + n )",
+    "pred": "( d + 1 + n ) \\times ( d + 1 + n )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_195_E974.jpg",
+    "img_id": "form_5_f_195_E974"
+  },
+  {
+    "gt": "X = L \\cos ( s ) \\cos ( t )",
+    "pred": "x = L \\cos ( s ) \\cos ( t )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_067_E535.jpg",
+    "img_id": "form_067_E535"
+  },
+  {
+    "gt": "V ( X ) = 1 + \\cos ( X )",
+    "pred": "v ( x ) = 1 + \\cos ( x )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_070_E553.jpg",
+    "img_id": "form_070_E553"
+  },
+  {
+    "gt": "[ - a + \\frac { i \\beta m } { 2 } , a + \\frac { i \\beta m } { 2 } ]",
+    "pred": "[ - a + \\frac { i \\beta m } { 2 } , a + \\frac { i \\beta m } { 2 } ]",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_658_E3286.jpg",
+    "img_id": "form_5_658_E3286"
+  },
+  {
+    "gt": "\\frac { 1 } { x + i 0 }",
+    "pred": "\\frac { 1 } { x + i 0 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_076_E604.jpg",
+    "img_id": "form_076_E604"
+  },
+  {
+    "gt": "x + y > 0",
+    "pred": "x + y > 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_191_E953.jpg",
+    "img_id": "form_5_f_191_E953"
+  },
+  {
+    "gt": "\\frac { 9 } { 7 }",
+    "pred": "\\begin {matrix} \\frac { 9 } { 7 } \\end {matrix}",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_048_E380.jpg",
+    "img_id": "form_048_E380"
+  },
+  {
+    "gt": "x = ( x ^ { 0 } , x ^ { 1 } , x ^ { 2 } , x ^ { 3 } )",
+    "pred": "x = ( x ^ { 0 } , x ^ { 1 } , x ^ { 2 } , x ^ { 3 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_184_E919.jpg",
+    "img_id": "form_5_f_184_E919"
+  },
+  {
+    "gt": "G _ { a b } = h _ { a b } + n _ { a } n _ { b }",
+    "pred": "G _ { a b } = R _ { a b } + n _ { a } n _ { b }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_079_E628.jpg",
+    "img_id": "form_079_E628"
+  },
+  {
+    "gt": "x = + 0",
+    "pred": "x = + 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_187_E931.jpg",
+    "img_id": "form_5_f_187_E931"
+  },
+  {
+    "gt": "r _ { 0 } = ( 1 + 1 \\times 1 0 ^ { - 1 5 } )",
+    "pred": "r _ { 0 } = ( 1 + 1 \\times 1 0 ^ { - 1 5 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_171_E853.jpg",
+    "img_id": "form_5_f_171_E853"
+  },
+  {
+    "gt": "u = \\frac { b } { a }",
+    "pred": "u = \\frac { b } { a }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_073_E584.jpg",
+    "img_id": "form_073_E584"
+  },
+  {
+    "gt": "\\sum _ { m \\geq 0 } y ^ { m }",
+    "pred": "\\sum _ { m \\geq 0 } y ^ { r _ { m } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_656_E3279.jpg",
+    "img_id": "form_5_656_E3279"
+  },
+  {
+    "gt": "y ^ { 0 } = y _ { 1 } ^ { 0 } - y _ { 2 } ^ { 0 }",
+    "pred": "y ^ { 0 } = y _ { 1 } ^ { 0 } - y _ { 2 } ^ { 0 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_083_E657.jpg",
+    "img_id": "form_083_E657"
+  },
+  {
+    "gt": "d _ { 0 } ( x ) = \\int _ { 0 } ^ { y _ { 0 } } d y e ^ { \\phi ( y , x ) }",
+    "pred": "d _ { 0 } ( x ) = \\int _ { 0 } ^ { y _ { 0 } } d y e ^ { \\phi ( y , x ) }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_180_E900.jpg",
+    "img_id": "form_5_f_180_E900"
+  },
+  {
+    "gt": "( \\frac { 1 } { 2 } \\frac { 1 } { 2 } \\frac { 1 } { 2 } \\frac { 1 } { 2 } 0 0 0 0 )",
+    "pred": "( \\frac { 1 } { 2 } \\frac { 1 } { 2 } \\frac { 1 } { 2 } \\frac { 1 } { 2 } 0 0 0 0 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_055_E437.jpg",
+    "img_id": "form_055_E437"
+  },
+  {
+    "gt": "\\frac { 1 8 2 5 } { 1 7 6 }",
+    "pred": "\\frac { 1 8 2 5 } { 1 7 6 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_079_E631.jpg",
+    "img_id": "form_079_E631"
+  },
+  {
+    "gt": "P f",
+    "pred": "P _ { f }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_650_E3250.jpg",
+    "img_id": "form_5_650_E3250"
+  },
+  {
+    "gt": "\\frac { 3 2 } { 3 } h ( 2 h - 1 ) ( 4 h - 1 ) ( 4 h + 1 )",
+    "pred": "\\frac { 3 2 } { 3 } h ( 2 h - 1 ) ( 4 h - 1 ) ( 4 h + 1 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_658_E3288.jpg",
+    "img_id": "form_5_658_E3288"
+  },
+  {
+    "gt": "n _ { 1 } \\sin \\theta _ { 1 } = n _ { 2 } \\sin \\theta _ { 2 }",
+    "pred": "n _ { 1 } \\sin \\theta _ { 1 } = n _ { 2 } \\sin \\theta _ { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_084_E665.jpg",
+    "img_id": "form_084_E665"
+  },
+  {
+    "gt": "( \\frac { p 2 ^ { - p } } { 1 + p } - 1 )",
+    "pred": "( \\frac { p 2 ^ { - p } } { 1 + p } - 1 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_641_E3205.jpg",
+    "img_id": "form_5_641_E3205"
+  },
+  {
+    "gt": "\\frac { 5 } { 7 6 8 }",
+    "pred": "\\frac { 5 } { 7 6 8 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_177_E885.jpg",
+    "img_id": "form_5_f_177_E885"
+  },
+  {
+    "gt": "a b \\ldots",
+    "pred": "a b \\ldots",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_161_E805.jpg",
+    "img_id": "form_5_f_161_E805"
+  },
+  {
+    "gt": "1 0 \\times 6 + 1 0 \\times 4 = 1 0 0",
+    "pred": "1 0 \\times 6 + 1 0 \\times 4 = 1 0 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_050_E397.jpg",
+    "img_id": "form_050_E397"
+  },
+  {
+    "gt": "f - l + e _ { 5 } + e _ { 4 } + e _ { 7 } + e _ { 9 }",
+    "pred": "f - b - 1 e _ { 5 } + e _ { 4 } + e _ { 7 } + e _ { 9 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_648_E3238.jpg",
+    "img_id": "form_5_648_E3238"
+  },
+  {
+    "gt": "p = \\frac { 1 } { 2 } \\sum _ { i } i v _ { i }",
+    "pred": "P = \\frac { 1 } { 2 } \\sum _ { i } i v _ { i }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_067_E530.jpg",
+    "img_id": "form_067_E530"
+  },
+  {
+    "gt": "\\frac { 1 } { 3 ! }",
+    "pred": "\\frac { 1 } { 3 ! }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_058_E457.jpg",
+    "img_id": "form_058_E457"
+  },
+  {
+    "gt": "\\int d A _ { 2 } X _ { 7 } = \\int A _ { 2 } X _ { 8 }",
+    "pred": "\\int d A _ { 2 } X _ { 7 } = \\int A _ { 2 } X _ { 8 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_048_E384.jpg",
+    "img_id": "form_048_E384"
+  },
+  {
+    "gt": "x ( y )",
+    "pred": "x ( y )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_080_E636.jpg",
+    "img_id": "form_080_E636"
+  },
+  {
+    "gt": "a = b ^ { - 1 } c - b ^ { - 1 } a b",
+    "pred": "a = b ^ { - 1 } c - b ^ { - 1 } a b",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_056_E448.jpg",
+    "img_id": "form_056_E448"
+  },
+  {
+    "gt": "x = i y",
+    "pred": "x = i y",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_065_E519.jpg",
+    "img_id": "form_065_E519"
+  },
+  {
+    "gt": "f _ { 0 } ( t _ { 1 } x _ { 3 } + x _ { 1 } )",
+    "pred": "f _ { 0 } ^ { ( t _ { 1 } k _ { 3 } + k _ { 1 } ) }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_205_E1023.jpg",
+    "img_id": "form_5_f_205_E1023"
+  },
+  {
+    "gt": "\\sqrt { \\beta } m",
+    "pred": "\\sqrt { \\beta } m",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_658_E3289.jpg",
+    "img_id": "form_5_658_E3289"
+  },
+  {
+    "gt": "\\frac { 1 } { 2 } \\times 6",
+    "pred": "\\frac { 1 } { 2 } \\times 6",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_645_E3223.jpg",
+    "img_id": "form_5_645_E3223"
+  },
+  {
+    "gt": "( \\frac { 1 } { 7 } , \\frac { 1 } { 7 } )",
+    "pred": "( \\frac { 1 } { 7 } , \\frac { 1 } { 7 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_163_E815.jpg",
+    "img_id": "form_5_f_163_E815"
+  },
+  {
+    "gt": "\\frac { 1 } { 2 } n ( n - 1 )",
+    "pred": "\\frac { 1 } { 2 } n ( n - 1 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_657_E3285.jpg",
+    "img_id": "form_5_657_E3285"
+  },
+  {
+    "gt": "k _ { 2 n + i } = k _ { 2 n } + 2 i = k + 2 ( n - l + i )",
+    "pred": "k _ { 2 n + i } = k _ { 2 n + 2 i } = k + 2 ( n + i )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_168_E839.jpg",
+    "img_id": "form_5_f_168_E839"
+  },
+  {
+    "gt": "( y - x ) ^ { - 2 }",
+    "pred": "( y - x ) ^ { - 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_062_E496.jpg",
+    "img_id": "form_062_E496"
+  },
+  {
+    "gt": "- \\frac { 1 } { 3 0 }",
+    "pred": "- \\frac { 1 } { 3 0 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_643_E3214.jpg",
+    "img_id": "form_5_643_E3214"
+  },
+  {
+    "gt": "c \\rightarrow \\infty",
+    "pred": "c \\rightarrow \\infty",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_185_E921.jpg",
+    "img_id": "form_5_f_185_E921"
+  },
+  {
+    "gt": "\\frac { n } { \\sqrt { a _ { 1 } b _ { 1 } } }",
+    "pred": "\\frac { n } { \\sqrt { a _ { 1 } b _ { 1 } } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_064_E508.jpg",
+    "img_id": "form_064_E508"
+  },
+  {
+    "gt": "z ( \\log z ) ^ { n }",
+    "pred": "z ( l o g z ) ^ { n }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_202_E1009.jpg",
+    "img_id": "form_5_f_202_E1009"
+  },
+  {
+    "gt": "( 4 n - 4 ) - ( 2 n - 1 ) = 2 n - 3",
+    "pred": "( 4 n - 4 ) - ( 2 n - 1 ) = 2 n - 3",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_055_E434.jpg",
+    "img_id": "form_055_E434"
+  },
+  {
+    "gt": "8 + 6 + 6 + 6",
+    "pred": "8 + 6 + 6 + 6",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_656_E3277.jpg",
+    "img_id": "form_5_656_E3277"
+  },
+  {
+    "gt": "B _ { B } ( m ) = \\sum _ { n > 0 } \\pi ( - n ) \\pi ( n + m )",
+    "pred": "B _ { B } ( m ) = \\sum _ { n \\geq 0 } \\pi ( - n ) \\pi ( n + m )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_197_E984.jpg",
+    "img_id": "form_5_f_197_E984"
+  },
+  {
+    "gt": "( n + \\frac { 1 } { 2 } )",
+    "pred": "( n + \\frac { 1 } { 2 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_193_E962.jpg",
+    "img_id": "form_5_f_193_E962"
+  },
+  {
+    "gt": "\\cos ( \\alpha ) m",
+    "pred": "\\cos ( \\alpha ) m",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_069_E548.jpg",
+    "img_id": "form_069_E548"
+  },
+  {
+    "gt": "\\frac { 1 } { 8 } ( n ^ { 2 } - 1 0 n - 2 3 )",
+    "pred": "\\frac { 1 } { 8 } ( n ^ { 2 } - 1 0 n - 2 3 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_181_E903.jpg",
+    "img_id": "form_5_f_181_E903"
+  },
+  {
+    "gt": "T = q ( x _ { 8 } + i x _ { 9 } ) + t _ { 1 } ( x )",
+    "pred": "T = q ( X _ { 8 } + i X _ { 9 } ) + t _ { 1 } ( X )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_652_E3258.jpg",
+    "img_id": "form_5_652_E3258"
+  },
+  {
+    "gt": "- 8 - \\frac { 1 } { 8 }",
+    "pred": "- 8 - \\frac { 1 } { 8 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_065_E514.jpg",
+    "img_id": "form_065_E514"
+  },
+  {
+    "gt": "2 + 2 + 7",
+    "pred": "2 + 2 + 7",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_205_E1021.jpg",
+    "img_id": "form_5_f_205_E1021"
+  },
+  {
+    "gt": "C = C ^ { ( 0 ) } + C ^ { ( 1 ) + \\ldots + C ^ { ( 9 ) } }",
+    "pred": "C = C ^ { ( 0 ) } + C ^ { ( 1 ) } + \\ldots + C ^ { ( g ) }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_183_E913.jpg",
+    "img_id": "form_5_f_183_E913"
+  },
+  {
+    "gt": "d s ^ { 2 } = - F ( r ) d t ^ { 2 } + \\frac { d r ^ { 2 } } { G ( r ) } + r ^ { 2 } ( d \\theta ^ { 2 } + \\sin ^ { 2 } \\theta d \\phi ^ { 2 } )",
+    "pred": "d s ^ { 2 } = - F ( r ) d t ^ { 2 } + \\frac { d r ^ { 2 } } { G ( r ) } + r ^ { 2 } ( d \\theta ^ { 2 } + \\sin ^ { 2 } \\theta d \\phi ^ { 2 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_646_E3228.jpg",
+    "img_id": "form_5_646_E3228"
+  },
+  {
+    "gt": "\\frac { 1 } { \\sqrt { 2 } }",
+    "pred": "\\frac { 1 } { \\sqrt { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_205_E1025.jpg",
+    "img_id": "form_5_f_205_E1025"
+  },
+  {
+    "gt": "\\cos n \\sigma",
+    "pred": "\\cos n \\theta",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_048_E379.jpg",
+    "img_id": "form_048_E379"
+  },
+  {
+    "gt": "\\frac { 3 } { 2 } n",
+    "pred": "\\frac { 3 } { 2 } n",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_166_E826.jpg",
+    "img_id": "form_5_f_166_E826"
+  },
+  {
+    "gt": "a = - b ^ { - 1 } c + b ^ { - 1 } a b",
+    "pred": "a = - b ^ { - 1 } c + b ^ { - 1 } a b",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_174_E870.jpg",
+    "img_id": "form_5_f_174_E870"
+  },
+  {
+    "gt": "- \\frac { 2 } { 3 }",
+    "pred": "- \\frac { 2 } { 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_650_E3246.jpg",
+    "img_id": "form_5_650_E3246"
+  },
+  {
+    "gt": "T = a x \\pm b y",
+    "pred": "T = a x \\pm b y",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_063_E500.jpg",
+    "img_id": "form_063_E500"
+  },
+  {
+    "gt": "c = \\frac { b - 1 } { b + 1 }",
+    "pred": "c = \\frac { b - 1 } { b + 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_078_E621.jpg",
+    "img_id": "form_078_E621"
+  },
+  {
+    "gt": "z \\rightarrow z + a",
+    "pred": "z \\mapsto z + a",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_085_E674.jpg",
+    "img_id": "form_085_E674"
+  },
+  {
+    "gt": "3 ^ { 7 } c ^ { 5 } + 3 ^ { 6 } c ^ { 4 } - 2 7 5 4 c ^ { 3 } - 7 0 2 c ^ { 2 } + 7 1 1 c + 8 5",
+    "pred": "3 ^ { 7 } c ^ { 5 } + 3 ^ { 6 } c ^ { 4 } - 2 7 5 4 c ^ { 3 } - 7 0 2 c ^ { 2 } + 7 4 c + 8 5",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_055_E438.jpg",
+    "img_id": "form_055_E438"
+  },
+  {
+    "gt": "3 + 2 + 1",
+    "pred": "3 + 2 + 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_072_E571.jpg",
+    "img_id": "form_072_E571"
+  },
+  {
+    "gt": "\\{ d ^ { n + 1 } x \\sqrt { g } \\}",
+    "pred": "\\{ d ^ { n + 1 } x \\sqrt { g } \\}",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_166_E830.jpg",
+    "img_id": "form_5_f_166_E830"
+  },
+  {
+    "gt": "\\frac { 6 } { \\sqrt { 3 6 0 } }",
+    "pred": "\\frac { 6 } { \\sqrt { 3 6 0 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_176_E880.jpg",
+    "img_id": "form_5_f_176_E880"
+  },
+  {
+    "gt": "[ a _ { 1 } ] \\times [ a _ { 2 } ] \\times [ a _ { 3 } ]",
+    "pred": "[ a _ { 1 } ] \\times [ a _ { 2 } ] \\times [ a _ { 3 } ]",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_657_E3283.jpg",
+    "img_id": "form_5_657_E3283"
+  },
+  {
+    "gt": "\\sum C ^ { ( n ) } e ^ { B }",
+    "pred": "\\Xi _ { C } ^ { ( n ) } e ^ { B }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_646_E3227.jpg",
+    "img_id": "form_5_646_E3227"
+  },
+  {
+    "gt": "+ 2 L _ { a b } L _ { a b } + 9 6 S L _ { a a } + 1 9 2 S ^ { 2 }",
+    "pred": "+ 2 L _ { a b } L _ { a b } + 9 6 S L _ { a a } + 1 9 2 S ^ { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_057_E453.jpg",
+    "img_id": "form_057_E453"
+  },
+  {
+    "gt": "x ^ { 2 } + y ^ { 2 } + z ^ { 2 } = r ^ { 2 }",
+    "pred": "x ^ { 2 } + y ^ { 2 } + z ^ { 2 } = R ^ { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_077_E616.jpg",
+    "img_id": "form_077_E616"
+  },
+  {
+    "gt": "a = - 1 + \\sqrt { \\frac { N } { 2 ( N - 1 ) } }",
+    "pred": "a = - 1 + \\sqrt { \\frac { N } { 2 ( N - 1 ) } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_078_E622.jpg",
+    "img_id": "form_078_E622"
+  },
+  {
+    "gt": "r = \\sqrt { x ^ { a } x ^ { a } }",
+    "pred": "r = \\sqrt { x ^ { a } x ^ { a } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_079_E629.jpg",
+    "img_id": "form_079_E629"
+  },
+  {
+    "gt": "- [ X _ { 5 3 } X _ { 3 1 } X _ { 1 5 } + X _ { 3 4 } X _ { 4 2 } X _ { 2 3 } ]",
+    "pred": "- [ x _ { 5 3 } x _ { 3 1 } x _ { 1 5 } + x _ { 3 4 } x _ { 4 2 } x _ { 2 3 } ]",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_197_E985.jpg",
+    "img_id": "form_5_f_197_E985"
+  },
+  {
+    "gt": "p = \\frac { ( n - 2 ) ^ { 2 } } { 4 } \\frac { \\beta ^ { 2 } } { \\alpha ^ { 2 } }",
+    "pred": "P = \\frac { ( n - 2 ) ^ { 2 } } { 4 } \\frac { \\beta ^ { 2 } } { \\alpha ^ { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_076_E605.jpg",
+    "img_id": "form_076_E605"
+  },
+  {
+    "gt": "- \\frac { 1 } { \\sqrt { 3 } }",
+    "pred": "- \\frac { 1 } { \\sqrt { 3 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_169_E841.jpg",
+    "img_id": "form_5_f_169_E841"
+  },
+  {
+    "gt": "\\frac { 1 } { 3 0 }",
+    "pred": "\\frac { 1 } { 3 0 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_050_E395.jpg",
+    "img_id": "form_050_E395"
+  },
+  {
+    "gt": "i u \\sin x",
+    "pred": "i u \\sin x",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_183_E911.jpg",
+    "img_id": "form_5_f_183_E911"
+  },
+  {
+    "gt": "x _ { 1 } + \\ldots + x _ { r + 1 } = 0",
+    "pred": "x _ { 1 } + \\ldots + x _ { r + 1 } = 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_181_E902.jpg",
+    "img_id": "form_5_f_181_E902"
+  },
+  {
+    "gt": "[ n ] = \\frac { q ^ { n } - q ^ { - n } } { q - q ^ { - 1 } }",
+    "pred": "[ n ] = \\frac { q ^ { n } - q ^ { - n } } { q - q ^ { - 1 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_064_E512.jpg",
+    "img_id": "form_064_E512"
+  },
+  {
+    "gt": "( n - \\frac { 1 } { 2 } , \\frac { 1 } { 2 } , \\frac { 1 } { 2 } , - \\frac { 1 } { 2 } )",
+    "pred": "( n - \\frac { 1 } { 2 } , \\frac { 1 } { 2 } , \\frac { 1 } { 2 } , - \\frac { 1 } { 2 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_660_E3296.jpg",
+    "img_id": "form_5_660_E3296"
+  },
+  {
+    "gt": "\\frac { 1 } { 2 \\pi i } \\log ( y )",
+    "pred": "\\frac { 1 } { 2 \\pi i } \\log ( y )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_065_E517.jpg",
+    "img_id": "form_065_E517"
+  },
+  {
+    "gt": "T ^ { a a } = T ^ { x x } + T ^ { y y }",
+    "pred": "T ^ { a a } = T ^ { x x } + T ^ { y y }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_165_E825.jpg",
+    "img_id": "form_5_f_165_E825"
+  },
+  {
+    "gt": "\\sum _ { i } b ^ { i } ( x _ { 1 } - x _ { 2 } ) ^ { i } = 0",
+    "pred": "\\sum _ { i } b ^ { i } ( x _ { 1 } - x _ { 2 } ) ^ { i } = 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_052_E413.jpg",
+    "img_id": "form_052_E413"
+  },
+  {
+    "gt": "z ^ { 1 } = x ^ { 2 } + i x ^ { 3 }",
+    "pred": "z ^ { 1 } = x ^ { 2 } + i x ^ { 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_182_E910.jpg",
+    "img_id": "form_5_f_182_E910"
+  },
+  {
+    "gt": "\\tan [ \\frac { n } { 2 } \\sigma ]",
+    "pred": "\\tan [ \\frac { \\eta } { 2 } \\sigma ]",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_646_E3229.jpg",
+    "img_id": "form_5_646_E3229"
+  },
+  {
+    "gt": "y d ^ { 2 } x = \\frac { j ^ { 2 } - q } { 1 + q ^ { 2 } } ^ { 2 } d ^ { 2 } y x - \\frac { j q } { 1 + q ^ { 2 } } d ^ { 2 } x y",
+    "pred": "y d ^ { 2 } x = \\frac { j ^ { 2 } - q ^ { 2 } } { 1 + q ^ { 2 } } d ^ { 2 } q x - \\frac { j q } { 1 + q ^ { 2 } } d ^ { 2 } x q",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_053_E423.jpg",
+    "img_id": "form_053_E423"
+  },
+  {
+    "gt": "x d x = j ^ { 2 } d x x",
+    "pred": "x d x = j ^ { 2 } d x x",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_081_E645.jpg",
+    "img_id": "form_081_E645"
+  },
+  {
+    "gt": "x \\in [ - \\frac { 1 } { 2 } , \\frac { 1 } { 2 } ]",
+    "pred": "x \\in [ - \\frac { 1 } { 2 } , \\frac { 1 } { 2 } ]",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_061_E482.jpg",
+    "img_id": "form_061_E482"
+  },
+  {
+    "gt": "7 x _ { A } = 2 8 x _ { B } = 8 x _ { C }",
+    "pred": "7 \\chi _ { A } = 2 8 \\chi _ { B } = 8 \\chi _ { C }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_644_E3219.jpg",
+    "img_id": "form_5_644_E3219"
+  },
+  {
+    "gt": "x = \\cos \\theta ^ { \\prime }",
+    "pred": "x = c o s \\theta ^ { \\prime }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_659_E3294.jpg",
+    "img_id": "form_5_659_E3294"
+  },
+  {
+    "gt": "2 \\pi - \\frac { 2 \\pi } { 3 } = \\frac { 4 \\pi } { 3 }",
+    "pred": "2 \\pi - \\frac { 2 \\pi } { 3 } = \\frac { 4 \\pi } { 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_072_E569.jpg",
+    "img_id": "form_072_E569"
+  },
+  {
+    "gt": "x _ { 1 } + x _ { 2 } = t",
+    "pred": "x _ { 1 } + x _ { 2 } = t",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_078_E619.jpg",
+    "img_id": "form_078_E619"
+  },
+  {
+    "gt": "q ^ { 2 } = ( p - k ) ^ { 2 } = p ^ { 2 } + k ^ { 2 } - 2 p k \\cos \\theta",
+    "pred": "q ^ { 2 } = ( p - k ) ^ { 2 } = p ^ { 2 } + k ^ { 2 } - 2 p k \\cos \\theta",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_069_E547.jpg",
+    "img_id": "form_069_E547"
+  },
+  {
+    "gt": "u ^ { \\frac { k } { n ( n + 1 ) } }",
+    "pred": "u ^ { \\frac { k } { n ( n + 1 ) } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_177_E881.jpg",
+    "img_id": "form_5_f_177_E881"
+  },
+  {
+    "gt": "d f . f - f . d f",
+    "pred": "d f . f - f . d f",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_169_E845.jpg",
+    "img_id": "form_5_f_169_E845"
+  },
+  {
+    "gt": "\\cos \\gamma = \\cos \\theta \\cos \\theta ^ { \\prime } + \\sin \\theta \\sin \\theta ^ { \\prime } \\cos ( \\phi - \\phi ^ { \\prime } )",
+    "pred": "\\cos \\gamma = \\cos \\theta \\cos \\theta ^ { \\prime } + \\sin \\theta \\sin \\theta ^ { \\prime }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_070_E556.jpg",
+    "img_id": "form_070_E556"
+  },
+  {
+    "gt": "1 . 5 9 5 \\times 1 0 ^ { - 3 }",
+    "pred": "1 . 5 9 5 \\times 1 0 ^ { - 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_045_E360.jpg",
+    "img_id": "form_045_E360"
+  },
+  {
+    "gt": "\\sum _ { a = 1 } ^ { 4 } | w _ { a } | ^ { 2 } = 1",
+    "pred": "\\sum _ { a = 1 } ^ { 4 } | w _ { a } | ^ { 2 } = 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_645_E3222.jpg",
+    "img_id": "form_5_645_E3222"
+  },
+  {
+    "gt": "| a _ { 1 } | ^ { 2 } + | a _ { 2 } | ^ { 2 } + | a _ { 3 } | ^ { 2 } = 1",
+    "pred": "| a _ { 1 } | ^ { 2 } + | a _ { 2 } | ^ { 2 } + | a _ { 3 } | ^ { 2 } = 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_196_E979.jpg",
+    "img_id": "form_5_f_196_E979"
+  },
+  {
+    "gt": "x ^ { 4 } - x ^ { 8 }",
+    "pred": "x ^ { 4 } - x ^ { 8 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_045_E357.jpg",
+    "img_id": "form_045_E357"
+  },
+  {
+    "gt": "a \\neq f",
+    "pred": "a \\neq b",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_074_E592.jpg",
+    "img_id": "form_074_E592"
+  },
+  {
+    "gt": "A r = ( x + y ) ^ { - 1 }",
+    "pred": "k = ( x + y ) ^ { - 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_047_E369.jpg",
+    "img_id": "form_047_E369"
+  },
+  {
+    "gt": "- \\sqrt { 2 }",
+    "pred": "- \\sqrt { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_068_E537.jpg",
+    "img_id": "form_068_E537"
+  },
+  {
+    "gt": "\\sin \\alpha = ( r / s ) \\sin \\theta",
+    "pred": "\\sin \\alpha = ( r / s ) \\sin \\theta",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_162_E810.jpg",
+    "img_id": "form_5_f_162_E810"
+  },
+  {
+    "gt": "f ( z ) = \\sum _ { i = 1 } ^ { n } f _ { i } z ^ { i - 1 }",
+    "pred": "b ( z ) = \\sum _ { i = 1 } ^ { N } b _ { i } z ^ { i - 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_083_E663.jpg",
+    "img_id": "form_083_E663"
+  },
+  {
+    "gt": "2 4 - 4 - 2 ( 5 + 3 ) = 4",
+    "pred": "2 4 - 4 - 2 ( 5 + 3 ) = 4",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_188_E939.jpg",
+    "img_id": "form_5_f_188_E939"
+  },
+  {
+    "gt": "V ( x ) = - 4 x ^ { 2 } + 4 x ^ { 4 }",
+    "pred": "V ( x ) = - 4 x ^ { 2 } + 4 x ^ { 4 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_186_E926.jpg",
+    "img_id": "form_5_f_186_E926"
+  },
+  {
+    "gt": "x \\leq 1",
+    "pred": "x \\leq 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_176_E876.jpg",
+    "img_id": "form_5_f_176_E876"
+  },
+  {
+    "gt": "\\beta ( e ) = - \\frac { e ^ { 3 } } { 1 6 \\pi ^ { 2 } } ( \\frac { 2 2 } { 3 } - \\frac { 4 N _ { f } } { 3 } )",
+    "pred": "\\beta ( e ) = - \\frac { e ^ { 3 } } { 1 6 \\pi ^ { 2 } } ( \\frac { 2 2 } { 3 } - \\frac { 4 N _ { f } } { 3 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_195_E973.jpg",
+    "img_id": "form_5_f_195_E973"
+  },
+  {
+    "gt": "y _ { 1 0 } y _ { 6 } = y _ { 9 } y _ { 1 2 }",
+    "pred": "y _ { 1 0 } y _ { 6 } = y _ { 9 } y _ { 1 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_646_E3226.jpg",
+    "img_id": "form_5_646_E3226"
+  },
+  {
+    "gt": "3 3 x _ { A } = 1 3 2 x _ { B } = 1 6 x _ { C }",
+    "pred": "3 3 x _ { A } = 1 3 2 x _ { B } = 1 6 x _ { C }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_062_E490.jpg",
+    "img_id": "form_062_E490"
+  },
+  {
+    "gt": "1 6 + 1 6",
+    "pred": "1 6 + 1 6",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_059_E470.jpg",
+    "img_id": "form_059_E470"
+  },
+  {
+    "gt": "- \\frac { 1 } { 1 5 }",
+    "pred": "\\frac { 1 } { 1 5 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_650_E3247.jpg",
+    "img_id": "form_5_650_E3247"
+  },
+  {
+    "gt": "\\sin \\theta _ { 1 } \\sin \\theta _ { 2 } \\sin \\theta _ { 3 }",
+    "pred": "\\sin \\theta _ { 1 } \\sin \\theta _ { 2 } \\sin \\theta _ { 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_083_E659.jpg",
+    "img_id": "form_083_E659"
+  },
+  {
+    "gt": "b + \\frac { 4 B \\pi ^ { 2 } \\sqrt { 1 - x } } { \\sqrt { 1 + 3 x } } - 4 ( \\gamma + \\log ( 4 ) )",
+    "pred": "b + \\frac { 4 8 \\pi ^ { 2 } \\sqrt { 1 - x } } { \\sqrt { 1 + 3 x } } - 4 ( \\gamma + \\log ( 4 ) )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_200_E999.jpg",
+    "img_id": "form_5_f_200_E999"
+  },
+  {
+    "gt": "L \\sin \\theta",
+    "pred": "L \\sin \\theta",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_189_E941.jpg",
+    "img_id": "form_5_f_189_E941"
+  },
+  {
+    "gt": "\\frac { n ( 2 n - 1 ) ( 2 n + 1 ) } { 3 }",
+    "pred": "\\frac { n ( 2 n - 1 ) ( 2 n + 1 ) } { 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_204_E1018.jpg",
+    "img_id": "form_5_f_204_E1018"
+  },
+  {
+    "gt": "\\frac { 5 } { 8 4 }",
+    "pred": "\\frac { 5 } { 8 4 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_072_E573.jpg",
+    "img_id": "form_072_E573"
+  },
+  {
+    "gt": "f ( y ) = \\sqrt { 1 - y ^ { 2 } }",
+    "pred": "f ( y ) = \\sqrt { 1 - y ^ { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_649_E3243.jpg",
+    "img_id": "form_5_649_E3243"
+  },
+  {
+    "gt": "2 ^ { \\frac { n - 2 } { n } } [ \\frac { B ( 1 - n ) } { C ( 3 n - 4 ) } ] ^ { \\frac { n - 2 } { 2 n } }",
+    "pred": "2 ^ { \\frac { n - 2 } { n } } [ \\frac { B ( 1 - n ) } { C ( 3 n - 4 ) } ] ^ { \\frac { n - 2 } { 2 n } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_071_E566.jpg",
+    "img_id": "form_071_E566"
+  },
+  {
+    "gt": "H _ { a a } = H _ { x x } + H _ { y y }",
+    "pred": "H _ { a a } = H _ { x x } + H _ { y y }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_194_E970.jpg",
+    "img_id": "form_5_f_194_E970"
+  },
+  {
+    "gt": "z y ^ { 2 } = 4 x ^ { 3 } - g _ { 2 } z ^ { 2 } x - g _ { 3 } z ^ { 3 }",
+    "pred": "z y ^ { 2 } = 4 x ^ { 3 } - q _ { 2 } z ^ { 2 } x - q _ { 3 } z ^ { 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_649_E3241.jpg",
+    "img_id": "form_5_649_E3241"
+  },
+  {
+    "gt": "| k | ^ { - 1 } \\sin | k | u",
+    "pred": "| k | ^ { - 1 } s i n | k | u",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_174_E869.jpg",
+    "img_id": "form_5_f_174_E869"
+  },
+  {
+    "gt": "x = a ( t - t _ { 0 } ) ^ { - 1 } + p ( t - t _ { 0 } ) ^ { r - 1 }",
+    "pred": "r = \\alpha ( b - t _ { 0 } ) ^ { - 1 } + p ( t - t _ { 0 } ) ^ { r - 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_204_E1020.jpg",
+    "img_id": "form_5_f_204_E1020"
+  },
+  {
+    "gt": "S \\log S",
+    "pred": "S \\log S",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_071_E568.jpg",
+    "img_id": "form_071_E568"
+  },
+  {
+    "gt": "A = b _ { 1 } x _ { 2 } d x _ { 3 } + b _ { 2 } x _ { 3 } d x _ { 1 } + b _ { 3 } x _ { 1 } d x _ { 2 }",
+    "pred": "A = b _ { 1 } x _ { 2 } d x _ { 3 } + b _ { 2 } x _ { 3 } d x _ { 1 } + b _ { 3 } x _ { 1 } d x _ { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_204_E1019.jpg",
+    "img_id": "form_5_f_204_E1019"
+  },
+  {
+    "gt": "2 - 6 \\cos \\theta",
+    "pred": "2 - 6 \\cos \\theta",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_647_E3233.jpg",
+    "img_id": "form_5_647_E3233"
+  },
+  {
+    "gt": "\\sum m _ { i } = m",
+    "pred": "\\sum m _ { i } = m",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_046_E364.jpg",
+    "img_id": "form_046_E364"
+  },
+  {
+    "gt": "r = x + i y",
+    "pred": "r = x + i y",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_051_E407.jpg",
+    "img_id": "form_051_E407"
+  },
+  {
+    "gt": "- x - a",
+    "pred": "- x - a",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_064_E510.jpg",
+    "img_id": "form_064_E510"
+  },
+  {
+    "gt": "m = 2 \\sin \\gamma",
+    "pred": "m = 2 \\sin \\gamma",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_193_E965.jpg",
+    "img_id": "form_5_f_193_E965"
+  },
+  {
+    "gt": "y _ { i } ^ { 2 } = x _ { i } ( x _ { i } - 1 ) ( x _ { i } - a _ { i } )",
+    "pred": "y _ { i } ^ { 2 } = x _ { i } ( x _ { i } - 1 ) ( x _ { i } - a _ { i } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_052_E411.jpg",
+    "img_id": "form_052_E411"
+  },
+  {
+    "gt": "x _ { 1 } y _ { 1 } = q y _ { 1 } x _ { 1 }",
+    "pred": "x _ { 1 } y _ { 1 } = q y _ { 1 } x _ { 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_648_E3239.jpg",
+    "img_id": "form_5_648_E3239"
+  },
+  {
+    "gt": "\\infty - \\infty",
+    "pred": "\\infty - \\infty",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_075_E597.jpg",
+    "img_id": "form_075_E597"
+  },
+  {
+    "gt": "x _ { 1 1 } x _ { 2 2 } - x _ { 1 2 } x _ { 2 1 } = 0",
+    "pred": "x _ { 1 1 } x _ { 2 2 } - x _ { 1 2 } x _ { 2 1 } = 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_068_E544.jpg",
+    "img_id": "form_068_E544"
+  },
+  {
+    "gt": "y _ { 0 } = \\sin ^ { 2 } ( H z _ { 0 } )",
+    "pred": "y _ { 0 } = \\sin ^ { 2 } ( H z _ { 0 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_192_E957.jpg",
+    "img_id": "form_5_f_192_E957"
+  },
+  {
+    "gt": "2 n > 1 + \\sqrt { d + n }",
+    "pred": "2 n > 1 + \\sqrt { d + n }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_076_E608.jpg",
+    "img_id": "form_076_E608"
+  },
+  {
+    "gt": "x ^ { 0 } - x ^ { 3 }",
+    "pred": "x ^ { 0 } - x ^ { 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_180_E899.jpg",
+    "img_id": "form_5_f_180_E899"
+  },
+  {
+    "gt": "f = C e ^ { \\frac { 1 } { \\theta } } ( \\frac { x _ { 1 } } { \\sqrt { \\gamma } } + i \\sqrt { \\gamma } x _ { 2 } ) ^ { 2 }",
+    "pred": "f = C e ^ { \\frac { 1 } { \\theta } ( \\frac { x _ { 1 } } { \\sqrt { \\gamma } } + i \\sqrt { \\gamma } x _ { 2 } ) ^ { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_062_E492.jpg",
+    "img_id": "form_062_E492"
+  },
+  {
+    "gt": "\\log ( 1 - r )",
+    "pred": "\\log ( 1 - r )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_067_E532.jpg",
+    "img_id": "form_067_E532"
+  },
+  {
+    "gt": "7 , 5 \\times 1 0 ^ { - } 5",
+    "pred": "7 , 5 \\times 1 0 ^ { - 5 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_049_E388.jpg",
+    "img_id": "form_049_E388"
+  },
+  {
+    "gt": "1 + \\sqrt { 1 + m ^ { 2 } + q ^ { 2 } }",
+    "pred": "1 + \\sqrt { 1 + m ^ { 2 } + q ^ { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_082_E656.jpg",
+    "img_id": "form_082_E656"
+  },
+  {
+    "gt": "x ( 1 - x )",
+    "pred": "x ( 1 - x )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_642_E3210.jpg",
+    "img_id": "form_5_642_E3210"
+  },
+  {
+    "gt": "B C H ( x , y ) = x + y + \\frac { 1 } { 2 } [ x , y ] + \\ldots",
+    "pred": "B C H ( x , y ) = - x + y + \\frac { 1 } { 2 } [ x , y ] + \\ldots",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_199_E994.jpg",
+    "img_id": "form_5_f_199_E994"
+  },
+  {
+    "gt": "v \\rightarrow \\sum a _ { i } v ^ { i }",
+    "pred": "v \\rightarrow \\sum a _ { i } v ^ { i }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_055_E440.jpg",
+    "img_id": "form_055_E440"
+  },
+  {
+    "gt": "\\sum | A _ { i } | ^ { 2 } = \\sum | B _ { i } | ^ { 2 } = 1",
+    "pred": "\\sum | A _ { i } | ^ { 2 } = \\sum | B _ { i } | ^ { 2 } = 1",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_060_E477.jpg",
+    "img_id": "form_060_E477"
+  },
+  {
+    "gt": "c _ { \\theta } = \\cos \\theta",
+    "pred": "C _ { \\theta } = c o s \\theta",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_654_E3270.jpg",
+    "img_id": "form_5_654_E3270"
+  },
+  {
+    "gt": "1 5 x _ { A } = 6 0 x _ { B } = 4 x _ { C }",
+    "pred": "1 5 x _ { A } = 6 0 x _ { B } = 4 x _ { C }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_051_E405.jpg",
+    "img_id": "form_051_E405"
+  },
+  {
+    "gt": "x ^ { 9 } = y",
+    "pred": "x ^ { g } = y",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_072_E570.jpg",
+    "img_id": "form_072_E570"
+  },
+  {
+    "gt": "- \\frac { x _ { 1 } } { 2 }",
+    "pred": "- \\frac { x _ { 1 } } { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_056_E444.jpg",
+    "img_id": "form_056_E444"
+  },
+  {
+    "gt": "S = \\int ( \\frac { R } { 1 6 \\pi } + L _ { M } ) \\sqrt { - g } d ^ { 4 } x",
+    "pred": "S = \\int ( \\frac { R } { 1 6 \\pi } + L _ { n } ) \\sqrt { - g } d ^ { 4 } x",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_060_E479.jpg",
+    "img_id": "form_060_E479"
+  },
+  {
+    "gt": "\\beta = \\frac { \\pi } { 4 } - \\frac { \\theta } { 2 }",
+    "pred": "\\beta = \\frac { \\pi } { 4 } - \\frac { \\theta } { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_050_E393.jpg",
+    "img_id": "form_050_E393"
+  },
+  {
+    "gt": "- 4 ( \\gamma + \\log 4 ) + b + \\frac { 4 B \\pi ^ { 2 } \\sqrt { 1 - x } } { \\sqrt { 1 + 3 x } }",
+    "pred": "- 4 ( y + \\log 4 ) + b + \\frac { 4 B \\pi ^ { 2 } \\sqrt { 1 - 3 x } } { \\sqrt { 1 + 3 x } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_082_E649.jpg",
+    "img_id": "form_082_E649"
+  },
+  {
+    "gt": "b ^ { - \\frac { 4 } { 3 } }",
+    "pred": "b ^ { - \\frac { 4 } { 3 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_162_E809.jpg",
+    "img_id": "form_5_f_162_E809"
+  },
+  {
+    "gt": "a \\leq | t | \\leq b",
+    "pred": "a \\leq | t | \\leq b",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_046_E366.jpg",
+    "img_id": "form_046_E366"
+  },
+  {
+    "gt": "\\log ( x )",
+    "pred": "\\log ( x )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_048_E382.jpg",
+    "img_id": "form_048_E382"
+  },
+  {
+    "gt": "b \\rightarrow + \\infty",
+    "pred": "b \\rightarrow + \\infty",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_201_E1002.jpg",
+    "img_id": "form_5_f_201_E1002"
+  },
+  {
+    "gt": "\\pm \\sqrt { p - 1 }",
+    "pred": "\\pm \\sqrt { p - 1 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_045_E359.jpg",
+    "img_id": "form_045_E359"
+  },
+  {
+    "gt": "- \\frac { \\pi } { 4 }",
+    "pred": "- \\frac { \\pi } { 4 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_049_E385.jpg",
+    "img_id": "form_049_E385"
+  },
+  {
+    "gt": "9 / 2 - 3 \\cos \\theta - ( 3 / 2 ) \\cos ^ { 2 } \\theta",
+    "pred": "9 / 2 - 3 \\cos \\theta - ( 3 / 2 ) \\cos ^ { 2 } \\theta",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_055_E433.jpg",
+    "img_id": "form_055_E433"
+  },
+  {
+    "gt": "t \\times t",
+    "pred": "t \\times t",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_058_E460.jpg",
+    "img_id": "form_058_E460"
+  },
+  {
+    "gt": "V ( x ) = - \\frac { e } { 2 } ( x ^ { 2 } + y ^ { 2 } - 2 z ^ { 2 } )",
+    "pred": "V ( x ) = - \\frac { \\ell } { 2 } ( x ^ { 2 } + y ^ { 2 } - 2 z ^ { 2 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_641_E3201.jpg",
+    "img_id": "form_5_641_E3201"
+  },
+  {
+    "gt": "P _ { 6 } ( x ) = x ^ { 2 } P _ { 4 } ( x ) = x ^ { 2 } ( x ^ { 2 } - a ^ { 2 } ) ( x ^ { 2 } - b ^ { 2 } )",
+    "pred": "P _ { 6 } ( x ) = x ^ { 2 } P _ { 4 } ( x ) = x ^ { 2 } ( x ^ { 2 } - a ^ { 2 } ) ( x ^ { 2 } - b ^ { 2 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_074_E586.jpg",
+    "img_id": "form_074_E586"
+  },
+  {
+    "gt": "s + n - \\frac { 1 } { 2 }",
+    "pred": "s + n - \\frac { 1 } { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_084_E667.jpg",
+    "img_id": "form_084_E667"
+  },
+  {
+    "gt": "\\tan \\alpha = 2 \\beta",
+    "pred": "\\tan \\alpha = 2 \\beta",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_189_E943.jpg",
+    "img_id": "form_5_f_189_E943"
+  },
+  {
+    "gt": "8 0 a + 1 6 b",
+    "pred": "8 0 a + 1 6 b",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_068_E538.jpg",
+    "img_id": "form_068_E538"
+  },
+  {
+    "gt": "a ( t ) = \\sin ( H t )",
+    "pred": "a ( t ) = \\sin ( H t )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_201_E1004.jpg",
+    "img_id": "form_5_f_201_E1004"
+  },
+  {
+    "gt": "\\alpha = \\frac { 1 } { \\tan \\theta }",
+    "pred": "\\alpha = \\frac { 1 } { \\tan \\theta }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_653_E3262.jpg",
+    "img_id": "form_5_653_E3262"
+  },
+  {
+    "gt": "x ^ { 1 } \\ldots x ^ { p }",
+    "pred": "x ^ { 1 } \\ldots x ^ { p }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_656_E3278.jpg",
+    "img_id": "form_5_656_E3278"
+  },
+  {
+    "gt": "\\int _ { 0 } ^ { 1 } d t y ( t ) = 0",
+    "pred": "\\int _ { 0 } ^ { 1 } d t y ( t ) = 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_203_E1013.jpg",
+    "img_id": "form_5_f_203_E1013"
+  },
+  {
+    "gt": "\\frac { 1 } { 2 } ( 3 \\pm \\sqrt { 9 - 4 m ^ { 2 } } )",
+    "pred": "\\frac { 1 } { 2 } ( 3 \\pm \\sqrt { 9 - 4 m ^ { 2 } } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_205_E1024.jpg",
+    "img_id": "form_5_f_205_E1024"
+  },
+  {
+    "gt": "0 \\leq y < + \\infty",
+    "pred": "0 \\leq y < + \\infty",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_196_E976.jpg",
+    "img_id": "form_5_f_196_E976"
+  },
+  {
+    "gt": "g _ { M R } = \\sqrt { 2 ( p + 1 ) } \\sin \\frac { \\pi } { 4 } ( \\lambda + 1 )",
+    "pred": "g _ { M R } = \\sqrt { 2 ( p + 1 ) } \\sin \\frac { \\pi } { 4 } ( \\lambda + 1 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_169_E843.jpg",
+    "img_id": "form_5_f_169_E843"
+  },
+  {
+    "gt": "\\frac { ( 3 + z ^ { 2 } ) ^ { 2 } } { 1 6 }",
+    "pred": "\\frac { ( 3 + z ^ { 2 } ) ^ { 2 } } { 1 6 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_047_E373.jpg",
+    "img_id": "form_047_E373"
+  },
+  {
+    "gt": "z = e ^ { i \\phi } \\tan ( \\theta / 2 )",
+    "pred": "z = e ^ { i \\phi } \\tan ( \\theta / 2 )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_047_E374.jpg",
+    "img_id": "form_047_E374"
+  },
+  {
+    "gt": "\\frac { 4 \\pi } { 5 }",
+    "pred": "\\frac { 4 } { 5 } \\pi",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_161_E801.jpg",
+    "img_id": "form_5_f_161_E801"
+  },
+  {
+    "gt": "a ( y ) = a ( - y )",
+    "pred": "a ( y ) = a ( - y )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_658_E3290.jpg",
+    "img_id": "form_5_658_E3290"
+  },
+  {
+    "gt": "4 5 0 0 \\div 4 5 0",
+    "pred": "4 5 0 0 \\div 4 5 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_064_E506.jpg",
+    "img_id": "form_064_E506"
+  },
+  {
+    "gt": "\\frac { v _ { 1 0 } } { 1 6 } \\int _ { 0 } ^ { \\infty } d l ( n _ { 9 } - 3 2 ) ^ { 2 }",
+    "pred": "\\frac { \\sqrt { 1 0 } } { 1 6 } \\int _ { 0 } ^ { \\infty } d l ( n _ { q } - 3 2 ) ^ { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_185_E923.jpg",
+    "img_id": "form_5_f_185_E923"
+  },
+  {
+    "gt": "b ^ { 2 } = 1 + \\frac { u ^ { 2 } } { 2 } = \\frac { 1 } { E ^ { 2 } }",
+    "pred": "b ^ { 2 } = 1 + \\frac { U ^ { 2 } } { 2 } = \\frac { 1 } { E ^ { 2 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_080_E639.jpg",
+    "img_id": "form_080_E639"
+  },
+  {
+    "gt": "( \\frac { B } { A + 1 } ) ^ { \\frac { 1 } { n + 1 } }",
+    "pred": "( \\frac { B } { A + 1 } ) ^ { \\frac { 1 } { n + 1 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_660_E3300.jpg",
+    "img_id": "form_5_660_E3300"
+  },
+  {
+    "gt": "\\alpha = \\sqrt { \\frac { 1 } { 4 } q _ { 2 } q _ { 3 } } z ^ { 1 }",
+    "pred": "\\alpha = \\sqrt { \\frac { 1 } { 4 } q _ { 2 } q _ { 3 } Z ^ { 1 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_076_E602.jpg",
+    "img_id": "form_076_E602"
+  },
+  {
+    "gt": "C ( x ) = - i ( R ( x ) - A ( x ) )",
+    "pred": "C ( x ) = - i ( R ( x ) - A ( x ) )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_060_E480.jpg",
+    "img_id": "form_060_E480"
+  },
+  {
+    "gt": "8 + 8 + 8 + 8 + 6",
+    "pred": "8 + 8 + 8 + 8 + 6",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_167_E834.jpg",
+    "img_id": "form_5_f_167_E834"
+  },
+  {
+    "gt": "1 8 - 4 + 1 = 1 5",
+    "pred": "1 8 - 4 + 1 = 1 5",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_207_E1035.jpg",
+    "img_id": "form_5_f_207_E1035"
+  },
+  {
+    "gt": "0 \\times \\frac { 3 } { 2 }",
+    "pred": "0 \\times \\frac { 3 } { 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_161_E804.jpg",
+    "img_id": "form_5_f_161_E804"
+  },
+  {
+    "gt": "\\int d ^ { 4 } x \\sqrt { g } R",
+    "pred": "\\int d _ { 4 } x \\sqrt { g } R",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_056_E442.jpg",
+    "img_id": "form_056_E442"
+  },
+  {
+    "gt": "a - b",
+    "pred": "a - b",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_173_E864.jpg",
+    "img_id": "form_5_f_173_E864"
+  },
+  {
+    "gt": "\\frac { 1 } { \\sqrt { r } }",
+    "pred": "\\frac { 1 } { \\sqrt { r } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_064_E507.jpg",
+    "img_id": "form_064_E507"
+  },
+  {
+    "gt": "\\alpha \\log q",
+    "pred": "\\alpha \\log q",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_172_E856.jpg",
+    "img_id": "form_5_f_172_E856"
+  },
+  {
+    "gt": "\\sin ( \\theta _ { 1 } + \\theta _ { 2 } + \\theta _ { 3 } ) = 0",
+    "pred": "\\sin ( \\theta _ { 1 } + \\theta _ { 2 } + \\theta _ { 3 } ) = 0",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_187_E935.jpg",
+    "img_id": "form_5_f_187_E935"
+  },
+  {
+    "gt": "\\phi ( x ) = F ( \\frac { c } { F ^ { - 1 } ( x ) } )",
+    "pred": "\\phi ( x ) = F ( \\frac { c } { F ^ { - 1 } ( x ) } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_066_E521.jpg",
+    "img_id": "form_066_E521"
+  },
+  {
+    "gt": "H = \\frac { 1 } { 2 } p _ { 1 } ^ { 2 } + \\frac { 1 } { 2 } p _ { 2 } ^ { 2 } + V ( x _ { 1 } ^ { 2 } + x _ { 2 } ^ { 2 } )",
+    "pred": "H = \\frac { 1 } { 2 } p _ { 1 } ^ { 2 } + \\frac { 1 } { 2 } p _ { 2 } ^ { 2 } + V ( x _ { 1 } ^ { 2 } + x _ { 2 } ^ { 2 } )",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_059_E465.jpg",
+    "img_id": "form_059_E465"
+  },
+  {
+    "gt": "e x p [ 2 \\pi \\sqrt { 2 n _ { 1 } n _ { 5 } } ]",
+    "pred": "e x p [ 2 \\pi \\sqrt { 2 n _ { 1 } n _ { 5 } } ]",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_645_E3224.jpg",
+    "img_id": "form_5_645_E3224"
+  },
+  {
+    "gt": "- \\frac { 1 } { 2 4 } + \\frac { 1 } { 1 6 } = \\frac { 1 } { 4 8 }",
+    "pred": "- \\frac { 1 } { 2 4 } + \\frac { 1 } { 1 6 } = \\frac { 1 } { 4 8 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_196_E978.jpg",
+    "img_id": "form_5_f_196_E978"
+  },
+  {
+    "gt": "- \\frac { 1 } { 2 } + 2 ^ { p - 4 } + N",
+    "pred": "- \\frac { 1 } { 2 } + 2 ^ { - p - 4 } + N",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_644_E3220.jpg",
+    "img_id": "form_5_644_E3220"
+  },
+  {
+    "gt": "\\frac { 1 } { 2 } \\sqrt { \\frac { 5 } { 3 } }",
+    "pred": "\\frac { 1 } { 2 } \\sqrt { \\frac { 5 } { 3 } }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_175_E872.jpg",
+    "img_id": "form_5_f_175_E872"
+  },
+  {
+    "gt": "\\frac { 1 } { 3 ! 1 ! }",
+    "pred": "\\frac { 1 } { 3 ! 1 ! }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_069_E551.jpg",
+    "img_id": "form_069_E551"
+  },
+  {
+    "gt": "x \\rightarrow - x",
+    "pred": "x \\rightarrow - x",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_182_E907.jpg",
+    "img_id": "form_5_f_182_E907"
+  },
+  {
+    "gt": "9 + 1 1 + 1 3",
+    "pred": "9 + 1 1 + 1 3",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_053_E421.jpg",
+    "img_id": "form_053_E421"
+  },
+  {
+    "gt": "l \\sin y _ { 0 }",
+    "pred": "l \\sin y _ { 0 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_072_E574.jpg",
+    "img_id": "form_072_E574"
+  },
+  {
+    "gt": "7 . 3 6 9 \\times 1 0 ^ { - 2 }",
+    "pred": "7 . 3 6 9 \\times 1 0 ^ { - 2 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_066_E528.jpg",
+    "img_id": "form_066_E528"
+  },
+  {
+    "gt": "\\frac { c } { 3 } = \\frac { 1 1 } { 1 3 }",
+    "pred": "\\frac { C } { 3 } = \\frac { 1 1 } { 1 3 }",
+    "image_path": "./data/CROHME2023/CROHME2023_val/images/form_5_f_162_E807.jpg",
+    "img_id": "form_5_f_162_E807"
+  }
+]
