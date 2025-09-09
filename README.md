@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="https://arxiv.org/abs/2505.23566"><img src="https://img.shields.io/badge/📄-Paper-red"></a>
-    <a href="https://huggingface.co/phxember/Uni-MuMER-Qwen2.5-VL-3B"><img src="https://img.shields.io/badge/🤗 HuggingFace-Data & Models-green"></a>
+    <a href="https://huggingface.co/collections/phxember/uni-mumer-68bfba4747e9289232f3d89e"><img src="https://img.shields.io/badge/🤗 HuggingFace-Data & Models-green"></a>
 </p>
 
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-2408.08578-b31b1b.svg)](https://arxiv.org/abs/24xxxx) -->
@@ -24,7 +24,7 @@ Experiments on the CROHME and HME100K datasets show that Uni-MuMER achieves new 
 
 ## 📢 Updates
 
-
+- **2025-09-09** : Release dataset ([Uni-MuMER-Data](https://huggingface.co/datasets/phxember/Uni-MuMER-Data) and [Uni-MuMER-Valid-Test](https://huggingface.co/datasets/phxember/Uni-MuMER-Valid-Test)) and training code. [See Training]
 - **2025-06-02**: Release of model weights and inference scripts.
 
 ## 📦 Dataset Preparation
@@ -72,6 +72,16 @@ python scripts/vllm_infer.py --input-dir <input-dir> --output-dir <output-dir> -
 <!-- $$ -->
 
 
+## 🏋️ Training
+Our training code depend on [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
+
+For training dependencies, please refer to [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) or requirements_training.txt.
+
+```bash
+llamafactory-cli train train/Uni-MuMER-train.yaml
+```
+
+
 
 
 
@@ -85,7 +95,6 @@ python scripts/vllm_infer.py --input-dir <input-dir> --output-dir <output-dir> -
 ## 📦 Installation
 
 
-## 🏋️ Training
 
 
 
@@ -97,8 +106,8 @@ python scripts/vllm_infer.py --input-dir <input-dir> --output-dir <output-dir> -
 ## ✅ TODO
 - [x] Inference code and pretrained models.
 - [x] Evaluation code.
-- [ ] Training code.
-- [ ] Training data.
+- [x] Training code.
+- [x] Training data.
 - [ ] Preprocess code.
 
 

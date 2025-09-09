@@ -1,0 +1,55 @@
+### model
+model_name_or_path: Qwen/Qwen2.5-VL-3B-Instruct
+
+image_max_pixels: 262144
+video_max_pixels: 16384
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+freeze_vision_tower: false # choices: [true, false]
+freeze_multi_modal_projector: false # choices: [true, false]
+freeze_language_model: false # choices: [true, false]
+deepspeed: examples/deepspeed/ds_z2_config.json
+
+### dataset
+# You need load the datasets first before using them, following LLamaFactory settings.
+dataset: crohme2023, crohme2023_can, crohme2023_error_find, crohme2023_error_fix, crohme2023_tree, crohme_train, crohme_train_can, crohme_train_error_find, crohme_train_error_fix, crohme_train_tree, hme100k_error_find, hme100k_error_fix, hme100k_train, hme100k_train_can, hme100k_train_tree, im2latex_v2_error_find, im2latex_v2_error_fix, im2latex_v2_train, im2latex_v2_train_can, im2latex_v2_train_tree, mathwriting_symbols, mathwriting_train, mathwriting_train_can, mathwriting_train_error_find, mathwriting_train_error_fix, mathwriting_train_tree
+
+template: qwen2_vl
+cutoff_len: 2048
+max_samples: 20000000
+overwrite_cache: true
+preprocessing_num_workers: 128
+dataloader_num_workers: 128
+
+### output
+output_dir: saves/qwen2.5_vl-3b/full/sft/standred/uni-mumer_full
+logging_steps: 1
+save_steps: 1000
+plot_loss: true
+overwrite_output_dir: true
+report_to: tensorboard
+
+### train
+per_device_train_batch_size: 4
+gradient_accumulation_steps: 32  # for 4 A100 80G, this setting is for total batch size 512
+
+learning_rate: 1.0e-5
+num_train_epochs: 1.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+save_only_model: true
+resume_from_checkpoint: null
+
+# no need to eval during training
+### eval
+# eval_dataset: crohme_2014,crohme_2016,crohme_2019
+# val_size: 0
+# per_device_eval_batch_size: 8
+# eval_strategy: steps
+# eval_steps: 1000
