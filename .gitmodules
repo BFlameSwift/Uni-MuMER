@@ -1,0 +1,3 @@
+[submodule "train/LLaMA-Factory"]
+	path = train/LLaMA-Factory
+	url = https://github.com/BFlameSwift/LLaMA-Factory
