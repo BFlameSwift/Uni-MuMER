@@ -18,19 +18,19 @@ We introduce Uni-MuMER, which fully fine-tunes the Qwen2.5-VL-3B model for the H
 
 ![Uni-MuMER](./asserts/fig/main_fig.drawio_00.png)
 
-Experiments on the CROHME and HME100K datasets show that Uni-MuMER achieves new state-of-the-art performance, surpassing the best lightweight specialized model SSAN by 16.31% and the top-performing VLM Gemini2.5-flash by 24.42% in the zero-shot setting.
+Experiments on the CROHME and HME100K datasets show that Uni-MuMER achieves new state-of-the-art performance, surpassing the best lightweight specialized model, SSAN, by 16.31% and the top-performing VLM Gemini2.5-flash by 24.42% in the zero-shot setting.
 
 ![intro](./asserts/fig/CROHME_00.png)
 
 ## 📢 Updates
-
+- **2025-09-18**: This work got accepted to NeurIPS 2025 as a Spotlight (688/21575).
 - **2025-09-09** : Release dataset ([Uni-MuMER-Data](https://huggingface.co/datasets/phxember/Uni-MuMER-Data) and [Uni-MuMER-Valid-Test](https://huggingface.co/datasets/phxember/Uni-MuMER-Valid-Test)) and training code. [See Training]
 - **2025-06-02**: Release of model weights and inference scripts.
 
 ## 📦 Dataset Preparation
 
-1. **Download** `data.zip` from github , huggingface, or [Google Drive link](https://drive.google.com/drive/folders/1T8a3WxICZVl1NJ99hu9tuuqqNZoxGhXq?usp=sharing).
-2. **Unzip** it at the project root. After extraction you should have:
+1. **Download** `data.zip` from GitHub, Huggingface, or [Google Drive link](https://drive.google.com/drive/folders/1T8a3WxICZVl1NJ99hu9tuuqqNZoxGhXq?usp=sharing).
+2. **Unzip** it at the project root. After extraction, you should have:
 
 ```
 data
@@ -49,7 +49,7 @@ data
 
 
 ## 🏃 Inference
-After the dataset is in place you can run **batch inference** over all three test sets with one of the two commands below.
+After the dataset is in place, you can run **batch inference** over all three test sets with one of the two commands below.
 
 ### Shell wrapper (recommended)
 ```bash
@@ -66,14 +66,14 @@ python scripts/vllm_infer.py --input-dir <input-dir> --output-dir <output-dir> -
 ```
 
  **Tip:** 
-  - To select GPUs on multi‑GPU machines just export `CUDA_VISIBLE_DEVICES` before running the script, e.g. `export CUDA_VISIBLE_DEVICES=1,2`
+  - To select GPUs on multi‑GPU machines just export `CUDA_VISIBLE_DEVICES` before running the script, e.g., `export CUDA_VISIBLE_DEVICES=1,2`
 
   - For batch_size, you can use the `--batch_size` argument to control the number of samples per `vLLM.generate()` call. The default value is 32768, which is prevented from being too large to avoid OOM errors. 
 <!-- $$ -->
 
 
 ## 🏋️ Training
-Our training code depend on [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
+Our training code depends on [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
 
 For training dependencies, please refer to [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) or requirements_training.txt.
 
