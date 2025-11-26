@@ -3,7 +3,7 @@
 
 set -euo pipefail
 
-export CUDA_VISIBLE_DEVICES=1      # Change GPU ID here if needed
+export CUDA_VISIBLE_DEVICES=0      # Change GPU ID here if needed
 
 usage() {
   echo "Usage: $0 -m MODEL" >&2
