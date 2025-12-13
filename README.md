@@ -24,7 +24,7 @@ Experiments on the CROHME and HME100K datasets show that Uni-MuMER achieves new 
 
 ## 📢 Updates
 - **2025-09-18**: This work got accepted to NeurIPS 2025 as a Spotlight (688/21575).
-- **2025-09-09** : Release dataset ([Uni-MuMER-Data](https://huggingface.co/datasets/phxember/Uni-MuMER-Data) and [Uni-MuMER-Valid-Test](https://huggingface.co/datasets/phxember/Uni-MuMER-Valid-Test)) and training code. [See Training]
+- **2025-09-09** : Release dataset ([Uni-MuMER-Data](https://huggingface.co/datasets/phxember/Uni-MuMER-Data) and [valid/test data](https://drive.google.com/drive/folders/1T8a3WxICZVl1NJ99hu9tuuqqNZoxGhXq?usp=sharing)) and training code. [See Training]
 - **2025-06-02**: Release of model weights and inference scripts.
 
 ## 📦 Dataset Preparation
