@@ -1,0 +1,4 @@
+sample_000 x + y
+sample_001 \frac x y
+sample_002 \sqrt [ ] x
+sample_003 求 x

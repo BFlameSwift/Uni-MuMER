@@ -1,0 +1,22 @@
+[
+    {
+        "image_path": "preprocess/examples/mathnet_hmer/images/sample_000.png",
+        "caption": "x + y",
+        "image_id": "sample_000"
+    },
+    {
+        "image_path": "preprocess/examples/mathnet_hmer/images/sample_001.png",
+        "caption": "\\frac x y",
+        "image_id": "sample_001"
+    },
+    {
+        "image_path": "preprocess/examples/mathnet_hmer/images/sample_002.png",
+        "caption": "\\sqrt [ ] x",
+        "image_id": "sample_002"
+    },
+    {
+        "image_path": "preprocess/examples/mathnet_hmer/images/sample_003.png",
+        "caption": "求 x",
+        "image_id": "sample_003"
+    }
+]

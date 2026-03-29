@@ -4,6 +4,82 @@ We provide the preprocessing utilities used to convert the original notebook
 workflows into reusable command-line tools for dataset construction and
 reproducibility.
 
+## MathNet4clean Submodule
+
+We track [`preprocess/MathNet4clean`](./MathNet4clean) as a git submodule to
+keep the external MathNet preprocessing code reproducible and versioned
+separately from the Uni-MuMER codebase.
+
+Initialize the submodule after cloning the main repository:
+
+```bash
+git submodule update --init --recursive
+```
+
+On top of the cloned submodule, we port the archived Uni-MuMER MathNet cleaner
+as:
+
+- `preprocess/MathNet4clean/preprocessing/improve_tokens_unimumer.py`
+- `preprocess/MathNet4clean/preprocessing/latex_cate_lib.py`
+
+This path is wired into
+`preprocess/MathNet4clean/tools/dataloader.py` and keeps the original upstream
+`preprocessing/improve_tokens.py` intact for reference.
+
+## MathNet HMER Data Generation
+
+`make_mathnet_hmer_data.py` ports the archived notebook
+`repo/mathnet-ly/0410_proc_file.ipynb` into a reusable CLI.
+
+It provides two subcommands:
+
+- `process`: run the full MathNet tokenize/normalize pipeline and export the
+  intermediate files, invalid-record log, and final HMER prompt JSON
+- `prompt-only`: build prompt JSON directly from original captions without the
+  MathNet cleaning stages
+
+The `process` subcommand keeps the original notebook-style artifact layout,
+including:
+
+- `step1_csv.csv`
+- `step1.5_csv.csv`
+- `step2_captions.txt`
+- `step3_tokenized.txt`
+- `step4_restored.csv`
+- `step4_restored_normalized.csv`
+- `step6_final.txt`
+- `step7_final.json`
+- `step7_point_five_caption_only.txt`
+- `step7_point_six_tokenize_txt_only.txt`
+- `step7_point_seven_caption_json.json`
+- `step8_post_delete.json`
+- `step9_hmer_json.json`
+- `invalid_record.json`
+- `<output_dir_name>_0425_final.json`
+
+Compared with the notebook, the CLI makes a few intentional engineering
+improvements while preserving the active data flow:
+
+- it uses the in-repo `preprocess/MathNet4clean` submodule instead of hard-coded
+  external paths
+- it calls `improve_tokens_unimumer.py`, which is the cleaned port of the
+  archived `improve_tokens_ly.py`
+- it supports both `.txt` and `.json` inputs via explicit CLI arguments
+- it provides reproducible sample inputs and committed sample outputs
+
+Example:
+
+```bash
+python preprocess/make_mathnet_hmer_data.py process \
+  --input preprocess/examples/mathnet_hmer/sample_caption.txt \
+  --output-dir preprocess/examples/mathnet_hmer/processed_output \
+  --image-base-path preprocess/examples/mathnet_hmer/images \
+  --image-suffix .png \
+  --mathnet-root preprocess/MathNet4clean
+```
+
+Ready-to-run examples are provided in `preprocess/examples/mathnet_hmer/`.
+
 ## UniMuMER-Tree Data Generation
 
 `make_unimumer_tree_data.py` ports the current source notebook

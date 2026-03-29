@@ -1,0 +1,8 @@
+[
+    {
+        "image_id": "sample_003",
+        "caption": "求 x",
+        "image_path": "preprocess/examples/mathnet_hmer/images/sample_003.png",
+        "type": "1.5invalid_delete"
+    }
+]

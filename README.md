@@ -23,7 +23,7 @@ Experiments on the CROHME and HME100K datasets show that Uni-MuMER achieves new 
 ![intro](./asserts/fig/CROHME_00.png)
 
 ## 📢 Updates
-- **2026-03-29**: Release preprocessing scripts for UniMuMER-Tree and symbol-counting data construction. [See Preprocessing](#preprocessing)
+- **2026-03-29**: Release preprocessing scripts for UniMuMER-Tree, symbol-counting data construction, and the MathNet-based HMER prompt-data pipeline. [See Preprocessing](#preprocessing)
 - **2025-09-18**: This work got accepted to NeurIPS 2025 as a Spotlight (688/21575).
 - **2025-09-09** : Release dataset ([Uni-MuMER-Data](https://huggingface.co/datasets/phxember/Uni-MuMER-Data) and [valid/test data](https://drive.google.com/drive/folders/1T8a3WxICZVl1NJ99hu9tuuqqNZoxGhXq?usp=sharing)) and training code. [See Training](#training)
 - **2025-06-02**: Release of model weights and inference scripts.
@@ -53,11 +53,21 @@ The current release includes:
 
 - `tree`: generation of the UniMuMER-Tree supervision target from tokenized LaTeX
 - `can`: generation of symbol-counting supervision paired with the corresponding LaTeX target
+- `make_mathnet_hmer_data.py`: port of the MathNet-based caption cleaning and HMER prompt-data pipeline from `mathnet-ly/0410_proc_file.ipynb`
+- `preprocess/MathNet4clean`: a pinned submodule for external MathNet preprocessing utilities and normalization reference code
 
-The main entry point is:
+The main entry points are:
 
 ```bash
 python preprocess/make_unimumer_tree_data.py --task tree --input <input-json> --output <output-json>
+```
+
+```bash
+python preprocess/make_mathnet_hmer_data.py process \
+  --input <caption-txt-or-json> \
+  --output-dir <output-dir> \
+  --image-base-path <image-base-path> \
+  --mathnet-root preprocess/MathNet4clean
 ```
 
 For example:
@@ -69,7 +79,21 @@ python preprocess/make_unimumer_tree_data.py \
   --output preprocess/examples/unimumer_tree/sample_tree.json
 ```
 
-Additional usage details, implementation notes, and ready-to-run examples are provided in [`preprocess/README.md`](./preprocess/README.md) and [`preprocess/examples/unimumer_tree/`](./preprocess/examples/unimumer_tree).
+Additional usage details, implementation notes, and ready-to-run examples are provided in [`preprocess/README.md`](./preprocess/README.md), [`preprocess/examples/unimumer_tree/`](./preprocess/examples/unimumer_tree), and [`preprocess/examples/mathnet_hmer/`](./preprocess/examples/mathnet_hmer).
+
+For the MathNet-based preprocessing dependency, initialize submodules after cloning:
+
+```bash
+git submodule update --init --recursive
+```
+
+The Uni-MuMER-specific MathNet normalization path is implemented in
+`preprocess/MathNet4clean/preprocessing/improve_tokens_unimumer.py`.
+
+The MathNet HMER pipeline keeps the notebook-style intermediate outputs
+(`step1` to `step9`, `invalid_record.json`, and `<output_dir>_0425_final.json`)
+while replacing the original hard-coded external MathNet path with the in-repo
+submodule.
 
 
 
@@ -168,4 +192,3 @@ If you find Uni-MuMER useful for your study or research, please cite our paper w
 
 
 <!-- ## 📄 License -->
-

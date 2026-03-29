@@ -1,0 +1,18 @@
+[
+  {
+    "img_id": "sample_000",
+    "label": "x + y"
+  },
+  {
+    "img_id": "sample_001",
+    "label": "\\frac x y"
+  },
+  {
+    "img_id": "sample_002",
+    "label": "\\sqrt [ ] x"
+  },
+  {
+    "img_id": "sample_003",
+    "label": "求 x"
+  }
+]

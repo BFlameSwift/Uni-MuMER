@@ -1,3 +1,6 @@
 [submodule "train/LLaMA-Factory"]
 	path = train/LLaMA-Factory
 	url = https://github.com/BFlameSwift/LLaMA-Factory
+[submodule "preprocess/MathNet4clean"]
+	path = preprocess/MathNet4clean
+	url = https://github.com/BFlameSwift/MathNet4clean
