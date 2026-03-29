@@ -23,8 +23,9 @@ Experiments on the CROHME and HME100K datasets show that Uni-MuMER achieves new 
 ![intro](./asserts/fig/CROHME_00.png)
 
 ## 📢 Updates
+- **2026-03-29**: Release preprocessing scripts for UniMuMER-Tree and symbol-counting data construction. [See Preprocessing](#preprocessing)
 - **2025-09-18**: This work got accepted to NeurIPS 2025 as a Spotlight (688/21575).
-- **2025-09-09** : Release dataset ([Uni-MuMER-Data](https://huggingface.co/datasets/phxember/Uni-MuMER-Data) and [valid/test data](https://drive.google.com/drive/folders/1T8a3WxICZVl1NJ99hu9tuuqqNZoxGhXq?usp=sharing)) and training code. [See Training]
+- **2025-09-09** : Release dataset ([Uni-MuMER-Data](https://huggingface.co/datasets/phxember/Uni-MuMER-Data) and [valid/test data](https://drive.google.com/drive/folders/1T8a3WxICZVl1NJ99hu9tuuqqNZoxGhXq?usp=sharing)) and training code. [See Training](#training)
 - **2025-06-02**: Release of model weights and inference scripts.
 
 ## 📦 Dataset Preparation
@@ -42,6 +43,33 @@ data
 └── MNE/
 ```
 <!--  -->
+
+<a id="preprocessing"></a>
+
+## 🛠 Preprocessing
+We provide preprocessing scripts for the released UniMuMER-Tree and symbol-counting data construction pipeline in [`preprocess/`](./preprocess).
+
+The current release includes:
+
+- `tree`: generation of the UniMuMER-Tree supervision target from tokenized LaTeX
+- `can`: generation of symbol-counting supervision paired with the corresponding LaTeX target
+
+The main entry point is:
+
+```bash
+python preprocess/make_unimumer_tree_data.py --task tree --input <input-json> --output <output-json>
+```
+
+For example:
+
+```bash
+python preprocess/make_unimumer_tree_data.py \
+  --task tree \
+  --input preprocess/examples/unimumer_tree/sample_input.json \
+  --output preprocess/examples/unimumer_tree/sample_tree.json
+```
+
+Additional usage details, implementation notes, and ready-to-run examples are provided in [`preprocess/README.md`](./preprocess/README.md) and [`preprocess/examples/unimumer_tree/`](./preprocess/examples/unimumer_tree).
 
 
 
@@ -71,6 +99,8 @@ python scripts/vllm_infer.py --input-dir <input-dir> --output-dir <output-dir> -
   - For batch_size, you can use the `--batch_size` argument to control the number of samples per `vLLM.generate()` call. The default value is 32768, which is prevented from being too large to avoid OOM errors. 
 <!-- $$ -->
 
+
+<a id="training"></a>
 
 ## 🏋️ Training
 Our training code depends on [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
@@ -108,7 +138,7 @@ llamafactory-cli train train/Uni-MuMER-train.yaml
 - [x] Evaluation code.
 - [x] Training code.
 - [x] Training data.
-- [ ] Preprocess code.
+- [x] Preprocess code.
 
 
 ## 🙏 Acknowledgements
@@ -117,6 +147,7 @@ Thanks to the following projects:
 
 - [CoMER](https://github.com/Green-Wood/CoMER)
 - [PosFormer](https://github.com/SJTU-DeepVisionLab/PosFormer)
+- [TDv2](https://github.com/yqingli123/TDv2)
 - [TAMER](https://github.com/qingzhenduyu/TAMER)
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
 - [MathNet](https://github.com/felix-schmitt/MathNet)
@@ -137,7 +168,4 @@ If you find Uni-MuMER useful for your study or research, please cite our paper w
 
 
 <!-- ## 📄 License -->
-
-
-
 

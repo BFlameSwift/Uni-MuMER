@@ -1,0 +1,32 @@
+[
+    {
+        "images": [
+            "./asserts/fig/CROHME_00.png"
+        ],
+        "messages": [
+            {
+                "from": "human",
+                "value": "<image>I have an image of a handwritten mathematical expression. Please identify and count each distinct visible mathematical symbol in the image, and then provide its corresponding LaTeX format."
+            },
+            {
+                "from": "gpt",
+                "value": "\\frac: 1, a: 1, ^: 1, 2: 1, +: 1, 1: 1, b: 1\n\\frac { a ^ { 2 } + 1 } { b }"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./asserts/fig/CROHME_00.png"
+        ],
+        "messages": [
+            {
+                "from": "human",
+                "value": "<image>I have an image of a handwritten mathematical expression. Please identify and count each distinct visible mathematical symbol in the image, and then provide its corresponding LaTeX format."
+            },
+            {
+                "from": "gpt",
+                "value": "y: 1, =: 1, \\begin: 1, {cases}: 2, 1: 2, &: 3, x: 2, <: 1, 0: 4, \\\\: 2, 2: 1, \\geq: 1, \\end: 1, >: 1\ny = \\begin {cases} 1 & x < 0 \\\\ 2 & x \\geq 0 \\\\ 1 & 0 \\end {cases} > 0"
+            }
+        ]
+    }
+]

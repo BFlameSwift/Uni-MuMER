@@ -1,0 +1,32 @@
+[
+    {
+        "images": [
+            "./asserts/fig/CROHME_00.png"
+        ],
+        "messages": [
+            {
+                "from": "human",
+                "value": "<image>I have an image of a handwritten mathematical expression. Please generate the abstract syntax tree (AST) of the formula in the image, and then provide its corresponding LaTeX format."
+            },
+            {
+                "from": "gpt",
+                "value": "\\frac\n\ta (above)\n\t\t2 (sup)\n\t+ (right)\n\t1 (right)\n\tb (below)\n\\frac { a ^ { 2 } + 1 } { b }"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./asserts/fig/CROHME_00.png"
+        ],
+        "messages": [
+            {
+                "from": "human",
+                "value": "<image>I have an image of a handwritten mathematical expression. Please generate the abstract syntax tree (AST) of the formula in the image, and then provide its corresponding LaTeX format."
+            },
+            {
+                "from": "gpt",
+                "value": "y\n= (right)\n\\begin (right)\n\t1 (begin_cases)\n\t& (right)\n\tx (right)\n\t< (right)\n\t0 (right)\n\t\t2 (nextline)\n\t\t& (right)\n\t\tx (right)\n\t\t\\geq (right)\n\t\t0 (right)\n\t\t\t1 (nextline)\n\t\t\t& (right)\n\t\t\t0 (right)\n\t\\end (end_cases)\n> (right)\n0 (right)\ny = \\begin {cases} 1 & x < 0 \\\\ 2 & x \\geq 0 \\\\ 1 & 0 \\end {cases} > 0"
+            }
+        ]
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "images": [
+            "./asserts/fig/CROHME_00.png"
+        ],
+        "messages": [
+            {
+                "from": "human",
+                "value": "<image>I have an image of a handwritten mathematical expression. Please write out the expression of the formula in the image using LaTeX format."
+            },
+            {
+                "from": "gpt",
+                "value": "\\frac { a ^ { 2 } + 1 } { b }"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./asserts/fig/CROHME_00.png"
+        ],
+        "messages": [
+            {
+                "from": "human",
+                "value": "<image>I have an image of a handwritten mathematical expression. Please write out the expression of the formula in the image using LaTeX format."
+            },
+            {
+                "from": "gpt",
+                "value": "y = \\begin {cases} 1 & x < 0 \\\\ 2 & x \\geq 0 \\\\ 1 & 0 \\end {cases} > 0"
+            }
+        ]
+    }
+]
