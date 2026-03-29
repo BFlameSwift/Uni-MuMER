@@ -124,6 +124,24 @@ python scripts/vllm_infer.py --input-dir <input-dir> --output-dir <output-dir> -
 <!-- $$ -->
 
 
+## 📏 Evaluation Metrics
+This repository currently provides text-based evaluation through
+[`scripts/eval_metrics_calculator.py`](./scripts/eval_metrics_calculator.py),
+including Edit Score, BLEU-4, CER, and exact-match rate.
+
+We do **not** currently vendor the official CDM evaluator in this repository.
+The `ExpRate@CDM` results reported in our paper follow the visually grounded
+Character Detection Matching (CDM) protocol. As described in
+[our paper](https://arxiv.org/abs/2505.23566), `ExpRate@CDM` is used as a
+visual-equivalence-aware accuracy metric beyond exact string match.
+
+For reproducing `ExpRate@CDM`, please use the official
+[UniMERNet CDM toolkit](https://github.com/opendatalab/UniMERNet/tree/main/cdm).
+The official implementation provides the evaluation entry point
+`cdm/evaluation.py`, and our inference outputs already contain the core fields
+(`gt`, `pred`, and `img_id`) expected by that evaluator.
+
+
 <a id="training"></a>
 
 ## 🏋️ Training
