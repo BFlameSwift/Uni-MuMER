@@ -1,0 +1,52 @@
+### Uni-MuMER Training Config: Qwen3-VL-2B
+### Requires: LLaMA-Factory >= 0.9.5
+### Hardware: 8x A100 80GB (ZeRO-3) or 8x MI300X 192GB (ZeRO-0)
+
+### model
+model_name_or_path: Qwen/Qwen3-VL-2B-Instruct
+
+image_max_pixels: 262144
+video_max_pixels: 16384
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+freeze_vision_tower: false
+freeze_multi_modal_projector: false
+freeze_language_model: false
+deepspeed: examples/deepspeed/ds_z3_config.json
+
+### dataset
+# You need to load the datasets first before using them, following LLamaFactory settings.
+dataset: crohme2023, crohme2023_can, crohme2023_error_find, crohme2023_error_fix, crohme2023_tree, crohme_train, crohme_train_can, crohme_train_error_find, crohme_train_error_fix, crohme_train_tree, hme100k_error_find, hme100k_error_fix, hme100k_train, hme100k_train_can, hme100k_train_tree, im2latex_v2_error_find, im2latex_v2_error_fix, im2latex_v2_train, im2latex_v2_train_can, im2latex_v2_train_tree, mathwriting_symbols, mathwriting_train, mathwriting_train_can, mathwriting_train_error_find, mathwriting_train_error_fix, mathwriting_train_tree
+
+template: qwen3_vl_nothink
+cutoff_len: 2048
+max_samples: 20000000
+overwrite_cache: false
+preprocessing_num_workers: 64
+dataloader_num_workers: 16
+
+### output
+output_dir: saves/qwen3-vl-2b/full/sft/uni-mumer
+logging_steps: 1
+save_steps: 1000
+plot_loss: true
+overwrite_output_dir: true
+report_to: tensorboard
+
+### train
+# 8x A100 80GB: effective batch = 8 GPUs * 4 per_device * 16 grad_accum = 512
+per_device_train_batch_size: 4
+gradient_accumulation_steps: 16
+
+learning_rate: 1.0e-5
+num_train_epochs: 1.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+save_only_model: true
+resume_from_checkpoint: null

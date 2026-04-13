@@ -14,6 +14,8 @@
 ## Description
 We introduce Uni-MuMER, which fully fine-tunes the Qwen2.5-VL-3B model for the HMER task without modifying its architecture, effectively injecting domain-specific knowledge into a generalist framework. Our method integrates three data-driven tasks: Tree-Aware Chain-of-Thought (Tree-CoT) for structured spatial reasoning, Error-Driven Learning (EDL) for reducing confusion among visually similar characters, and Symbol Counting (SC) for improving recognition consistency in long expressions. 
 
+We further extend Uni-MuMER to newer backbone architectures (Qwen3.5 and Qwen3-VL) and provide a family of fine-tuned models for the community.
+
 
 
 ![Uni-MuMER](./asserts/fig/main_fig.drawio_00.png)
@@ -23,6 +25,7 @@ Experiments on the CROHME and HME100K datasets show that Uni-MuMER achieves new 
 ![intro](./asserts/fig/CROHME_00.png)
 
 ## 📢 Updates
+- **2026-04-13**: Release 4 new model variants: Qwen3.5-2B, Qwen3.5-4B, Qwen3-VL-2B, Qwen3-VL-4B. [See Model Zoo](#model-zoo)
 - **2026-03-29**: Release preprocessing scripts for UniMuMER-Tree, symbol-counting data construction, and the MathNet-based HMER prompt-data pipeline. [See Preprocessing](#preprocessing)
 - **2025-09-18**: This work got accepted to NeurIPS 2025 as a Spotlight (688/21575).
 - **2025-09-09** : Release dataset ([Uni-MuMER-Data](https://huggingface.co/datasets/phxember/Uni-MuMER-Data) and [valid/test data](https://drive.google.com/drive/folders/1T8a3WxICZVl1NJ99hu9tuuqqNZoxGhXq?usp=sharing)) and training code. [See Training](#training)
@@ -142,16 +145,84 @@ The official implementation provides the evaluation entry point
 (`gt`, `pred`, and `img_id`) expected by that evaluator.
 
 
+## Model Zoo
+
+| Model | Base | Params | Avg ExpRate | Avg CDM F1 | HuggingFace |
+|-------|------|--------|-------------|------------|-------------|
+| Uni-MuMER-Qwen2.5-VL-3B | Qwen2.5-VL-3B-Instruct | 3.4B | 72.19% | 0.9688 | [Link](https://huggingface.co/phxember/Uni-MuMER-Qwen2.5-VL-3B) |
+| Uni-MuMER-Qwen2.5-VL-7B | Qwen2.5-VL-7B-Instruct | 8.3B | - | - | [Link](https://huggingface.co/phxember/Uni-MuMER-Qwen2.5-VL-7B) |
+| Uni-MuMER-Qwen3.5-2B | Qwen3.5-2B | 2.2B | **73.09%** | 0.9700 | [Link](https://huggingface.co/phxember/Uni-MuMER-Qwen3.5-2B) |
+| Uni-MuMER-Qwen3.5-4B | Qwen3.5-4B | 4.5B | 71.60% | **0.9701** | [Link](https://huggingface.co/phxember/Uni-MuMER-Qwen3.5-4B) |
+| Uni-MuMER-Qwen3-VL-2B | Qwen3-VL-2B-Instruct | 2.1B | 72.49% | 0.9692 | [Link](https://huggingface.co/phxember/Uni-MuMER-Qwen3-VL-2B) |
+| Uni-MuMER-Qwen3-VL-4B | Qwen3-VL-4B-Instruct | 4.4B | 72.11% | 0.9688 | [Link](https://huggingface.co/phxember/Uni-MuMER-Qwen3-VL-4B) |
+
+> **Note**: Qwen3.5 models require `transformers >= 5.0.0`. Qwen3-VL models use the `qwen3_vl_nothink` template; Qwen3.5 models use `qwen3_5_nothink`.
+
+## Benchmark Results
+
+### ExpRate (Exact Match Rate) on Main Test Sets
+
+| Dataset | Samples | Uni-MuMER-3B | Qwen3.5-2B | Qwen3.5-4B | Qwen3-VL-2B | Qwen3-VL-4B |
+|---------|---------|:------------:|:----------:|:----------:|:-----------:|:-----------:|
+| CROHME 2014 | 986 | 82.25% | **83.98%** | 82.56% | 83.27% | 82.35% |
+| CROHME 2016 | 1,147 | 78.29% | **81.17%** | 78.20% | 78.55% | 79.34% |
+| CROHME 2019 | 1,199 | 79.82% | **80.15%** | 75.98% | 79.40% | 78.98% |
+| CROHME 2023 Test | 2,300 | 69.52% | 69.43% | 66.74% | **70.96%** | 69.17% |
+| HME100K Test | 24,607 | 69.50% | **70.43%** | 70.02% | 69.31% | 69.79% |
+| Im2LaTeXv2 Test | 10,118 | 76.99% | **77.82%** | 77.20% | 77.11% | 77.46% |
+| MathWriting Test | 7,643 | 53.03% | 51.84% | **54.32%** | 50.66% | 53.15% |
+| MNE-N1 | 1,875 | 75.89% | 74.72% | 69.76% | **79.63%** | 70.51% |
+| MNE-N2 | 304 | 57.89% | 61.18% | 54.93% | **65.13%** | 52.96% |
+| MNE-N3 | 1,464 | 46.72% | **56.83%** | 56.69% | 52.39% | 54.44% |
+| **Average** | | 72.19% | **73.09%** | 71.60% | 72.49% | 72.11% |
+
+### CDM Metrics (Visual-Equivalence-Aware)
+
+| Dataset | Uni-MuMER-3B | Qwen3.5-2B | Qwen3.5-4B | Qwen3-VL-2B | Qwen3-VL-4B |
+|---------|:------------:|:----------:|:----------:|:-----------:|:-----------:|
+| CROHME 2014 | 0.9660 | 0.9690 | **0.9730** | 0.9700 | 0.9660 |
+| CROHME 2016 | 0.9620 | **0.9690** | 0.9640 | 0.9660 | 0.9670 |
+| CROHME 2019 | **0.9710** | 0.9690 | **0.9710** | 0.9700 | 0.9700 |
+| HME100K Test | 0.9710 | **0.9720** | **0.9720** | 0.9710 | 0.9710 |
+| Im2LaTeXv2 Test | **0.9950** | **0.9950** | 0.9930 | 0.9940 | **0.9950** |
+| MathWriting Test | 0.9550 | 0.9510 | **0.9580** | 0.9480 | 0.9520 |
+| **Average F1** | 0.9688 | 0.9700 | **0.9701** | 0.9692 | 0.9688 |
+
+> Evaluation: vLLM 0.19.0, temperature=0.2, max_tokens=2048. CDM computed with [UniMERNet/cdm](https://github.com/opendatalab/UniMERNet/tree/main/cdm).
+
+
 <a id="training"></a>
 
-## 🏋️ Training
+## Training
 Our training code depends on [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
 
 For training dependencies, please refer to [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) or requirements_training.txt.
 
+### Uni-MuMER-3B (Qwen2.5-VL-3B, original)
+
 ```bash
 llamafactory-cli train train/Uni-MuMER-train.yaml
 ```
+
+### New Model Variants (Qwen3.5 / Qwen3-VL)
+
+Training configs for newer backbones are provided in `train/`:
+
+```bash
+# Qwen3.5 models (requires transformers >= 5.0.0)
+llamafactory-cli train train/Uni-MuMER-Qwen3.5-2B.yaml
+llamafactory-cli train train/Uni-MuMER-Qwen3.5-4B.yaml
+
+# Qwen3-VL models
+llamafactory-cli train train/Uni-MuMER-Qwen3-VL-2B.yaml
+llamafactory-cli train train/Uni-MuMER-Qwen3-VL-4B.yaml
+```
+
+**Key differences from the original 3B config:**
+- Qwen3.5 models use template `qwen3_5_nothink`; Qwen3-VL models use `qwen3_vl_nothink`
+- All new models use DeepSpeed ZeRO-3 (required for 8x A100 80GB)
+- `transformers >= 5.0.0` is required for Qwen3.5 architecture support
+- Qwen3.5 and Qwen3-VL use different tokenizers; their tokenized caches are **not interchangeable**
 
 
 
