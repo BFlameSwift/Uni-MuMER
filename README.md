@@ -147,14 +147,14 @@ The official implementation provides the evaluation entry point
 
 ## Model Zoo
 
-| Model | Base | Params | Avg ExpRate | Avg CDM F1 | HuggingFace |
-|-------|------|--------|-------------|------------|-------------|
-| Uni-MuMER-Qwen2.5-VL-3B | Qwen2.5-VL-3B-Instruct | 3.4B | 72.19% | 0.9688 | [Link](https://huggingface.co/phxember/Uni-MuMER-Qwen2.5-VL-3B) |
+| Model | Base | Params | Avg ExpRate | Avg CDM ExpRate | HuggingFace |
+|-------|------|--------|-------------|-----------------|-------------|
+| Uni-MuMER-Qwen2.5-VL-3B | Qwen2.5-VL-3B-Instruct | 3.4B | 72.19% | 80.75% | [Link](https://huggingface.co/phxember/Uni-MuMER-Qwen2.5-VL-3B) |
 | Uni-MuMER-Qwen2.5-VL-7B | Qwen2.5-VL-7B-Instruct | 8.3B | - | - | [Link](https://huggingface.co/phxember/Uni-MuMER-Qwen2.5-VL-7B) |
-| Uni-MuMER-Qwen3.5-2B | Qwen3.5-2B | 2.2B | **73.09%** | 0.9700 | [Link](https://huggingface.co/phxember/Uni-MuMER-Qwen3.5-2B) |
-| Uni-MuMER-Qwen3.5-4B | Qwen3.5-4B | 4.5B | 71.60% | **0.9701** | [Link](https://huggingface.co/phxember/Uni-MuMER-Qwen3.5-4B) |
-| Uni-MuMER-Qwen3-VL-2B | Qwen3-VL-2B-Instruct | 2.1B | 72.49% | 0.9692 | [Link](https://huggingface.co/phxember/Uni-MuMER-Qwen3-VL-2B) |
-| Uni-MuMER-Qwen3-VL-4B | Qwen3-VL-4B-Instruct | 4.4B | 72.11% | 0.9688 | [Link](https://huggingface.co/phxember/Uni-MuMER-Qwen3-VL-4B) |
+| Uni-MuMER-Qwen3.5-2B | Qwen3.5-2B | 2.2B | **73.09%** | 81.15% | [Link](https://huggingface.co/phxember/Uni-MuMER-Qwen3.5-2B) |
+| Uni-MuMER-Qwen3.5-4B | Qwen3.5-4B | 4.5B | 71.60% | **81.19%** | [Link](https://huggingface.co/phxember/Uni-MuMER-Qwen3.5-4B) |
+| Uni-MuMER-Qwen3-VL-2B | Qwen3-VL-2B-Instruct | 2.1B | 72.49% | 80.35% | [Link](https://huggingface.co/phxember/Uni-MuMER-Qwen3-VL-2B) |
+| Uni-MuMER-Qwen3-VL-4B | Qwen3-VL-4B-Instruct | 4.4B | 72.11% | 80.67% | [Link](https://huggingface.co/phxember/Uni-MuMER-Qwen3-VL-4B) |
 
 > **Note**: Qwen3.5 models require `transformers >= 5.0.0`. Qwen3-VL models use the `qwen3_vl_nothink` template; Qwen3.5 models use `qwen3_5_nothink`.
 
@@ -176,17 +176,21 @@ The official implementation provides the evaluation entry point
 | MNE-N3 | 1,464 | 46.72% | **56.83%** | 56.69% | 52.39% | 54.44% |
 | **Average** | | 72.19% | **73.09%** | 71.60% | 72.49% | 72.11% |
 
-### CDM Metrics (Visual-Equivalence-Aware)
+### CDM ExpRate (Visual-Equivalence-Aware)
 
 | Dataset | Uni-MuMER-3B | Qwen3.5-2B | Qwen3.5-4B | Qwen3-VL-2B | Qwen3-VL-4B |
 |---------|:------------:|:----------:|:----------:|:-----------:|:-----------:|
-| CROHME 2014 | 0.9660 | 0.9690 | **0.9730** | 0.9700 | 0.9660 |
-| CROHME 2016 | 0.9620 | **0.9690** | 0.9640 | 0.9660 | 0.9670 |
-| CROHME 2019 | **0.9710** | 0.9690 | **0.9710** | 0.9700 | 0.9700 |
-| HME100K Test | 0.9710 | **0.9720** | **0.9720** | 0.9710 | 0.9710 |
-| Im2LaTeXv2 Test | **0.9950** | **0.9950** | 0.9930 | 0.9940 | **0.9950** |
-| MathWriting Test | 0.9550 | 0.9510 | **0.9580** | 0.9480 | 0.9520 |
-| **Average F1** | 0.9688 | 0.9700 | **0.9701** | 0.9692 | 0.9688 |
+| CROHME 2014 | 85.40% | 87.10% | **87.90%** | 86.50% | 86.00% |
+| CROHME 2016 | 80.90% | **82.70%** | 82.00% | 81.50% | 82.00% |
+| CROHME 2019 | 82.70% | 82.70% | **82.80%** | 82.60% | 82.20% |
+| CROHME 2023 Test | 79.00% | **79.20%** | 78.00% | 78.70% | 79.10% |
+| HME100K Test | 72.50% | **73.60%** | 73.00% | 72.40% | 72.90% |
+| Im2LaTeXv2 Test | 93.40% | **93.70%** | 91.90% | 92.60% | 93.10% |
+| MathWriting Test | 72.50% | 70.70% | **74.30%** | 69.00% | 71.70% |
+| MNE-N1 | 81.20% | 82.30% | 82.30% | **82.60%** | 81.10% |
+| MNE-N2 | 71.10% | 72.70% | **74.30%** | 72.40% | 71.70% |
+| MNE-N3 | 67.30% | **80.80%** | 78.50% | 72.80% | 76.00% |
+| **Average** | 80.75% | **81.15%** | **81.19%** | 80.35% | 80.67% |
 
 > Evaluation: vLLM 0.19.0, temperature=0.2, max_tokens=2048. CDM computed with [UniMERNet/cdm](https://github.com/opendatalab/UniMERNet/tree/main/cdm).
 
