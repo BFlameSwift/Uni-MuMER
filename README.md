@@ -274,11 +274,18 @@ Thanks to the following projects:
 ## 📝 Citation
 If you find Uni-MuMER useful for your study or research, please cite our paper with:
 ```bibtex
-@article{li2025unimumer,
-  title = {Uni-MuMER: Unified Multi-Task Fine-Tuning of Vision-Language Model for Handwritten Mathematical Expression Recognition},
-  author = {Li, Yu and Jiang, Jin and Zhu, Jianhua and Peng, Shuai and Wei, Baole and Zhou, Yuxuan and Gao, Liangcai},
-  year = {2025},
-  journal={arXiv preprint arXiv:2505.23566},
+@inproceedings{NEURIPS2025_bb992de8,
+ author = {Li, Yu and Jiang, Jin and Zhu, Jianhua and Peng, Shuai and Baole and Zhou, Yuxuan and Gao, Liangcai},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {D. Belgrave and C. Zhang and H. Lin and R. Pascanu and P. Koniusz and M. Ghassemi and N. Chen},
+ pages = {129040--129074},
+ publisher = {Curran Associates, Inc.},
+ title = {Uni-MuMER: Unified Multi-Task Fine-Tuning of Vision-Language Model for Handwritten Mathematical Expression Recognition},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2025/file/bb992de895e886c2be79985835cb0ea4-Paper-Conference.pdf},
+ volume = {38},
+ year = {2025}
+}
+
 }
 
 ```
