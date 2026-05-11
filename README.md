@@ -274,7 +274,7 @@ Thanks to the following projects:
 ## 📝 Citation
 If you find Uni-MuMER useful for your study or research, please cite our paper with:
 ```bibtex
-@inproceedings{NEURIPS2025_bb992de8,
+@inproceedings{li2025unimumer,
  author = {Li, Yu and Jiang, Jin and Zhu, Jianhua and Peng, Shuai and Baole and Zhou, Yuxuan and Gao, Liangcai},
  booktitle = {Advances in Neural Information Processing Systems},
  editor = {D. Belgrave and C. Zhang and H. Lin and R. Pascanu and P. Koniusz and M. Ghassemi and N. Chen},
@@ -284,8 +284,6 @@ If you find Uni-MuMER useful for your study or research, please cite our paper w
  url = {https://proceedings.neurips.cc/paper_files/paper/2025/file/bb992de895e886c2be79985835cb0ea4-Paper-Conference.pdf},
  volume = {38},
  year = {2025}
-}
-
 }
 
 ```
